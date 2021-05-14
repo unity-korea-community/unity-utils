@@ -66,7 +66,7 @@ namespace UNKO.Utils
         protected virtual void OnSpawn(T spawnTarget) { }
         protected virtual void OnDespawn(T despawnTarget) { }
 
-        protected void Init(T originItem, int initializeSize)
+        private void Init(T originItem, int initializeSize)
         {
             _originItem = originItem;
 
