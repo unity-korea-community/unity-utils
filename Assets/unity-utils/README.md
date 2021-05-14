@@ -27,13 +27,7 @@
     * IEnumerable&lt;T&gt;.`Random`\(\), List.`Shuffle()`등 지원
     * 테스트 코드: [https://github.com/unity-korea-community/unity-utils/blob/master/Tests/Runtime/RandomExtensionTests.cs](https://github.com/unity-korea-community/unity-utils/blob/master/Tests/Runtime/RandomExtensionTests.cs)
 
-## 설치
 
-Unity Editor/상단 Window 탭/Package Manager/+ 버튼/‌
 
-Add package from git URL 클릭 후‌
 
-이 저장소의 URL 입력‌
-
-​[https://github.com/unity-korea-community/unity-utils.git](https://github.com/unity-korea-community/unity-utils.git)
 
