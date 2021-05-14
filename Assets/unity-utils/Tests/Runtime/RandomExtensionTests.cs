@@ -61,7 +61,7 @@ public class RandomExtensionTests
         for (int i = 0; i < items.Length; i++)
         {
             Item item = items[i];
-            float errorRate = 0.1f;
+            float errorRate = 0.2f;
             int expectCount = (int)(gotchaCount * (item.percent / 100f));
             int errorRange = (int)(expectCount * errorRate);
             KeyValuePair<string, int> itemCount = hasItemCount.First(hasItem => item.name.StartsWith(hasItem.Key));
