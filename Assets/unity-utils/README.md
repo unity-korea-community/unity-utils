@@ -10,7 +10,7 @@
 
 * SimplePool&lt;T&gt; - 간단하게 사용하는 제네릭 오브젝트 풀 클래스입니다.
 
-  * 바로 써도 되고, 상속해서 OnSpawn, OnDeSpawn 등을 override해서 사용할 수 있습니다.
+  * 바로 써도 되고, 상속해서 `OnSpawn`, `OnDeSpawn`등을 override해서 사용할 수 있습니다.
   * 테스 코드: [https://github.com/unity-korea-community/unity-utils/blob/master/Tests/Runtime/SimplePoolTests.cs](https://github.com/unity-korea-community/unity-utils/blob/master/Tests/Runtime/SimplePoolTests.cs)
 
 * DataSender&lt;T&gt; - IObservable&lt;T&gt;, IDisposable
@@ -20,11 +20,11 @@
 
 * Extensions
   * Collection Extension
-    * ToStringCollection\(\), Foreach\(\), Dequeue\(\), Pop\(\) 등 지원
+    * `ToStringCollection`\(\), `Foreach`\(\), `Dequeue`\(\), `Pop`\(\) 등 지원
     * 테스트 코드: [https://github.com/unity-korea-community/unity-utils/blob/master/Tests/Runtime/CollectionExtensionTests.cs](https://github.com/unity-korea-community/unity-utils/blob/master/Tests/Runtime/CollectionExtensionTests.cs)
   * Random Extension
 
-    * IEnumerable&lt;T&gt;.Random\(\), List.Shuffle 등 지원
+    * IEnumerable&lt;T&gt;.`Random`\(\), List.`Shuffle()`등 지원
     * 테스트 코드: [https://github.com/unity-korea-community/unity-utils/blob/master/Tests/Runtime/RandomExtensionTests.cs](https://github.com/unity-korea-community/unity-utils/blob/master/Tests/Runtime/RandomExtensionTests.cs)
 
 
