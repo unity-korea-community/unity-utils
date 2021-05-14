@@ -1,11 +1,10 @@
 
 using System;
 using System.Collections.Generic;
-using UnityEngine;
 
 namespace UNKO.Utils
 {
-    public partial class DataSender<T> : IObservable<T>, IDisposable
+    public class DataSender<T> : IObservable<T>, IDisposable
     {
         protected HashSet<IObserver<T>> _observers = new HashSet<IObserver<T>>();
         protected SimplePool<Unsubscriber<T>> _pool = new SimplePool<Unsubscriber<T>>();
@@ -25,14 +24,6 @@ namespace UNKO.Utils
             _observers = new HashSet<IObserver<T>>();
         }
 
-        public DataSender<T> InitChildrenComponents(MonoBehaviour owner)
-        {
-            IObserver<T>[] children = owner.GetComponentsInChildren<IObserver<T>>();
-            Subscribe(children);
-
-            return this;
-        }
-
         public IDisposable Subscribe(IObserver<T> observer)
         {
             if (_observers.Contains(observer) == false)
@@ -43,6 +34,16 @@ namespace UNKO.Utils
             unsubscriber.Reset(_observers, observer, (item) => _pool.DeSpawn(item));
 
             return unsubscriber;
+        }
+
+
+        public void Subscribe(IEnumerable<IObserver<T>> observers)
+        {
+            foreach (IObserver<T> observer in observers)
+            {
+                _observers.Add(observer);
+                observer.OnNext(_lastSendedData);
+            }
         }
 
         public void Subscribe(params IObserver<T>[] observers)

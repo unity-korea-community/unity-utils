@@ -26,13 +26,8 @@ public class DataSenderTests
     {
         public TestData data { get; private set; }
 
-        public void OnCompleted()
-        {
-        }
-
-        public void OnError(Exception error)
-        {
-        }
+        public void OnCompleted() { }
+        public void OnError(Exception error) { }
 
         public void OnNext(TestData value)
         {
