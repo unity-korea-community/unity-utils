@@ -2,7 +2,7 @@
   "name": "unko.unity-utils",
   "version": "1.0.0",
   "displayName": "Unity Utils",
-  "description": "다른 패키지에서 간단하게 사용하는 코드 라이브러리 모음입니다.",
+  "description": "This is an example package",
   "unity": "2019.1",
   "author": {
     "name": "UNKO",
