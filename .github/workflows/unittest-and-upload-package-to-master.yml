@@ -60,7 +60,6 @@ jobs:
           PATTERNS: |
             ${{ env.WORK_PATH }}/**/*.cs
 
-
       # copy UnityProject/Assets/Package to UnityProject/Packages
       - name: ${{ env.WORK_PATH }} copy to ${{ env.PACKAGES_PATH }}
         run: |
@@ -97,7 +96,7 @@ jobs:
           name: Package
           path: ${{ env.WORK_PATH }}/
 
-        uses: andstor/copycat-action@v3.2.3 # https://github.com/marketplace/actions/copycat-action
+      - uses: andstor/copycat-action@v3.2.3 # https://github.com/marketplace/actions/copycat-action
         with:
           personal_token: ${{ secrets.ACCESS_TOKEN }} #require
           src_branch: ${{ env.SRC_BRANCH }}
