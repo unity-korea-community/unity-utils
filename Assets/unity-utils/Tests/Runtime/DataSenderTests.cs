@@ -39,8 +39,8 @@ public class DataSenderTests
     public void 사용예시()
     {
         // Arrange
-        TestSender senderComponent = new GameObject(nameof(TestSender), typeof(TestSender)).GetComponent<TestSender>();
-        TestReceiver receiverComponent = new GameObject(nameof(TestReceiver), typeof(TestReceiver)).GetComponent<TestReceiver>();
+        TestSender senderComponent = new GameObject(nameof(TestSender)).AddComponent<TestSender>();
+        TestReceiver receiverComponent = new GameObject(nameof(TestReceiver)).AddComponent<TestReceiver>();
         receiverComponent.transform.SetParent(senderComponent.transform);
         senderComponent.sender.InitChildrenComponents(senderComponent);
 
