@@ -6,27 +6,23 @@ namespace UNKO.Utils
 {
     public class Unsubscriber<T> : IDisposable
     {
-        private readonly HashSet<IObserver<T>> _observers;
-        private readonly IObserver<T> _observer;
+        private HashSet<IObserver<T>> _observers;
+        private IObserver<T> _observer;
+        private Action<Unsubscriber<T>> _onDisplose;
 
-        public Unsubscriber(HashSet<IObserver<T>> observers, IObserver<T> observer)
+        public void Reset(HashSet<IObserver<T>> observers, IObserver<T> observer, Action<Unsubscriber<T>> onDisplose = null)
         {
             this._observers = observers;
             this._observer = observer;
+            this._onDisplose = onDisplose;
         }
 
         public void Dispose()
         {
             if (_observer != null)
                 _observers.Remove(_observer);
-        }
-    }
 
-    public class UnsubscriberPool<T> : SimplePool<Unsubscriber<T>>
-    {
-        protected override Unsubscriber<T> OnRequireNewInstance(Unsubscriber<T> originItem)
-        {
-            return base.OnRequireNewInstance(originItem);
+            _onDisplose?.Invoke(this);
         }
     }
 }

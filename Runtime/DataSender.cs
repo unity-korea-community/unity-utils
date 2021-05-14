@@ -8,6 +8,7 @@ namespace UNKO.Utils
     public partial class DataSender<T> : IObservable<T>, IDisposable
     {
         protected HashSet<IObserver<T>> _observers = new HashSet<IObserver<T>>();
+        protected SimplePool<Unsubscriber<T>> _pool = new SimplePool<Unsubscriber<T>>();
         protected T _lastSendedData = default;
 
         public void SendData(T data)
@@ -38,7 +39,10 @@ namespace UNKO.Utils
                 _observers.Add(observer);
             observer.OnNext(_lastSendedData);
 
-            return new Unsubscriber<T>(_observers, observer);
+            Unsubscriber<T> unsubscriber = _pool.Spawn();
+            unsubscriber.Reset(_observers, observer, (item) => _pool.DeSpawn(item));
+
+            return unsubscriber;
         }
 
         public void Subscribe(params IObserver<T>[] observers)
@@ -61,6 +65,7 @@ namespace UNKO.Utils
                 observer.OnCompleted();
 
             _observers.Clear();
+            _pool.DeSpawnAll();
             _observers = null;
         }
     }
