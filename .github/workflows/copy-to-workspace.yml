@@ -21,7 +21,7 @@ env:
   SRC_BRANCH: master
   WORK_PATH: /.
   DEST_BRANCH: workspace
-  DEST_PATH: Assets/unity-utils/
+  DEST_PATH: Packages/unity-utils/
 
 jobs:
   copy:
