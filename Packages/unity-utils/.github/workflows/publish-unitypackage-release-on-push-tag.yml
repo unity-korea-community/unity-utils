@@ -55,9 +55,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      
+
       - run: |
-          echo find **/*.meta > metalist
+          find **/*.meta
+          find **/*.meta > metalist
 
       # https://github.com/pCYSl5EDgo/create-unitypackage
       - uses: pCYSl5EDgo/create-unitypackage@master
