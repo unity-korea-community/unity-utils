@@ -67,7 +67,7 @@ jobs:
       # https://github.com/pCYSl5EDgo/create-unitypackage
       - uses: pCYSl5EDgo/create-unitypackage@master
         with:
-          package-path: ${{ github.repository }}-${{ steps.get_version.outputs.version }}.unitypackage
+          package-path: ${{ github.repository.name }}-${{ steps.get_version.outputs.version }}.unitypackage
           include-files: metalist
 
       - uses: actions/upload-artifact@master
