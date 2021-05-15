@@ -56,6 +56,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      # https://github.com/battila7/get-version-action
+      - id: get_version
+        uses: battila7/get-version-action@v2
+
       - run: |
           find **/*.meta
           find **/*.meta > metalist
@@ -63,8 +67,8 @@ jobs:
       # https://github.com/pCYSl5EDgo/create-unitypackage
       - uses: pCYSl5EDgo/create-unitypackage@master
         with:
-          package-path: ${{ github.repository }}.unitypackage
-          include-files: metaList
+          package-path: ${{ github.repository }}-${{ steps.get_version.outputs.version }}.unitypackage
+          include-files: metalist
 
       - uses: actions/upload-artifact@master
         with:
