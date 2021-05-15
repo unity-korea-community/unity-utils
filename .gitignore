@@ -1,5 +1,4 @@
-﻿*.md.meta
-Packages/packages-lock.json
+﻿Packages/packages-lock.json
 Library
 obj
 *.csproj
