@@ -13,7 +13,7 @@ env:
   # require release
 
 jobs:
- testAllModes:
+  testAllModes:
     name: Test in ${{ matrix.testMode }} on version ${{ matrix.unityVersion }}
     runs-on: ubuntu-latest
     strategy:
