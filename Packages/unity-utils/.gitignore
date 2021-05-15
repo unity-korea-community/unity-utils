@@ -6,3 +6,4 @@ obj
 *.sln
 UserSettings
 Temp
+package.json.meta
