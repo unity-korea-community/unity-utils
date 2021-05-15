@@ -49,7 +49,7 @@ public class SimplePoolTests
     {
         SimplePoolTarget.Reset_InstanceCount();
         int totalInstanceCount = 10;
-        SimplePool<SimplePoolTarget> pool = new SimplePool<SimplePoolTarget>(totalInstanceCount);
+        SimplePool<SimplePoolTarget> pool = new SimplePool<SimplePoolTarget>(new SimplePoolTarget(), totalInstanceCount);
         int loopCount = Random.Range(3, 10);
         for (int i = 0; i < loopCount; i++)
         {
@@ -69,7 +69,7 @@ public class SimplePoolTests
 
     public class PoolEx : SimplePool<SimplePoolTarget>
     {
-        public PoolEx(int initializeSize = 0) : base(initializeSize)
+        public PoolEx(int initializeSize = 0) : base(new SimplePoolTarget(), initializeSize)
         {
         }
 

@@ -15,15 +15,18 @@ namespace UNKO.Utils
         protected HashSet<T> _use = new HashSet<T>();
         protected List<T> _notUse = new List<T>();
         protected T _originItem { get; private set; }
-
-        public SimplePool(int initializeSize = 0)
-        {
-            Init(Activator.CreateInstance<T>(), initializeSize);
-        }
+        protected Func<T, T> _OnCreateInstance;
 
         public SimplePool(T originItem, int initializeSize = 0)
         {
+            _OnCreateInstance = (origin) => Activator.CreateInstance<T>();
             Init(originItem, initializeSize);
+        }
+
+        public SimplePool(Func<T> onCreateInstance, int initializeSize = 0)
+        {
+            _OnCreateInstance = (origin) => onCreateInstance();
+            Init(onCreateInstance(), initializeSize);
         }
 
         public T Spawn()
@@ -62,7 +65,7 @@ namespace UNKO.Utils
                 DeSpawn(_use.Last());
         }
 
-        protected virtual T OnRequireNewInstance(T originItem) => Activator.CreateInstance<T>();
+        protected virtual T OnRequireNewInstance(T originItem) => _OnCreateInstance(originItem);
         protected virtual void OnSpawn(T spawnTarget) { }
         protected virtual void OnDespawn(T despawnTarget) { }
 

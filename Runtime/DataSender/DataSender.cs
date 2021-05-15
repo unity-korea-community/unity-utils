@@ -7,7 +7,7 @@ namespace UNKO.Utils
     public class DataSender<T> : IObservable<T>, IDisposable
     {
         protected HashSet<IObserver<T>> _observers = new HashSet<IObserver<T>>();
-        protected SimplePool<Unsubscriber<T>> _pool = new SimplePool<Unsubscriber<T>>();
+        protected SimplePool<Unsubscriber<T>> _pool = new SimplePool<Unsubscriber<T>>(new Unsubscriber<T>());
         protected T _lastSendedData = default;
 
         public void SendData(T data)
