@@ -6,3 +6,4 @@ obj
 *.sln
 Packages/packages-lock.json
 *.md.meta
+package.json.meta
