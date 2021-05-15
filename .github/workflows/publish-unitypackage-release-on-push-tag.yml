@@ -6,10 +6,6 @@ on:
       - '*'
 
 env:
-  # Require unity test
-  UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-  UNITY_VERSION: 2019.3.8f1
-
   # require release
 
 jobs:
@@ -23,8 +19,8 @@ jobs:
         uses: battila7/get-version-action@v2
 
       - run: |
-          find **/*.meta
-          find **/*.meta > metalist
+          find ./ -name "*.meta"
+          find ./ -name "*.meta" > metalist
 
       # https://github.com/pCYSl5EDgo/create-unitypackage
       - uses: pCYSl5EDgo/create-unitypackage@master
