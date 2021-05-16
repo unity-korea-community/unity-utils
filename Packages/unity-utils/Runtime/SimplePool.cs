@@ -7,13 +7,10 @@ namespace UNKO.Utils
     public class SimplePool<T>
         where T : class
     {
-        public int instanceCount => _allInstance.Count;
-        public int useCount => _use.Count;
-        public int notUseCount => _notUse.Count;
+        protected List<T> _allInstance = new List<T>(); public IReadOnlyList<T> allInstance => _allInstance;
+        protected List<T> _use = new List<T>(); public IReadOnlyList<T> use => _use;
+        protected List<T> _notUse = new List<T>(); public IReadOnlyList<T> notUse => _notUse;
 
-        protected List<T> _allInstance = new List<T>();
-        protected HashSet<T> _use = new HashSet<T>();
-        protected List<T> _notUse = new List<T>();
         protected T _originItem { get; private set; }
         protected Func<T, T> _OnCreateInstance;
 
