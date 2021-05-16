@@ -10,6 +10,7 @@ namespace UNKO.Utils
 
         public UnitytComponentPool(T originItem, int initializeSize = 0) : base(originItem, initializeSize)
         {
+            originItem.gameObject.SetActive(false);
         }
 
         public UnitytComponentPool(Func<T> onCreateInstance, int initializeSize = 0) : base(onCreateInstance, initializeSize)
