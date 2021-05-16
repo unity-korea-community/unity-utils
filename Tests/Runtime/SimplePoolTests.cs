@@ -40,7 +40,7 @@ public class SimplePoolTests
         int instanceCount = Random.Range(1, 10);
         SimplePool<SimplePoolTarget> pool = new SimplePool<SimplePoolTarget>(origin, instanceCount);
 
-        Assert.AreEqual(pool.instanceCount, instanceCount);
+        Assert.AreEqual(pool.allInstance.Count, instanceCount);
         Assert.AreEqual(SimplePoolTarget.instanceCount, instanceCount);
     }
 
@@ -62,9 +62,9 @@ public class SimplePoolTests
                 pool.DeSpawn(item);
         }
 
-        Assert.AreEqual(pool.instanceCount, totalInstanceCount);
-        Assert.AreEqual(pool.useCount, 0);
-        Assert.AreEqual(pool.notUseCount, totalInstanceCount);
+        Assert.AreEqual(pool.allInstance.Count, totalInstanceCount);
+        Assert.AreEqual(pool.use.Count, 0);
+        Assert.AreEqual(pool.notUse.Count, totalInstanceCount);
     }
 
     public class PoolEx : SimplePool<SimplePoolTarget>
@@ -85,7 +85,7 @@ public class SimplePoolTests
         SimplePoolTarget.Reset_InstanceCount();
         int instanceCount = Random.Range(1, 10);
         PoolEx poolEx = new PoolEx(instanceCount);
-        Assert.AreEqual(poolEx.instanceCount, instanceCount);
+        Assert.AreEqual(poolEx.allInstance.Count, instanceCount);
 
         SimplePoolTarget target = poolEx.Spawn();
         Assert.AreEqual(target.isCreateFromFactory, true);

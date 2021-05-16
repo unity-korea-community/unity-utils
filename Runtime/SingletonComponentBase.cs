@@ -25,6 +25,12 @@ namespace UNKO.Utils
         private static T s_instance;
         protected static bool s_isQuitApp { get; private set; } = false;
 
+        void Awake()
+        {
+            if (s_instance == null)
+                InitSingleton();
+        }
+
         protected virtual void InitSingleton()
         {
         }

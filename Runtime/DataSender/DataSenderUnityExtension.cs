@@ -6,6 +6,14 @@ namespace UNKO.Utils
 {
     public static class DataSenderUnityExtension
     {
+        public static DataSender<T> InitComponents<T>(this DataSender<T> target, MonoBehaviour owner)
+        {
+            IObserver<T>[] our = owner.GetComponents<IObserver<T>>();
+            target.Subscribe(our);
+
+            return target;
+        }
+
         public static DataSender<T> InitChildrenComponents<T>(this DataSender<T> target, MonoBehaviour owner)
         {
             IObserver<T>[] children = owner.GetComponentsInChildren<IObserver<T>>();
