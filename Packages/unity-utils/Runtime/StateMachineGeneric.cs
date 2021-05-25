@@ -128,10 +128,17 @@ namespace UNKO.Utils
 
         public StateMachineGeneric<STATE_ID, TSTATE> Clear()
         {
-            _waitQueue.Clear();
-            _commandQueue.Clear();
+            ClearQueue();
             currentState = null;
             _currentStateID = default;
+
+            return this;
+        }
+
+        public StateMachineGeneric<STATE_ID, TSTATE> ClearQueue()
+        {
+            _waitQueue.Clear();
+            _commandQueue.Clear();
 
             return this;
         }
