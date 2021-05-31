@@ -1,5 +1,6 @@
 # unity-utils
 
+![release](https://img.shields.io/github/v/release/unity-korea-community/unity-utils)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/7edcab32b58346089dc9fd84caff2bd8)](https://app.codacy.com/gh/unity-korea-community/unity-utils?utm_source=github.com&utm_medium=referral&utm_content=unity-korea-community/unity-utils&utm_campaign=Badge_Grade_Settings)
 [![CI_SONAR_CLOUD](https://github.com/unity-korea-community/unity-utils/actions/workflows/sonarcloud-analysis.yml/badge.svg?branch=workspace)](https://github.com/unity-korea-community/unity-utils/actions/workflows/sonarcloud-analysis.yml)
 
