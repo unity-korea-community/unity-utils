@@ -1,5 +1,7 @@
 # unity-utils
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7edcab32b58346089dc9fd84caff2bd8)](https://app.codacy.com/gh/unity-korea-community/unity-utils?utm_source=github.com&utm_medium=referral&utm_content=unity-korea-community/unity-utils&utm_campaign=Badge_Grade_Settings)
+
 ## 소개
 
 다른 패키지에서 간단하게 사용하는 코드 라이브러리 모음입니다.

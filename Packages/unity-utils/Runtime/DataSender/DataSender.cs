@@ -13,9 +13,7 @@ namespace UNKO.Utils
         public void SendData(T data)
         {
             foreach (var item in _observers)
-            {
                 item.OnNext(data);
-            }
 
             _lastSendedData = data;
         }
@@ -29,9 +27,7 @@ namespace UNKO.Utils
         public IDisposable Subscribe(IObserver<T> observer)
         {
             if (_observers.Contains(observer) == false)
-            {
                 _observers.Add(observer);
-            }
             observer.OnNext(_lastSendedData);
 
             Unsubscriber<T> unsubscriber = _pool.Spawn();
@@ -67,9 +63,7 @@ namespace UNKO.Utils
         public void Dispose()
         {
             foreach (IObserver<T> observer in _observers)
-            {
                 observer.OnCompleted();
-            }
 
             _observers.Clear();
             _pool.DeSpawnAll();

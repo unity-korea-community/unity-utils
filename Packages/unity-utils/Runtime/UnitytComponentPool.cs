@@ -28,9 +28,7 @@ namespace UNKO.Utils
         {
             T newInstance = base.OnRequireNewInstance(originItem);
             if (_parent != null)
-            {
                 newInstance.transform.SetParent(_parent);
-            }
 
             newInstance.gameObject.SetActive(false);
             return newInstance;
