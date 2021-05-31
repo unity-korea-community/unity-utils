@@ -5,7 +5,7 @@ using UNKO.Utils;
 
 public class DataSenderTests
 {
-    public struct TestData
+    public class TestData
     {
         public string stringData { get; private set; }
         public int numberData { get; private set; }
@@ -26,8 +26,15 @@ public class DataSenderTests
     {
         public TestData data { get; private set; }
 
-        public void OnCompleted() { }
-        public void OnError(Exception error) { }
+        public void OnCompleted()
+        {
+            // Do nothing because test
+        }
+
+        public void OnError(Exception error)
+        {
+            // Do nothing because test
+        }
 
         public void OnNext(TestData value)
         {

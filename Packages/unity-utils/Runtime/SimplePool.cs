@@ -14,6 +14,12 @@ namespace UNKO.Utils
         protected T _originItem { get; private set; }
         protected Func<T, T> _OnCreateInstance;
 
+        public SimplePool(T originItem)
+        {
+            _OnCreateInstance = (origin) => Activator.CreateInstance<T>();
+            Init(originItem, 0);
+        }
+
         public SimplePool(T originItem, int initializeSize = 0)
         {
             _OnCreateInstance = (origin) => Activator.CreateInstance<T>();
@@ -22,7 +28,8 @@ namespace UNKO.Utils
 
         public SimplePool(Func<T> onCreateInstance)
         {
-            SimplePool(onCreateInstance, 0);
+            _OnCreateInstance = (origin) => onCreateInstance();
+            Init(onCreateInstance(), 0);
         }
 
         public SimplePool(Func<T> onCreateInstance, int initializeSize)

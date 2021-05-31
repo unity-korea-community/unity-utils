@@ -41,7 +41,9 @@ namespace UNKO.Utils
         public static IEnumerable<T> Foreach<T>(this IEnumerable<T> target, System.Action<T> OnEach)
         {
             foreach (var item in target)
+            {
                 OnEach(item);
+            }
 
             return target;
         }

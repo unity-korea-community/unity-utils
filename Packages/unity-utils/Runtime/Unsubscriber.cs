@@ -10,7 +10,14 @@ namespace UNKO.Utils
         private IObserver<T> _observer;
         private Action<Unsubscriber<T>> _onDisplose;
 
-        public void Reset(HashSet<IObserver<T>> observers, IObserver<T> observer, Action<Unsubscriber<T>> onDisplose = null)
+        public void Reset(HashSet<IObserver<T>> observers, IObserver<T> observer)
+        {
+            this._observers = observers;
+            this._observer = observer;
+            this._onDisplose = null;
+        }
+
+        public void Reset(HashSet<IObserver<T>> observers, IObserver<T> observer, Action<Unsubscriber<T>> onDisplose)
         {
             this._observers = observers;
             this._observer = observer;

@@ -24,8 +24,8 @@ namespace UNKO.Utils
             }
         }
 
-        private static T s_instance;
-        protected static bool s_isQuitApp { get; private set; } = false;
+        private static T s_instance { get; set; }
+        private static bool s_isQuitApp { get; set; }
 
         void Awake()
         {
