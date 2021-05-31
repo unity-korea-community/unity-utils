@@ -8,12 +8,21 @@ namespace UNKO.Utils
     {
         Transform _parent;
 
-        public UnitytComponentPool(T originItem, int initializeSize = 0) : base(originItem, initializeSize)
+        public UnitytComponentPool(T originItem) : base(originItem)
         {
             originItem.gameObject.SetActive(false);
         }
 
-        public UnitytComponentPool(Func<T> onCreateInstance, int initializeSize = 0) : base(onCreateInstance, initializeSize)
+        public UnitytComponentPool(T originItem, int initializeSize) : base(originItem, initializeSize)
+        {
+            originItem.gameObject.SetActive(false);
+        }
+
+        public UnitytComponentPool(Func<T> onCreateInstance) : base(onCreateInstance)
+        {
+        }
+
+        public UnitytComponentPool(Func<T> onCreateInstance, int initializeSize) : base(onCreateInstance, initializeSize)
         {
         }
 
@@ -28,7 +37,9 @@ namespace UNKO.Utils
         {
             T newInstance = base.OnRequireNewInstance(originItem);
             if (_parent != null)
+            {
                 newInstance.transform.SetParent(_parent);
+            }
 
             newInstance.gameObject.SetActive(false);
             return newInstance;

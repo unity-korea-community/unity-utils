@@ -105,7 +105,9 @@ namespace UNKO.Utils
         public void ChangeState(STATE_ID state)
         {
             if (_debug)
+            {
                 Debug.Log($"{_owner.name}.FSM.ChangeState changeState:{state}, wait:{_waitQueue.ToStringCollection()}", _owner);
+            }
 
             _commandQueue.Add(new Command(CommandType.Change, state));
         }
@@ -125,7 +127,9 @@ namespace UNKO.Utils
         public void EnqueueToWaitQueue(params STATE_ID[] nextStates)
         {
             if (_waitQueue.Count > 10)
+            {
                 Debug.LogWarning($"{_owner.name} _waitQueue.Count > 10, wait:{_waitQueue.ToStringCollection()}", _owner);
+            }
             nextStates.Foreach(state => _waitQueue.Add(state));
         }
 
@@ -158,10 +162,14 @@ namespace UNKO.Utils
             while (true)
             {
                 while (_commandQueue.Count > 0)
+                {
                     ProcessCommand(_commandQueue.Dequeue());
+                }
 
                 if (currentState == null && _waitQueue.Count > 0)
+                {
                     OnStartState(_waitQueue.Dequeue());
+                }
 
                 yield return null;
             }
@@ -187,7 +195,9 @@ namespace UNKO.Utils
         private void OnStartState(STATE_ID stateID)
         {
             if (_debug)
+            {
                 Debug.Log($"{_owner.name}.FSM.OnStartState.Entry current:{currentStateID}, new:{stateID}, wait:{_waitQueue.ToStringCollection()}", _owner);
+            }
 
             if (_stateInstance.TryGetValue(stateID, out TSTATE state) == false)
             {
@@ -196,10 +206,14 @@ namespace UNKO.Utils
             }
 
             if (state.Equals(currentState))
+            {
                 return;
+            }
 
             if (_debug)
+            {
                 Debug.Log($"{_owner.name}.FSM.OnStartState.Execute current:{currentStateID}, new:{stateID}, wait:{_waitQueue.ToStringCollection()}", _owner);
+            }
 
             currentState?.OnChangeState(state);
             state.OnAwake();
@@ -212,10 +226,14 @@ namespace UNKO.Utils
         private void OnFinishState()
         {
             if (_debug)
+            {
                 Debug.Log($"{_owner.name}.FSM.OnFinishState current:{currentStateID}, wait:{_waitQueue.ToStringCollection()}");
+            }
 
             if (_currentCoroutine != null)
+            {
                 _owner.StopCoroutine(_currentCoroutine);
+            }
             currentState?.OnFinishState();
             currentState = null;
             _currentStateID = default;
