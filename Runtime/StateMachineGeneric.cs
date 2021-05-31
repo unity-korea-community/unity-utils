@@ -27,7 +27,7 @@ namespace UNKO.Utils
         }
 
         [System.Serializable]
-        public struct Command
+        public struct Command : System.IEquatable<Command>
         {
             public CommandType commandType { get; private set; }
             public STATE_ID stateID { get; private set; }
@@ -42,6 +42,16 @@ namespace UNKO.Utils
             {
                 this.commandType = commandType;
                 this.stateID = stateID;
+            }
+
+            public bool Equals(Command other)
+            {
+                if (commandType.Equals(other.commandType) == false)
+                {
+                    return false;
+                }
+
+                return stateID.Equals(other.stateID);
             }
         }
 

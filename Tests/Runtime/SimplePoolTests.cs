@@ -8,7 +8,7 @@ public class SimplePoolTests
 {
     public class SimplePoolTarget
     {
-        public static int instanceCount { get; private set; } = 0;
+        public static int instanceCount { get; private set; }
 
         public static void Reset_InstanceCount()
         {
@@ -17,13 +17,13 @@ public class SimplePoolTests
 
         static public class Factory
         {
-            static public SimplePoolTarget CreateInstance()
+            static public SimplePoolTarget CreateInstance_FromFactory()
             {
                 return new SimplePoolTarget() { isCreateFromFactory = true };
             }
         }
 
-        public bool isCreateFromFactory { get; private set; } = false;
+        public bool isCreateFromFactory { get; private set; }
 
         public SimplePoolTarget()
         {
@@ -69,13 +69,13 @@ public class SimplePoolTests
 
     public class PoolEx : SimplePool<SimplePoolTarget>
     {
-        public PoolEx(int initializeSize = 0) : base(new SimplePoolTarget(), initializeSize)
+        public PoolEx(int initializeSize) : base(new SimplePoolTarget(), initializeSize)
         {
         }
 
         protected override SimplePoolTarget OnRequireNewInstance(SimplePoolTarget originItem)
         {
-            return SimplePoolTarget.Factory.CreateInstance();
+            return SimplePoolTarget.Factory.CreateInstance_FromFactory();
         }
     }
 
