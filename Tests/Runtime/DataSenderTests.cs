@@ -7,8 +7,8 @@ public class DataSenderTests
 {
     public class TestData
     {
-        public string stringData;
-        public int numberData;
+        public string stringData { get; private set; }
+        public int numberData { get; private set; }
 
         public TestData(int numberData)
         {

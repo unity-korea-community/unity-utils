@@ -19,7 +19,7 @@ public class SimplePoolTests
         {
             static public SimplePoolTarget CreateInstance_FromFactory()
             {
-                return new SimplePoolTarget() { isCreateFromFactory = true };
+                return new SimplePoolTarget { isCreateFromFactory = true };
             }
         }
 
@@ -56,10 +56,14 @@ public class SimplePoolTests
             int spawnCount = Random.Range(2, totalInstanceCount);
             HashSet<SimplePoolTarget> set = new HashSet<SimplePoolTarget>();
             for (int j = 0; j < spawnCount; j++)
+            {
                 set.Add(pool.Spawn());
+            }
 
             foreach (var item in set)
+            {
                 pool.DeSpawn(item);
+            }
         }
 
         Assert.AreEqual(pool.allInstance.Count, totalInstanceCount);

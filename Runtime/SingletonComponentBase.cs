@@ -9,26 +9,30 @@ namespace UNKO.Utils
         {
             get
             {
-                if (s_isQuitApp)
-                    return default;
-
-                if (s_instance == null)
+                if (_isQuitApp)
                 {
-                    s_instance = FindObjectOfType<T>();
-                    s_instance.InitSingleton();
+                    return default;
                 }
 
-                return s_instance;
+                if (_instance == null)
+                {
+                    _instance = FindObjectOfType<T>();
+                    _instance.InitSingleton();
+                }
+
+                return _instance;
             }
         }
 
-        private static T s_instance { get; set; }
-        private static bool s_isQuitApp { get; set; }
+        private static T _instance { get; set; }
+        private static bool _isQuitApp { get; set; }
 
-        void Awake()
+        protected virtual void Awake()
         {
-            if (s_instance == null)
+            if (_instance == null)
+            {
                 InitSingleton();
+            }
         }
 
         protected virtual void InitSingleton()
@@ -37,7 +41,7 @@ namespace UNKO.Utils
 
         private void OnApplicationQuit()
         {
-            s_isQuitApp = true;
+            _isQuitApp = true;
         }
     }
 }
