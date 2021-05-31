@@ -61,9 +61,7 @@ namespace UNKO.Utils
         public void DeSpawn(T item)
         {
             if (_use.Contains(item) == false)
-            {
                 return;
-            }
 
             OnDespawn(item);
             _use.Remove(item);
@@ -73,9 +71,7 @@ namespace UNKO.Utils
         public void DeSpawnAll()
         {
             while (_use.Count > 0)
-            {
                 DeSpawn(_use.Last());
-            }
         }
 
         protected virtual T OnRequireNewInstance(T originItem) => _OnCreateInstance(originItem);
@@ -87,9 +83,7 @@ namespace UNKO.Utils
             _originItem = originItem;
 
             for (int i = 0; i < initializeSize; i++)
-            {
                 Spawn();
-            }
             DeSpawnAll();
         }
     }

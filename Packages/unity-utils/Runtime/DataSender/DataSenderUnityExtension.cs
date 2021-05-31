@@ -39,9 +39,7 @@ namespace UNKO.Utils
             {
                 Transform sibling = parnet.GetChild(i);
                 if (sibling == transform)
-                {
                     continue;
-                }
 
                 sibling.GetComponents<IObserver<T>>(siblings);
                 target.Subscribe(siblings);
