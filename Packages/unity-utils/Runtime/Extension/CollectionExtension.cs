@@ -21,7 +21,9 @@ namespace UNKO.Utils
                 {
                     _stringBuilder.Append(target[i].ToString());
                     if (i < target.Length - 1)
+                    {
                         _stringBuilder.Append(", ");
+                    }
                 }
 
                 _stringBuilder.Append("]");

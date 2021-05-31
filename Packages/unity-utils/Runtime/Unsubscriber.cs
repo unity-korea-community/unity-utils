@@ -20,7 +20,9 @@ namespace UNKO.Utils
         public void Dispose()
         {
             if (_observer != null)
+            {
                 _observers.Remove(_observer);
+            }
 
             _onDisplose?.Invoke(this);
         }

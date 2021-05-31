@@ -10,7 +10,9 @@ namespace UNKO.Utils
             get
             {
                 if (s_isQuitApp)
+                {
                     return default;
+                }
 
                 if (s_instance == null)
                 {
@@ -28,7 +30,9 @@ namespace UNKO.Utils
         void Awake()
         {
             if (s_instance == null)
+            {
                 InitSingleton();
+            }
         }
 
         protected virtual void InitSingleton()

@@ -26,7 +26,9 @@ namespace UNKO.Utils
             {
                 totalvariable += getPercentage(item);
                 if (random < totalvariable)
+                {
                     return item;
+                }
             }
 
             return default;
