@@ -9,6 +9,10 @@ jobs:
   # Build the documentation
   build:
     runs-on: windows-latest # Required by DocFX
+    # available list of containers here:
+    # https://hub.docker.com/r/unityci/editor/tags?page=1&ordering=last_updated&name=ubuntu-2020.1.17f1-base
+    container: unityci/editor:2021.1.10f1-windows-mono-0
+
     steps:
       - name: Activate unity
         # exit code is 1 for manual activation
