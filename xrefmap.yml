@@ -1,0 +1,1722 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Global
+  name: Global
+  href: api/Global.html
+  name.vb: ''
+  fullName: Global
+  fullName.vb: ''
+  nameWithType: Global
+  nameWithType.vb: ''
+- uid: Global.CollectionExtensionTests
+  name: CollectionExtensionTests
+  href: api/Global.CollectionExtensionTests.html
+  commentId: T:Global.CollectionExtensionTests
+  fullName: CollectionExtensionTests
+  nameWithType: CollectionExtensionTests
+- uid: Global.CollectionExtensionTests.DequeueExample
+  name: DequeueExample()
+  href: api/Global.CollectionExtensionTests.html#Global_CollectionExtensionTests_DequeueExample
+  commentId: M:Global.CollectionExtensionTests.DequeueExample
+  fullName: CollectionExtensionTests.DequeueExample()
+  nameWithType: CollectionExtensionTests.DequeueExample()
+- uid: Global.CollectionExtensionTests.DequeueExample*
+  name: DequeueExample
+  href: api/Global.CollectionExtensionTests.html#Global_CollectionExtensionTests_DequeueExample_
+  commentId: Overload:Global.CollectionExtensionTests.DequeueExample
+  isSpec: "True"
+  fullName: CollectionExtensionTests.DequeueExample
+  nameWithType: CollectionExtensionTests.DequeueExample
+- uid: Global.CollectionExtensionTests.ForeachExample
+  name: ForeachExample()
+  href: api/Global.CollectionExtensionTests.html#Global_CollectionExtensionTests_ForeachExample
+  commentId: M:Global.CollectionExtensionTests.ForeachExample
+  fullName: CollectionExtensionTests.ForeachExample()
+  nameWithType: CollectionExtensionTests.ForeachExample()
+- uid: Global.CollectionExtensionTests.ForeachExample*
+  name: ForeachExample
+  href: api/Global.CollectionExtensionTests.html#Global_CollectionExtensionTests_ForeachExample_
+  commentId: Overload:Global.CollectionExtensionTests.ForeachExample
+  isSpec: "True"
+  fullName: CollectionExtensionTests.ForeachExample
+  nameWithType: CollectionExtensionTests.ForeachExample
+- uid: Global.CollectionExtensionTests.PopExample
+  name: PopExample()
+  href: api/Global.CollectionExtensionTests.html#Global_CollectionExtensionTests_PopExample
+  commentId: M:Global.CollectionExtensionTests.PopExample
+  fullName: CollectionExtensionTests.PopExample()
+  nameWithType: CollectionExtensionTests.PopExample()
+- uid: Global.CollectionExtensionTests.PopExample*
+  name: PopExample
+  href: api/Global.CollectionExtensionTests.html#Global_CollectionExtensionTests_PopExample_
+  commentId: Overload:Global.CollectionExtensionTests.PopExample
+  isSpec: "True"
+  fullName: CollectionExtensionTests.PopExample
+  nameWithType: CollectionExtensionTests.PopExample
+- uid: Global.CollectionExtensionTests.ToStringCollectionExample
+  name: ToStringCollectionExample()
+  href: api/Global.CollectionExtensionTests.html#Global_CollectionExtensionTests_ToStringCollectionExample
+  commentId: M:Global.CollectionExtensionTests.ToStringCollectionExample
+  fullName: CollectionExtensionTests.ToStringCollectionExample()
+  nameWithType: CollectionExtensionTests.ToStringCollectionExample()
+- uid: Global.CollectionExtensionTests.ToStringCollectionExample*
+  name: ToStringCollectionExample
+  href: api/Global.CollectionExtensionTests.html#Global_CollectionExtensionTests_ToStringCollectionExample_
+  commentId: Overload:Global.CollectionExtensionTests.ToStringCollectionExample
+  isSpec: "True"
+  fullName: CollectionExtensionTests.ToStringCollectionExample
+  nameWithType: CollectionExtensionTests.ToStringCollectionExample
+- uid: Global.DataSenderTests
+  name: DataSenderTests
+  href: api/Global.DataSenderTests.html
+  commentId: T:Global.DataSenderTests
+  fullName: DataSenderTests
+  nameWithType: DataSenderTests
+- uid: Global.DataSenderTests.TestData
+  name: DataSenderTests.TestData
+  href: api/Global.DataSenderTests.TestData.html
+  commentId: T:Global.DataSenderTests.TestData
+  fullName: DataSenderTests.TestData
+  nameWithType: DataSenderTests.TestData
+- uid: Global.DataSenderTests.TestData.#ctor(System.Int32)
+  name: TestData(Int32)
+  href: api/Global.DataSenderTests.TestData.html#Global_DataSenderTests_TestData__ctor_System_Int32_
+  commentId: M:Global.DataSenderTests.TestData.#ctor(System.Int32)
+  fullName: DataSenderTests.TestData.TestData(System.Int32)
+  nameWithType: DataSenderTests.TestData.TestData(Int32)
+- uid: Global.DataSenderTests.TestData.#ctor*
+  name: TestData
+  href: api/Global.DataSenderTests.TestData.html#Global_DataSenderTests_TestData__ctor_
+  commentId: Overload:Global.DataSenderTests.TestData.#ctor
+  isSpec: "True"
+  fullName: DataSenderTests.TestData.TestData
+  nameWithType: DataSenderTests.TestData.TestData
+- uid: Global.DataSenderTests.TestData.numberData
+  name: numberData
+  href: api/Global.DataSenderTests.TestData.html#Global_DataSenderTests_TestData_numberData
+  commentId: P:Global.DataSenderTests.TestData.numberData
+  fullName: DataSenderTests.TestData.numberData
+  nameWithType: DataSenderTests.TestData.numberData
+- uid: Global.DataSenderTests.TestData.numberData*
+  name: numberData
+  href: api/Global.DataSenderTests.TestData.html#Global_DataSenderTests_TestData_numberData_
+  commentId: Overload:Global.DataSenderTests.TestData.numberData
+  isSpec: "True"
+  fullName: DataSenderTests.TestData.numberData
+  nameWithType: DataSenderTests.TestData.numberData
+- uid: Global.DataSenderTests.TestData.stringData
+  name: stringData
+  href: api/Global.DataSenderTests.TestData.html#Global_DataSenderTests_TestData_stringData
+  commentId: P:Global.DataSenderTests.TestData.stringData
+  fullName: DataSenderTests.TestData.stringData
+  nameWithType: DataSenderTests.TestData.stringData
+- uid: Global.DataSenderTests.TestData.stringData*
+  name: stringData
+  href: api/Global.DataSenderTests.TestData.html#Global_DataSenderTests_TestData_stringData_
+  commentId: Overload:Global.DataSenderTests.TestData.stringData
+  isSpec: "True"
+  fullName: DataSenderTests.TestData.stringData
+  nameWithType: DataSenderTests.TestData.stringData
+- uid: Global.DataSenderTests.TestReceiver
+  name: DataSenderTests.TestReceiver
+  href: api/Global.DataSenderTests.TestReceiver.html
+  commentId: T:Global.DataSenderTests.TestReceiver
+  fullName: DataSenderTests.TestReceiver
+  nameWithType: DataSenderTests.TestReceiver
+- uid: Global.DataSenderTests.TestReceiver.data
+  name: data
+  href: api/Global.DataSenderTests.TestReceiver.html#Global_DataSenderTests_TestReceiver_data
+  commentId: P:Global.DataSenderTests.TestReceiver.data
+  fullName: DataSenderTests.TestReceiver.data
+  nameWithType: DataSenderTests.TestReceiver.data
+- uid: Global.DataSenderTests.TestReceiver.data*
+  name: data
+  href: api/Global.DataSenderTests.TestReceiver.html#Global_DataSenderTests_TestReceiver_data_
+  commentId: Overload:Global.DataSenderTests.TestReceiver.data
+  isSpec: "True"
+  fullName: DataSenderTests.TestReceiver.data
+  nameWithType: DataSenderTests.TestReceiver.data
+- uid: Global.DataSenderTests.TestReceiver.OnCompleted
+  name: OnCompleted()
+  href: api/Global.DataSenderTests.TestReceiver.html#Global_DataSenderTests_TestReceiver_OnCompleted
+  commentId: M:Global.DataSenderTests.TestReceiver.OnCompleted
+  fullName: DataSenderTests.TestReceiver.OnCompleted()
+  nameWithType: DataSenderTests.TestReceiver.OnCompleted()
+- uid: Global.DataSenderTests.TestReceiver.OnCompleted*
+  name: OnCompleted
+  href: api/Global.DataSenderTests.TestReceiver.html#Global_DataSenderTests_TestReceiver_OnCompleted_
+  commentId: Overload:Global.DataSenderTests.TestReceiver.OnCompleted
+  isSpec: "True"
+  fullName: DataSenderTests.TestReceiver.OnCompleted
+  nameWithType: DataSenderTests.TestReceiver.OnCompleted
+- uid: Global.DataSenderTests.TestReceiver.OnError(System.Exception)
+  name: OnError(Exception)
+  href: api/Global.DataSenderTests.TestReceiver.html#Global_DataSenderTests_TestReceiver_OnError_System_Exception_
+  commentId: M:Global.DataSenderTests.TestReceiver.OnError(System.Exception)
+  fullName: DataSenderTests.TestReceiver.OnError(System.Exception)
+  nameWithType: DataSenderTests.TestReceiver.OnError(Exception)
+- uid: Global.DataSenderTests.TestReceiver.OnError*
+  name: OnError
+  href: api/Global.DataSenderTests.TestReceiver.html#Global_DataSenderTests_TestReceiver_OnError_
+  commentId: Overload:Global.DataSenderTests.TestReceiver.OnError
+  isSpec: "True"
+  fullName: DataSenderTests.TestReceiver.OnError
+  nameWithType: DataSenderTests.TestReceiver.OnError
+- uid: Global.DataSenderTests.TestReceiver.OnNext(DataSenderTests.TestData)
+  name: OnNext(DataSenderTests.TestData)
+  href: api/Global.DataSenderTests.TestReceiver.html#Global_DataSenderTests_TestReceiver_OnNext_DataSenderTests_TestData_
+  commentId: M:Global.DataSenderTests.TestReceiver.OnNext(DataSenderTests.TestData)
+  fullName: DataSenderTests.TestReceiver.OnNext(DataSenderTests.TestData)
+  nameWithType: DataSenderTests.TestReceiver.OnNext(DataSenderTests.TestData)
+- uid: Global.DataSenderTests.TestReceiver.OnNext*
+  name: OnNext
+  href: api/Global.DataSenderTests.TestReceiver.html#Global_DataSenderTests_TestReceiver_OnNext_
+  commentId: Overload:Global.DataSenderTests.TestReceiver.OnNext
+  isSpec: "True"
+  fullName: DataSenderTests.TestReceiver.OnNext
+  nameWithType: DataSenderTests.TestReceiver.OnNext
+- uid: Global.DataSenderTests.TestSender
+  name: DataSenderTests.TestSender
+  href: api/Global.DataSenderTests.TestSender.html
+  commentId: T:Global.DataSenderTests.TestSender
+  fullName: DataSenderTests.TestSender
+  nameWithType: DataSenderTests.TestSender
+- uid: Global.DataSenderTests.TestSender.sender
+  name: sender
+  href: api/Global.DataSenderTests.TestSender.html#Global_DataSenderTests_TestSender_sender
+  commentId: P:Global.DataSenderTests.TestSender.sender
+  fullName: DataSenderTests.TestSender.sender
+  nameWithType: DataSenderTests.TestSender.sender
+- uid: Global.DataSenderTests.TestSender.sender*
+  name: sender
+  href: api/Global.DataSenderTests.TestSender.html#Global_DataSenderTests_TestSender_sender_
+  commentId: Overload:Global.DataSenderTests.TestSender.sender
+  isSpec: "True"
+  fullName: DataSenderTests.TestSender.sender
+  nameWithType: DataSenderTests.TestSender.sender
+- uid: Global.DataSenderTests.사용예시
+  name: 사용예시()
+  href: api/Global.DataSenderTests.html#Global_DataSenderTests_____
+  commentId: M:Global.DataSenderTests.사용예시
+  fullName: DataSenderTests.사용예시()
+  nameWithType: DataSenderTests.사용예시()
+- uid: Global.DataSenderTests.사용예시*
+  name: 사용예시
+  href: api/Global.DataSenderTests.html#Global_DataSenderTests______
+  commentId: Overload:Global.DataSenderTests.사용예시
+  isSpec: "True"
+  fullName: DataSenderTests.사용예시
+  nameWithType: DataSenderTests.사용예시
+- uid: Global.RandomExtensionTests
+  name: RandomExtensionTests
+  href: api/Global.RandomExtensionTests.html
+  commentId: T:Global.RandomExtensionTests
+  fullName: RandomExtensionTests
+  nameWithType: RandomExtensionTests
+- uid: Global.RandomExtensionTests.Item
+  name: RandomExtensionTests.Item
+  href: api/Global.RandomExtensionTests.Item.html
+  commentId: T:Global.RandomExtensionTests.Item
+  fullName: RandomExtensionTests.Item
+  nameWithType: RandomExtensionTests.Item
+- uid: Global.RandomExtensionTests.Item.#ctor(System.String,System.Int32)
+  name: Item(String, Int32)
+  href: api/Global.RandomExtensionTests.Item.html#Global_RandomExtensionTests_Item__ctor_System_String_System_Int32_
+  commentId: M:Global.RandomExtensionTests.Item.#ctor(System.String,System.Int32)
+  fullName: RandomExtensionTests.Item.Item(System.String, System.Int32)
+  nameWithType: RandomExtensionTests.Item.Item(String, Int32)
+- uid: Global.RandomExtensionTests.Item.#ctor*
+  name: Item
+  href: api/Global.RandomExtensionTests.Item.html#Global_RandomExtensionTests_Item__ctor_
+  commentId: Overload:Global.RandomExtensionTests.Item.#ctor
+  isSpec: "True"
+  fullName: RandomExtensionTests.Item.Item
+  nameWithType: RandomExtensionTests.Item.Item
+- uid: Global.RandomExtensionTests.Item.name
+  name: name
+  href: api/Global.RandomExtensionTests.Item.html#Global_RandomExtensionTests_Item_name
+  commentId: P:Global.RandomExtensionTests.Item.name
+  fullName: RandomExtensionTests.Item.name
+  nameWithType: RandomExtensionTests.Item.name
+- uid: Global.RandomExtensionTests.Item.name*
+  name: name
+  href: api/Global.RandomExtensionTests.Item.html#Global_RandomExtensionTests_Item_name_
+  commentId: Overload:Global.RandomExtensionTests.Item.name
+  isSpec: "True"
+  fullName: RandomExtensionTests.Item.name
+  nameWithType: RandomExtensionTests.Item.name
+- uid: Global.RandomExtensionTests.Item.percent
+  name: percent
+  href: api/Global.RandomExtensionTests.Item.html#Global_RandomExtensionTests_Item_percent
+  commentId: P:Global.RandomExtensionTests.Item.percent
+  fullName: RandomExtensionTests.Item.percent
+  nameWithType: RandomExtensionTests.Item.percent
+- uid: Global.RandomExtensionTests.Item.percent*
+  name: percent
+  href: api/Global.RandomExtensionTests.Item.html#Global_RandomExtensionTests_Item_percent_
+  commentId: Overload:Global.RandomExtensionTests.Item.percent
+  isSpec: "True"
+  fullName: RandomExtensionTests.Item.percent
+  nameWithType: RandomExtensionTests.Item.percent
+- uid: Global.RandomExtensionTests.RandomFilter
+  name: RandomFilter()
+  href: api/Global.RandomExtensionTests.html#Global_RandomExtensionTests_RandomFilter
+  commentId: M:Global.RandomExtensionTests.RandomFilter
+  fullName: RandomExtensionTests.RandomFilter()
+  nameWithType: RandomExtensionTests.RandomFilter()
+- uid: Global.RandomExtensionTests.RandomFilter*
+  name: RandomFilter
+  href: api/Global.RandomExtensionTests.html#Global_RandomExtensionTests_RandomFilter_
+  commentId: Overload:Global.RandomExtensionTests.RandomFilter
+  isSpec: "True"
+  fullName: RandomExtensionTests.RandomFilter
+  nameWithType: RandomExtensionTests.RandomFilter
+- uid: Global.RandomExtensionTests.RandomPercent
+  name: RandomPercent()
+  href: api/Global.RandomExtensionTests.html#Global_RandomExtensionTests_RandomPercent
+  commentId: M:Global.RandomExtensionTests.RandomPercent
+  fullName: RandomExtensionTests.RandomPercent()
+  nameWithType: RandomExtensionTests.RandomPercent()
+- uid: Global.RandomExtensionTests.RandomPercent*
+  name: RandomPercent
+  href: api/Global.RandomExtensionTests.html#Global_RandomExtensionTests_RandomPercent_
+  commentId: Overload:Global.RandomExtensionTests.RandomPercent
+  isSpec: "True"
+  fullName: RandomExtensionTests.RandomPercent
+  nameWithType: RandomExtensionTests.RandomPercent
+- uid: Global.RandomExtensionTests.RandomWorks
+  name: RandomWorks()
+  href: api/Global.RandomExtensionTests.html#Global_RandomExtensionTests_RandomWorks
+  commentId: M:Global.RandomExtensionTests.RandomWorks
+  fullName: RandomExtensionTests.RandomWorks()
+  nameWithType: RandomExtensionTests.RandomWorks()
+- uid: Global.RandomExtensionTests.RandomWorks*
+  name: RandomWorks
+  href: api/Global.RandomExtensionTests.html#Global_RandomExtensionTests_RandomWorks_
+  commentId: Overload:Global.RandomExtensionTests.RandomWorks
+  isSpec: "True"
+  fullName: RandomExtensionTests.RandomWorks
+  nameWithType: RandomExtensionTests.RandomWorks
+- uid: Global.RandomExtensionTests.Shuffle
+  name: Shuffle()
+  href: api/Global.RandomExtensionTests.html#Global_RandomExtensionTests_Shuffle
+  commentId: M:Global.RandomExtensionTests.Shuffle
+  fullName: RandomExtensionTests.Shuffle()
+  nameWithType: RandomExtensionTests.Shuffle()
+- uid: Global.RandomExtensionTests.Shuffle*
+  name: Shuffle
+  href: api/Global.RandomExtensionTests.html#Global_RandomExtensionTests_Shuffle_
+  commentId: Overload:Global.RandomExtensionTests.Shuffle
+  isSpec: "True"
+  fullName: RandomExtensionTests.Shuffle
+  nameWithType: RandomExtensionTests.Shuffle
+- uid: Global.SimplePoolTests
+  name: SimplePoolTests
+  href: api/Global.SimplePoolTests.html
+  commentId: T:Global.SimplePoolTests
+  fullName: SimplePoolTests
+  nameWithType: SimplePoolTests
+- uid: Global.SimplePoolTests.PoolEx
+  name: SimplePoolTests.PoolEx
+  href: api/Global.SimplePoolTests.PoolEx.html
+  commentId: T:Global.SimplePoolTests.PoolEx
+  fullName: SimplePoolTests.PoolEx
+  nameWithType: SimplePoolTests.PoolEx
+- uid: Global.SimplePoolTests.PoolEx.#ctor(System.Int32)
+  name: PoolEx(Int32)
+  href: api/Global.SimplePoolTests.PoolEx.html#Global_SimplePoolTests_PoolEx__ctor_System_Int32_
+  commentId: M:Global.SimplePoolTests.PoolEx.#ctor(System.Int32)
+  fullName: SimplePoolTests.PoolEx.PoolEx(System.Int32)
+  nameWithType: SimplePoolTests.PoolEx.PoolEx(Int32)
+- uid: Global.SimplePoolTests.PoolEx.#ctor*
+  name: PoolEx
+  href: api/Global.SimplePoolTests.PoolEx.html#Global_SimplePoolTests_PoolEx__ctor_
+  commentId: Overload:Global.SimplePoolTests.PoolEx.#ctor
+  isSpec: "True"
+  fullName: SimplePoolTests.PoolEx.PoolEx
+  nameWithType: SimplePoolTests.PoolEx.PoolEx
+- uid: Global.SimplePoolTests.PoolEx.OnRequireNewInstance(SimplePoolTests.SimplePoolTarget)
+  name: OnRequireNewInstance(SimplePoolTests.SimplePoolTarget)
+  href: api/Global.SimplePoolTests.PoolEx.html#Global_SimplePoolTests_PoolEx_OnRequireNewInstance_SimplePoolTests_SimplePoolTarget_
+  commentId: M:Global.SimplePoolTests.PoolEx.OnRequireNewInstance(SimplePoolTests.SimplePoolTarget)
+  fullName: SimplePoolTests.PoolEx.OnRequireNewInstance(SimplePoolTests.SimplePoolTarget)
+  nameWithType: SimplePoolTests.PoolEx.OnRequireNewInstance(SimplePoolTests.SimplePoolTarget)
+- uid: Global.SimplePoolTests.PoolEx.OnRequireNewInstance*
+  name: OnRequireNewInstance
+  href: api/Global.SimplePoolTests.PoolEx.html#Global_SimplePoolTests_PoolEx_OnRequireNewInstance_
+  commentId: Overload:Global.SimplePoolTests.PoolEx.OnRequireNewInstance
+  isSpec: "True"
+  fullName: SimplePoolTests.PoolEx.OnRequireNewInstance
+  nameWithType: SimplePoolTests.PoolEx.OnRequireNewInstance
+- uid: Global.SimplePoolTests.SimplePoolTarget
+  name: SimplePoolTests.SimplePoolTarget
+  href: api/Global.SimplePoolTests.SimplePoolTarget.html
+  commentId: T:Global.SimplePoolTests.SimplePoolTarget
+  fullName: SimplePoolTests.SimplePoolTarget
+  nameWithType: SimplePoolTests.SimplePoolTarget
+- uid: Global.SimplePoolTests.SimplePoolTarget.#ctor
+  name: SimplePoolTarget()
+  href: api/Global.SimplePoolTests.SimplePoolTarget.html#Global_SimplePoolTests_SimplePoolTarget__ctor
+  commentId: M:Global.SimplePoolTests.SimplePoolTarget.#ctor
+  fullName: SimplePoolTests.SimplePoolTarget.SimplePoolTarget()
+  nameWithType: SimplePoolTests.SimplePoolTarget.SimplePoolTarget()
+- uid: Global.SimplePoolTests.SimplePoolTarget.#ctor*
+  name: SimplePoolTarget
+  href: api/Global.SimplePoolTests.SimplePoolTarget.html#Global_SimplePoolTests_SimplePoolTarget__ctor_
+  commentId: Overload:Global.SimplePoolTests.SimplePoolTarget.#ctor
+  isSpec: "True"
+  fullName: SimplePoolTests.SimplePoolTarget.SimplePoolTarget
+  nameWithType: SimplePoolTests.SimplePoolTarget.SimplePoolTarget
+- uid: Global.SimplePoolTests.SimplePoolTarget.Factory
+  name: SimplePoolTests.SimplePoolTarget.Factory
+  href: api/Global.SimplePoolTests.SimplePoolTarget.Factory.html
+  commentId: T:Global.SimplePoolTests.SimplePoolTarget.Factory
+  fullName: SimplePoolTests.SimplePoolTarget.Factory
+  nameWithType: SimplePoolTests.SimplePoolTarget.Factory
+- uid: Global.SimplePoolTests.SimplePoolTarget.Factory.CreateInstance_FromFactory
+  name: CreateInstance_FromFactory()
+  href: api/Global.SimplePoolTests.SimplePoolTarget.Factory.html#Global_SimplePoolTests_SimplePoolTarget_Factory_CreateInstance_FromFactory
+  commentId: M:Global.SimplePoolTests.SimplePoolTarget.Factory.CreateInstance_FromFactory
+  fullName: SimplePoolTests.SimplePoolTarget.Factory.CreateInstance_FromFactory()
+  nameWithType: SimplePoolTests.SimplePoolTarget.Factory.CreateInstance_FromFactory()
+- uid: Global.SimplePoolTests.SimplePoolTarget.Factory.CreateInstance_FromFactory*
+  name: CreateInstance_FromFactory
+  href: api/Global.SimplePoolTests.SimplePoolTarget.Factory.html#Global_SimplePoolTests_SimplePoolTarget_Factory_CreateInstance_FromFactory_
+  commentId: Overload:Global.SimplePoolTests.SimplePoolTarget.Factory.CreateInstance_FromFactory
+  isSpec: "True"
+  fullName: SimplePoolTests.SimplePoolTarget.Factory.CreateInstance_FromFactory
+  nameWithType: SimplePoolTests.SimplePoolTarget.Factory.CreateInstance_FromFactory
+- uid: Global.SimplePoolTests.SimplePoolTarget.instanceCount
+  name: instanceCount
+  href: api/Global.SimplePoolTests.SimplePoolTarget.html#Global_SimplePoolTests_SimplePoolTarget_instanceCount
+  commentId: P:Global.SimplePoolTests.SimplePoolTarget.instanceCount
+  fullName: SimplePoolTests.SimplePoolTarget.instanceCount
+  nameWithType: SimplePoolTests.SimplePoolTarget.instanceCount
+- uid: Global.SimplePoolTests.SimplePoolTarget.instanceCount*
+  name: instanceCount
+  href: api/Global.SimplePoolTests.SimplePoolTarget.html#Global_SimplePoolTests_SimplePoolTarget_instanceCount_
+  commentId: Overload:Global.SimplePoolTests.SimplePoolTarget.instanceCount
+  isSpec: "True"
+  fullName: SimplePoolTests.SimplePoolTarget.instanceCount
+  nameWithType: SimplePoolTests.SimplePoolTarget.instanceCount
+- uid: Global.SimplePoolTests.SimplePoolTarget.isCreateFromFactory
+  name: isCreateFromFactory
+  href: api/Global.SimplePoolTests.SimplePoolTarget.html#Global_SimplePoolTests_SimplePoolTarget_isCreateFromFactory
+  commentId: P:Global.SimplePoolTests.SimplePoolTarget.isCreateFromFactory
+  fullName: SimplePoolTests.SimplePoolTarget.isCreateFromFactory
+  nameWithType: SimplePoolTests.SimplePoolTarget.isCreateFromFactory
+- uid: Global.SimplePoolTests.SimplePoolTarget.isCreateFromFactory*
+  name: isCreateFromFactory
+  href: api/Global.SimplePoolTests.SimplePoolTarget.html#Global_SimplePoolTests_SimplePoolTarget_isCreateFromFactory_
+  commentId: Overload:Global.SimplePoolTests.SimplePoolTarget.isCreateFromFactory
+  isSpec: "True"
+  fullName: SimplePoolTests.SimplePoolTarget.isCreateFromFactory
+  nameWithType: SimplePoolTests.SimplePoolTarget.isCreateFromFactory
+- uid: Global.SimplePoolTests.SimplePoolTarget.Reset_InstanceCount
+  name: Reset_InstanceCount()
+  href: api/Global.SimplePoolTests.SimplePoolTarget.html#Global_SimplePoolTests_SimplePoolTarget_Reset_InstanceCount
+  commentId: M:Global.SimplePoolTests.SimplePoolTarget.Reset_InstanceCount
+  fullName: SimplePoolTests.SimplePoolTarget.Reset_InstanceCount()
+  nameWithType: SimplePoolTests.SimplePoolTarget.Reset_InstanceCount()
+- uid: Global.SimplePoolTests.SimplePoolTarget.Reset_InstanceCount*
+  name: Reset_InstanceCount
+  href: api/Global.SimplePoolTests.SimplePoolTarget.html#Global_SimplePoolTests_SimplePoolTarget_Reset_InstanceCount_
+  commentId: Overload:Global.SimplePoolTests.SimplePoolTarget.Reset_InstanceCount
+  isSpec: "True"
+  fullName: SimplePoolTests.SimplePoolTarget.Reset_InstanceCount
+  nameWithType: SimplePoolTests.SimplePoolTarget.Reset_InstanceCount
+- uid: Global.SimplePoolTests.사용예시
+  name: 사용예시()
+  href: api/Global.SimplePoolTests.html#Global_SimplePoolTests_____
+  commentId: M:Global.SimplePoolTests.사용예시
+  fullName: SimplePoolTests.사용예시()
+  nameWithType: SimplePoolTests.사용예시()
+- uid: Global.SimplePoolTests.사용예시*
+  name: 사용예시
+  href: api/Global.SimplePoolTests.html#Global_SimplePoolTests______
+  commentId: Overload:Global.SimplePoolTests.사용예시
+  isSpec: "True"
+  fullName: SimplePoolTests.사용예시
+  nameWithType: SimplePoolTests.사용예시
+- uid: Global.SimplePoolTests.사용예시_생성자Override
+  name: 사용예시_생성자Override()
+  href: api/Global.SimplePoolTests.html#Global_SimplePoolTests_________Override
+  commentId: M:Global.SimplePoolTests.사용예시_생성자Override
+  fullName: SimplePoolTests.사용예시_생성자Override()
+  nameWithType: SimplePoolTests.사용예시_생성자Override()
+- uid: Global.SimplePoolTests.사용예시_생성자Override*
+  name: 사용예시_생성자Override
+  href: api/Global.SimplePoolTests.html#Global_SimplePoolTests_________Override_
+  commentId: Overload:Global.SimplePoolTests.사용예시_생성자Override
+  isSpec: "True"
+  fullName: SimplePoolTests.사용예시_생성자Override
+  nameWithType: SimplePoolTests.사용예시_생성자Override
+- uid: Global.SimplePoolTests.생성자에서_미리풀에생성할수있습니다
+  name: 생성자에서_미리풀에생성할수있습니다()
+  href: api/Global.SimplePoolTests.html#Global_SimplePoolTests___________________
+  commentId: M:Global.SimplePoolTests.생성자에서_미리풀에생성할수있습니다
+  fullName: SimplePoolTests.생성자에서_미리풀에생성할수있습니다()
+  nameWithType: SimplePoolTests.생성자에서_미리풀에생성할수있습니다()
+- uid: Global.SimplePoolTests.생성자에서_미리풀에생성할수있습니다*
+  name: 생성자에서_미리풀에생성할수있습니다
+  href: api/Global.SimplePoolTests.html#Global_SimplePoolTests____________________
+  commentId: Overload:Global.SimplePoolTests.생성자에서_미리풀에생성할수있습니다
+  isSpec: "True"
+  fullName: SimplePoolTests.생성자에서_미리풀에생성할수있습니다
+  nameWithType: SimplePoolTests.생성자에서_미리풀에생성할수있습니다
+- uid: UNKO.Utils
+  name: UNKO.Utils
+  href: api/UNKO.Utils.html
+  commentId: N:UNKO.Utils
+  fullName: UNKO.Utils
+  nameWithType: UNKO.Utils
+- uid: UNKO.Utils.CollectionExtension
+  name: CollectionExtension
+  href: api/UNKO.Utils.CollectionExtension.html
+  commentId: T:UNKO.Utils.CollectionExtension
+  fullName: UNKO.Utils.CollectionExtension
+  nameWithType: CollectionExtension
+- uid: UNKO.Utils.CollectionExtension.Dequeue*
+  name: Dequeue
+  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_Dequeue_
+  commentId: Overload:UNKO.Utils.CollectionExtension.Dequeue
+  isSpec: "True"
+  fullName: UNKO.Utils.CollectionExtension.Dequeue
+  nameWithType: CollectionExtension.Dequeue
+- uid: UNKO.Utils.CollectionExtension.Dequeue``1(System.Collections.Generic.List{``0})
+  name: Dequeue<T>(List<T>)
+  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_Dequeue__1_System_Collections_Generic_List___0__
+  commentId: M:UNKO.Utils.CollectionExtension.Dequeue``1(System.Collections.Generic.List{``0})
+  name.vb: Dequeue(Of T)(List(Of T))
+  fullName: UNKO.Utils.CollectionExtension.Dequeue<T>(System.Collections.Generic.List<T>)
+  fullName.vb: UNKO.Utils.CollectionExtension.Dequeue(Of T)(System.Collections.Generic.List(Of T))
+  nameWithType: CollectionExtension.Dequeue<T>(List<T>)
+  nameWithType.vb: CollectionExtension.Dequeue(Of T)(List(Of T))
+- uid: UNKO.Utils.CollectionExtension.Foreach*
+  name: Foreach
+  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_Foreach_
+  commentId: Overload:UNKO.Utils.CollectionExtension.Foreach
+  isSpec: "True"
+  fullName: UNKO.Utils.CollectionExtension.Foreach
+  nameWithType: CollectionExtension.Foreach
+- uid: UNKO.Utils.CollectionExtension.Foreach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name: Foreach<T>(IEnumerable<T>, Action<T>)
+  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_Foreach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  commentId: M:UNKO.Utils.CollectionExtension.Foreach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name.vb: Foreach(Of T)(IEnumerable(Of T), Action(Of T))
+  fullName: UNKO.Utils.CollectionExtension.Foreach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)
+  fullName.vb: UNKO.Utils.CollectionExtension.Foreach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
+  nameWithType: CollectionExtension.Foreach<T>(IEnumerable<T>, Action<T>)
+  nameWithType.vb: CollectionExtension.Foreach(Of T)(IEnumerable(Of T), Action(Of T))
+- uid: UNKO.Utils.CollectionExtension.Pop*
+  name: Pop
+  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_Pop_
+  commentId: Overload:UNKO.Utils.CollectionExtension.Pop
+  isSpec: "True"
+  fullName: UNKO.Utils.CollectionExtension.Pop
+  nameWithType: CollectionExtension.Pop
+- uid: UNKO.Utils.CollectionExtension.Pop``1(System.Collections.Generic.List{``0})
+  name: Pop<T>(List<T>)
+  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_Pop__1_System_Collections_Generic_List___0__
+  commentId: M:UNKO.Utils.CollectionExtension.Pop``1(System.Collections.Generic.List{``0})
+  name.vb: Pop(Of T)(List(Of T))
+  fullName: UNKO.Utils.CollectionExtension.Pop<T>(System.Collections.Generic.List<T>)
+  fullName.vb: UNKO.Utils.CollectionExtension.Pop(Of T)(System.Collections.Generic.List(Of T))
+  nameWithType: CollectionExtension.Pop<T>(List<T>)
+  nameWithType.vb: CollectionExtension.Pop(Of T)(List(Of T))
+- uid: UNKO.Utils.CollectionExtension.ToHashSet*
+  name: ToHashSet
+  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_ToHashSet_
+  commentId: Overload:UNKO.Utils.CollectionExtension.ToHashSet
+  isSpec: "True"
+  fullName: UNKO.Utils.CollectionExtension.ToHashSet
+  nameWithType: CollectionExtension.ToHashSet
+- uid: UNKO.Utils.CollectionExtension.ToHashSet``1(System.Collections.Generic.IEnumerable{``0})
+  name: ToHashSet<T>(IEnumerable<T>)
+  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_ToHashSet__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:UNKO.Utils.CollectionExtension.ToHashSet``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ToHashSet(Of T)(IEnumerable(Of T))
+  fullName: UNKO.Utils.CollectionExtension.ToHashSet<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: UNKO.Utils.CollectionExtension.ToHashSet(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: CollectionExtension.ToHashSet<T>(IEnumerable<T>)
+  nameWithType.vb: CollectionExtension.ToHashSet(Of T)(IEnumerable(Of T))
+- uid: UNKO.Utils.CollectionExtension.ToStringCollection*
+  name: ToStringCollection
+  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_ToStringCollection_
+  commentId: Overload:UNKO.Utils.CollectionExtension.ToStringCollection
+  isSpec: "True"
+  fullName: UNKO.Utils.CollectionExtension.ToStringCollection
+  nameWithType: CollectionExtension.ToStringCollection
+- uid: UNKO.Utils.CollectionExtension.ToStringCollection``1(``0[])
+  name: ToStringCollection<T>(T[])
+  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_ToStringCollection__1___0___
+  commentId: M:UNKO.Utils.CollectionExtension.ToStringCollection``1(``0[])
+  name.vb: ToStringCollection(Of T)(T())
+  fullName: UNKO.Utils.CollectionExtension.ToStringCollection<T>(T[])
+  fullName.vb: UNKO.Utils.CollectionExtension.ToStringCollection(Of T)(T())
+  nameWithType: CollectionExtension.ToStringCollection<T>(T[])
+  nameWithType.vb: CollectionExtension.ToStringCollection(Of T)(T())
+- uid: UNKO.Utils.CollectionExtension.ToStringCollection``1(System.Collections.Generic.IEnumerable{``0})
+  name: ToStringCollection<T>(IEnumerable<T>)
+  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_ToStringCollection__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:UNKO.Utils.CollectionExtension.ToStringCollection``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ToStringCollection(Of T)(IEnumerable(Of T))
+  fullName: UNKO.Utils.CollectionExtension.ToStringCollection<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: UNKO.Utils.CollectionExtension.ToStringCollection(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: CollectionExtension.ToStringCollection<T>(IEnumerable<T>)
+  nameWithType.vb: CollectionExtension.ToStringCollection(Of T)(IEnumerable(Of T))
+- uid: UNKO.Utils.DataSender`1
+  name: DataSender<T>
+  href: api/UNKO.Utils.DataSender-1.html
+  commentId: T:UNKO.Utils.DataSender`1
+  name.vb: DataSender(Of T)
+  fullName: UNKO.Utils.DataSender<T>
+  fullName.vb: UNKO.Utils.DataSender(Of T)
+  nameWithType: DataSender<T>
+  nameWithType.vb: DataSender(Of T)
+- uid: UNKO.Utils.DataSender`1._lastSendedData
+  name: _lastSendedData
+  href: api/UNKO.Utils.DataSender-1.html#UNKO_Utils_DataSender_1__lastSendedData
+  commentId: F:UNKO.Utils.DataSender`1._lastSendedData
+  fullName: UNKO.Utils.DataSender<T>._lastSendedData
+  fullName.vb: UNKO.Utils.DataSender(Of T)._lastSendedData
+  nameWithType: DataSender<T>._lastSendedData
+  nameWithType.vb: DataSender(Of T)._lastSendedData
+- uid: UNKO.Utils.DataSender`1._observers
+  name: _observers
+  href: api/UNKO.Utils.DataSender-1.html#UNKO_Utils_DataSender_1__observers
+  commentId: F:UNKO.Utils.DataSender`1._observers
+  fullName: UNKO.Utils.DataSender<T>._observers
+  fullName.vb: UNKO.Utils.DataSender(Of T)._observers
+  nameWithType: DataSender<T>._observers
+  nameWithType.vb: DataSender(Of T)._observers
+- uid: UNKO.Utils.DataSender`1._pool
+  name: _pool
+  href: api/UNKO.Utils.DataSender-1.html#UNKO_Utils_DataSender_1__pool
+  commentId: F:UNKO.Utils.DataSender`1._pool
+  fullName: UNKO.Utils.DataSender<T>._pool
+  fullName.vb: UNKO.Utils.DataSender(Of T)._pool
+  nameWithType: DataSender<T>._pool
+  nameWithType.vb: DataSender(Of T)._pool
+- uid: UNKO.Utils.DataSender`1.Dispose
+  name: Dispose()
+  href: api/UNKO.Utils.DataSender-1.html#UNKO_Utils_DataSender_1_Dispose
+  commentId: M:UNKO.Utils.DataSender`1.Dispose
+  fullName: UNKO.Utils.DataSender<T>.Dispose()
+  fullName.vb: UNKO.Utils.DataSender(Of T).Dispose()
+  nameWithType: DataSender<T>.Dispose()
+  nameWithType.vb: DataSender(Of T).Dispose()
+- uid: UNKO.Utils.DataSender`1.Dispose*
+  name: Dispose
+  href: api/UNKO.Utils.DataSender-1.html#UNKO_Utils_DataSender_1_Dispose_
+  commentId: Overload:UNKO.Utils.DataSender`1.Dispose
+  isSpec: "True"
+  fullName: UNKO.Utils.DataSender<T>.Dispose
+  fullName.vb: UNKO.Utils.DataSender(Of T).Dispose
+  nameWithType: DataSender<T>.Dispose
+  nameWithType.vb: DataSender(Of T).Dispose
+- uid: UNKO.Utils.DataSender`1.Reset
+  name: Reset()
+  href: api/UNKO.Utils.DataSender-1.html#UNKO_Utils_DataSender_1_Reset
+  commentId: M:UNKO.Utils.DataSender`1.Reset
+  fullName: UNKO.Utils.DataSender<T>.Reset()
+  fullName.vb: UNKO.Utils.DataSender(Of T).Reset()
+  nameWithType: DataSender<T>.Reset()
+  nameWithType.vb: DataSender(Of T).Reset()
+- uid: UNKO.Utils.DataSender`1.Reset*
+  name: Reset
+  href: api/UNKO.Utils.DataSender-1.html#UNKO_Utils_DataSender_1_Reset_
+  commentId: Overload:UNKO.Utils.DataSender`1.Reset
+  isSpec: "True"
+  fullName: UNKO.Utils.DataSender<T>.Reset
+  fullName.vb: UNKO.Utils.DataSender(Of T).Reset
+  nameWithType: DataSender<T>.Reset
+  nameWithType.vb: DataSender(Of T).Reset
+- uid: UNKO.Utils.DataSender`1.SendData(`0)
+  name: SendData(T)
+  href: api/UNKO.Utils.DataSender-1.html#UNKO_Utils_DataSender_1_SendData__0_
+  commentId: M:UNKO.Utils.DataSender`1.SendData(`0)
+  fullName: UNKO.Utils.DataSender<T>.SendData(T)
+  fullName.vb: UNKO.Utils.DataSender(Of T).SendData(T)
+  nameWithType: DataSender<T>.SendData(T)
+  nameWithType.vb: DataSender(Of T).SendData(T)
+- uid: UNKO.Utils.DataSender`1.SendData*
+  name: SendData
+  href: api/UNKO.Utils.DataSender-1.html#UNKO_Utils_DataSender_1_SendData_
+  commentId: Overload:UNKO.Utils.DataSender`1.SendData
+  isSpec: "True"
+  fullName: UNKO.Utils.DataSender<T>.SendData
+  fullName.vb: UNKO.Utils.DataSender(Of T).SendData
+  nameWithType: DataSender<T>.SendData
+  nameWithType.vb: DataSender(Of T).SendData
+- uid: UNKO.Utils.DataSender`1.Subscribe(System.Collections.Generic.IEnumerable{System.IObserver{`0}})
+  name: Subscribe(IEnumerable<IObserver<T>>)
+  href: api/UNKO.Utils.DataSender-1.html#UNKO_Utils_DataSender_1_Subscribe_System_Collections_Generic_IEnumerable_System_IObserver__0___
+  commentId: M:UNKO.Utils.DataSender`1.Subscribe(System.Collections.Generic.IEnumerable{System.IObserver{`0}})
+  name.vb: Subscribe(IEnumerable(Of IObserver(Of T)))
+  fullName: UNKO.Utils.DataSender<T>.Subscribe(System.Collections.Generic.IEnumerable<System.IObserver<T>>)
+  fullName.vb: UNKO.Utils.DataSender(Of T).Subscribe(System.Collections.Generic.IEnumerable(Of System.IObserver(Of T)))
+  nameWithType: DataSender<T>.Subscribe(IEnumerable<IObserver<T>>)
+  nameWithType.vb: DataSender(Of T).Subscribe(IEnumerable(Of IObserver(Of T)))
+- uid: UNKO.Utils.DataSender`1.Subscribe(System.IObserver{`0})
+  name: Subscribe(IObserver<T>)
+  href: api/UNKO.Utils.DataSender-1.html#UNKO_Utils_DataSender_1_Subscribe_System_IObserver__0__
+  commentId: M:UNKO.Utils.DataSender`1.Subscribe(System.IObserver{`0})
+  name.vb: Subscribe(IObserver(Of T))
+  fullName: UNKO.Utils.DataSender<T>.Subscribe(System.IObserver<T>)
+  fullName.vb: UNKO.Utils.DataSender(Of T).Subscribe(System.IObserver(Of T))
+  nameWithType: DataSender<T>.Subscribe(IObserver<T>)
+  nameWithType.vb: DataSender(Of T).Subscribe(IObserver(Of T))
+- uid: UNKO.Utils.DataSender`1.Subscribe(System.IObserver{`0}[])
+  name: Subscribe(IObserver<T>[])
+  href: api/UNKO.Utils.DataSender-1.html#UNKO_Utils_DataSender_1_Subscribe_System_IObserver__0____
+  commentId: M:UNKO.Utils.DataSender`1.Subscribe(System.IObserver{`0}[])
+  name.vb: Subscribe(IObserver(Of T)())
+  fullName: UNKO.Utils.DataSender<T>.Subscribe(System.IObserver<T>[])
+  fullName.vb: UNKO.Utils.DataSender(Of T).Subscribe(System.IObserver(Of T)())
+  nameWithType: DataSender<T>.Subscribe(IObserver<T>[])
+  nameWithType.vb: DataSender(Of T).Subscribe(IObserver(Of T)())
+- uid: UNKO.Utils.DataSender`1.Subscribe*
+  name: Subscribe
+  href: api/UNKO.Utils.DataSender-1.html#UNKO_Utils_DataSender_1_Subscribe_
+  commentId: Overload:UNKO.Utils.DataSender`1.Subscribe
+  isSpec: "True"
+  fullName: UNKO.Utils.DataSender<T>.Subscribe
+  fullName.vb: UNKO.Utils.DataSender(Of T).Subscribe
+  nameWithType: DataSender<T>.Subscribe
+  nameWithType.vb: DataSender(Of T).Subscribe
+- uid: UNKO.Utils.DataSender`1.UnSubscribe(System.IObserver{`0})
+  name: UnSubscribe(IObserver<T>)
+  href: api/UNKO.Utils.DataSender-1.html#UNKO_Utils_DataSender_1_UnSubscribe_System_IObserver__0__
+  commentId: M:UNKO.Utils.DataSender`1.UnSubscribe(System.IObserver{`0})
+  name.vb: UnSubscribe(IObserver(Of T))
+  fullName: UNKO.Utils.DataSender<T>.UnSubscribe(System.IObserver<T>)
+  fullName.vb: UNKO.Utils.DataSender(Of T).UnSubscribe(System.IObserver(Of T))
+  nameWithType: DataSender<T>.UnSubscribe(IObserver<T>)
+  nameWithType.vb: DataSender(Of T).UnSubscribe(IObserver(Of T))
+- uid: UNKO.Utils.DataSender`1.UnSubscribe*
+  name: UnSubscribe
+  href: api/UNKO.Utils.DataSender-1.html#UNKO_Utils_DataSender_1_UnSubscribe_
+  commentId: Overload:UNKO.Utils.DataSender`1.UnSubscribe
+  isSpec: "True"
+  fullName: UNKO.Utils.DataSender<T>.UnSubscribe
+  fullName.vb: UNKO.Utils.DataSender(Of T).UnSubscribe
+  nameWithType: DataSender<T>.UnSubscribe
+  nameWithType.vb: DataSender(Of T).UnSubscribe
+- uid: UNKO.Utils.DataSenderUnityExtension
+  name: DataSenderUnityExtension
+  href: api/UNKO.Utils.DataSenderUnityExtension.html
+  commentId: T:UNKO.Utils.DataSenderUnityExtension
+  fullName: UNKO.Utils.DataSenderUnityExtension
+  nameWithType: DataSenderUnityExtension
+- uid: UNKO.Utils.DataSenderUnityExtension.InitChildrenComponents*
+  name: InitChildrenComponents
+  href: api/UNKO.Utils.DataSenderUnityExtension.html#UNKO_Utils_DataSenderUnityExtension_InitChildrenComponents_
+  commentId: Overload:UNKO.Utils.DataSenderUnityExtension.InitChildrenComponents
+  isSpec: "True"
+  fullName: UNKO.Utils.DataSenderUnityExtension.InitChildrenComponents
+  nameWithType: DataSenderUnityExtension.InitChildrenComponents
+- uid: UNKO.Utils.DataSenderUnityExtension.InitChildrenComponents``1(UNKO.Utils.DataSender{``0},MonoBehaviour)
+  name: InitChildrenComponents<T>(DataSender<T>, MonoBehaviour)
+  href: api/UNKO.Utils.DataSenderUnityExtension.html#UNKO_Utils_DataSenderUnityExtension_InitChildrenComponents__1_UNKO_Utils_DataSender___0__MonoBehaviour_
+  commentId: M:UNKO.Utils.DataSenderUnityExtension.InitChildrenComponents``1(UNKO.Utils.DataSender{``0},MonoBehaviour)
+  name.vb: InitChildrenComponents(Of T)(DataSender(Of T), MonoBehaviour)
+  fullName: UNKO.Utils.DataSenderUnityExtension.InitChildrenComponents<T>(UNKO.Utils.DataSender<T>, MonoBehaviour)
+  fullName.vb: UNKO.Utils.DataSenderUnityExtension.InitChildrenComponents(Of T)(UNKO.Utils.DataSender(Of T), MonoBehaviour)
+  nameWithType: DataSenderUnityExtension.InitChildrenComponents<T>(DataSender<T>, MonoBehaviour)
+  nameWithType.vb: DataSenderUnityExtension.InitChildrenComponents(Of T)(DataSender(Of T), MonoBehaviour)
+- uid: UNKO.Utils.DataSenderUnityExtension.InitComponents*
+  name: InitComponents
+  href: api/UNKO.Utils.DataSenderUnityExtension.html#UNKO_Utils_DataSenderUnityExtension_InitComponents_
+  commentId: Overload:UNKO.Utils.DataSenderUnityExtension.InitComponents
+  isSpec: "True"
+  fullName: UNKO.Utils.DataSenderUnityExtension.InitComponents
+  nameWithType: DataSenderUnityExtension.InitComponents
+- uid: UNKO.Utils.DataSenderUnityExtension.InitComponents``1(UNKO.Utils.DataSender{``0},MonoBehaviour)
+  name: InitComponents<T>(DataSender<T>, MonoBehaviour)
+  href: api/UNKO.Utils.DataSenderUnityExtension.html#UNKO_Utils_DataSenderUnityExtension_InitComponents__1_UNKO_Utils_DataSender___0__MonoBehaviour_
+  commentId: M:UNKO.Utils.DataSenderUnityExtension.InitComponents``1(UNKO.Utils.DataSender{``0},MonoBehaviour)
+  name.vb: InitComponents(Of T)(DataSender(Of T), MonoBehaviour)
+  fullName: UNKO.Utils.DataSenderUnityExtension.InitComponents<T>(UNKO.Utils.DataSender<T>, MonoBehaviour)
+  fullName.vb: UNKO.Utils.DataSenderUnityExtension.InitComponents(Of T)(UNKO.Utils.DataSender(Of T), MonoBehaviour)
+  nameWithType: DataSenderUnityExtension.InitComponents<T>(DataSender<T>, MonoBehaviour)
+  nameWithType.vb: DataSenderUnityExtension.InitComponents(Of T)(DataSender(Of T), MonoBehaviour)
+- uid: UNKO.Utils.DataSenderUnityExtension.InitParentsComponents*
+  name: InitParentsComponents
+  href: api/UNKO.Utils.DataSenderUnityExtension.html#UNKO_Utils_DataSenderUnityExtension_InitParentsComponents_
+  commentId: Overload:UNKO.Utils.DataSenderUnityExtension.InitParentsComponents
+  isSpec: "True"
+  fullName: UNKO.Utils.DataSenderUnityExtension.InitParentsComponents
+  nameWithType: DataSenderUnityExtension.InitParentsComponents
+- uid: UNKO.Utils.DataSenderUnityExtension.InitParentsComponents``1(UNKO.Utils.DataSender{``0},MonoBehaviour)
+  name: InitParentsComponents<T>(DataSender<T>, MonoBehaviour)
+  href: api/UNKO.Utils.DataSenderUnityExtension.html#UNKO_Utils_DataSenderUnityExtension_InitParentsComponents__1_UNKO_Utils_DataSender___0__MonoBehaviour_
+  commentId: M:UNKO.Utils.DataSenderUnityExtension.InitParentsComponents``1(UNKO.Utils.DataSender{``0},MonoBehaviour)
+  name.vb: InitParentsComponents(Of T)(DataSender(Of T), MonoBehaviour)
+  fullName: UNKO.Utils.DataSenderUnityExtension.InitParentsComponents<T>(UNKO.Utils.DataSender<T>, MonoBehaviour)
+  fullName.vb: UNKO.Utils.DataSenderUnityExtension.InitParentsComponents(Of T)(UNKO.Utils.DataSender(Of T), MonoBehaviour)
+  nameWithType: DataSenderUnityExtension.InitParentsComponents<T>(DataSender<T>, MonoBehaviour)
+  nameWithType.vb: DataSenderUnityExtension.InitParentsComponents(Of T)(DataSender(Of T), MonoBehaviour)
+- uid: UNKO.Utils.DataSenderUnityExtension.InitSiblingComponents*
+  name: InitSiblingComponents
+  href: api/UNKO.Utils.DataSenderUnityExtension.html#UNKO_Utils_DataSenderUnityExtension_InitSiblingComponents_
+  commentId: Overload:UNKO.Utils.DataSenderUnityExtension.InitSiblingComponents
+  isSpec: "True"
+  fullName: UNKO.Utils.DataSenderUnityExtension.InitSiblingComponents
+  nameWithType: DataSenderUnityExtension.InitSiblingComponents
+- uid: UNKO.Utils.DataSenderUnityExtension.InitSiblingComponents``1(UNKO.Utils.DataSender{``0},MonoBehaviour)
+  name: InitSiblingComponents<T>(DataSender<T>, MonoBehaviour)
+  href: api/UNKO.Utils.DataSenderUnityExtension.html#UNKO_Utils_DataSenderUnityExtension_InitSiblingComponents__1_UNKO_Utils_DataSender___0__MonoBehaviour_
+  commentId: M:UNKO.Utils.DataSenderUnityExtension.InitSiblingComponents``1(UNKO.Utils.DataSender{``0},MonoBehaviour)
+  name.vb: InitSiblingComponents(Of T)(DataSender(Of T), MonoBehaviour)
+  fullName: UNKO.Utils.DataSenderUnityExtension.InitSiblingComponents<T>(UNKO.Utils.DataSender<T>, MonoBehaviour)
+  fullName.vb: UNKO.Utils.DataSenderUnityExtension.InitSiblingComponents(Of T)(UNKO.Utils.DataSender(Of T), MonoBehaviour)
+  nameWithType: DataSenderUnityExtension.InitSiblingComponents<T>(DataSender<T>, MonoBehaviour)
+  nameWithType.vb: DataSenderUnityExtension.InitSiblingComponents(Of T)(DataSender(Of T), MonoBehaviour)
+- uid: UNKO.Utils.IState
+  name: IState
+  href: api/UNKO.Utils.IState.html
+  commentId: T:UNKO.Utils.IState
+  fullName: UNKO.Utils.IState
+  nameWithType: IState
+- uid: UNKO.Utils.IState.OnAwake
+  name: OnAwake()
+  href: api/UNKO.Utils.IState.html#UNKO_Utils_IState_OnAwake
+  commentId: M:UNKO.Utils.IState.OnAwake
+  fullName: UNKO.Utils.IState.OnAwake()
+  nameWithType: IState.OnAwake()
+- uid: UNKO.Utils.IState.OnAwake*
+  name: OnAwake
+  href: api/UNKO.Utils.IState.html#UNKO_Utils_IState_OnAwake_
+  commentId: Overload:UNKO.Utils.IState.OnAwake
+  isSpec: "True"
+  fullName: UNKO.Utils.IState.OnAwake
+  nameWithType: IState.OnAwake
+- uid: UNKO.Utils.IState.OnChangeState(UNKO.Utils.IState)
+  name: OnChangeState(IState)
+  href: api/UNKO.Utils.IState.html#UNKO_Utils_IState_OnChangeState_UNKO_Utils_IState_
+  commentId: M:UNKO.Utils.IState.OnChangeState(UNKO.Utils.IState)
+  fullName: UNKO.Utils.IState.OnChangeState(UNKO.Utils.IState)
+  nameWithType: IState.OnChangeState(IState)
+- uid: UNKO.Utils.IState.OnChangeState*
+  name: OnChangeState
+  href: api/UNKO.Utils.IState.html#UNKO_Utils_IState_OnChangeState_
+  commentId: Overload:UNKO.Utils.IState.OnChangeState
+  isSpec: "True"
+  fullName: UNKO.Utils.IState.OnChangeState
+  nameWithType: IState.OnChangeState
+- uid: UNKO.Utils.IState.OnFinishState
+  name: OnFinishState()
+  href: api/UNKO.Utils.IState.html#UNKO_Utils_IState_OnFinishState
+  commentId: M:UNKO.Utils.IState.OnFinishState
+  fullName: UNKO.Utils.IState.OnFinishState()
+  nameWithType: IState.OnFinishState()
+- uid: UNKO.Utils.IState.OnFinishState*
+  name: OnFinishState
+  href: api/UNKO.Utils.IState.html#UNKO_Utils_IState_OnFinishState_
+  commentId: Overload:UNKO.Utils.IState.OnFinishState
+  isSpec: "True"
+  fullName: UNKO.Utils.IState.OnFinishState
+  nameWithType: IState.OnFinishState
+- uid: UNKO.Utils.IState.OnStartCoroutine
+  name: OnStartCoroutine()
+  href: api/UNKO.Utils.IState.html#UNKO_Utils_IState_OnStartCoroutine
+  commentId: M:UNKO.Utils.IState.OnStartCoroutine
+  fullName: UNKO.Utils.IState.OnStartCoroutine()
+  nameWithType: IState.OnStartCoroutine()
+- uid: UNKO.Utils.IState.OnStartCoroutine*
+  name: OnStartCoroutine
+  href: api/UNKO.Utils.IState.html#UNKO_Utils_IState_OnStartCoroutine_
+  commentId: Overload:UNKO.Utils.IState.OnStartCoroutine
+  isSpec: "True"
+  fullName: UNKO.Utils.IState.OnStartCoroutine
+  nameWithType: IState.OnStartCoroutine
+- uid: UNKO.Utils.RandomExtension
+  name: RandomExtension
+  href: api/UNKO.Utils.RandomExtension.html
+  commentId: T:UNKO.Utils.RandomExtension
+  fullName: UNKO.Utils.RandomExtension
+  nameWithType: RandomExtension
+- uid: UNKO.Utils.RandomExtension.Next
+  name: Next()
+  href: api/UNKO.Utils.RandomExtension.html#UNKO_Utils_RandomExtension_Next
+  commentId: M:UNKO.Utils.RandomExtension.Next
+  fullName: UNKO.Utils.RandomExtension.Next()
+  nameWithType: RandomExtension.Next()
+- uid: UNKO.Utils.RandomExtension.Next(System.Int32)
+  name: Next(Int32)
+  href: api/UNKO.Utils.RandomExtension.html#UNKO_Utils_RandomExtension_Next_System_Int32_
+  commentId: M:UNKO.Utils.RandomExtension.Next(System.Int32)
+  fullName: UNKO.Utils.RandomExtension.Next(System.Int32)
+  nameWithType: RandomExtension.Next(Int32)
+- uid: UNKO.Utils.RandomExtension.Next(System.Int32,System.Int32)
+  name: Next(Int32, Int32)
+  href: api/UNKO.Utils.RandomExtension.html#UNKO_Utils_RandomExtension_Next_System_Int32_System_Int32_
+  commentId: M:UNKO.Utils.RandomExtension.Next(System.Int32,System.Int32)
+  fullName: UNKO.Utils.RandomExtension.Next(System.Int32, System.Int32)
+  nameWithType: RandomExtension.Next(Int32, Int32)
+- uid: UNKO.Utils.RandomExtension.Next*
+  name: Next
+  href: api/UNKO.Utils.RandomExtension.html#UNKO_Utils_RandomExtension_Next_
+  commentId: Overload:UNKO.Utils.RandomExtension.Next
+  isSpec: "True"
+  fullName: UNKO.Utils.RandomExtension.Next
+  nameWithType: RandomExtension.Next
+- uid: UNKO.Utils.RandomExtension.Random*
+  name: Random
+  href: api/UNKO.Utils.RandomExtension.html#UNKO_Utils_RandomExtension_Random_
+  commentId: Overload:UNKO.Utils.RandomExtension.Random
+  isSpec: "True"
+  fullName: UNKO.Utils.RandomExtension.Random
+  nameWithType: RandomExtension.Random
+- uid: UNKO.Utils.RandomExtension.Random``1(System.Collections.Generic.IEnumerable{``0})
+  name: Random<T>(IEnumerable<T>)
+  href: api/UNKO.Utils.RandomExtension.html#UNKO_Utils_RandomExtension_Random__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:UNKO.Utils.RandomExtension.Random``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: Random(Of T)(IEnumerable(Of T))
+  fullName: UNKO.Utils.RandomExtension.Random<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: UNKO.Utils.RandomExtension.Random(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: RandomExtension.Random<T>(IEnumerable<T>)
+  nameWithType.vb: RandomExtension.Random(Of T)(IEnumerable(Of T))
+- uid: UNKO.Utils.RandomExtension.Random``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name: Random<T>(IEnumerable<T>, Func<T, Boolean>)
+  href: api/UNKO.Utils.RandomExtension.html#UNKO_Utils_RandomExtension_Random__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__
+  commentId: M:UNKO.Utils.RandomExtension.Random``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name.vb: Random(Of T)(IEnumerable(Of T), Func(Of T, Boolean))
+  fullName: UNKO.Utils.RandomExtension.Random<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, System.Boolean>)
+  fullName.vb: UNKO.Utils.RandomExtension.Random(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, System.Boolean))
+  nameWithType: RandomExtension.Random<T>(IEnumerable<T>, Func<T, Boolean>)
+  nameWithType.vb: RandomExtension.Random(Of T)(IEnumerable(Of T), Func(Of T, Boolean))
+- uid: UNKO.Utils.RandomExtension.Random``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32})
+  name: Random<T>(IEnumerable<T>, Func<T, Int32>)
+  href: api/UNKO.Utils.RandomExtension.html#UNKO_Utils_RandomExtension_Random__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Int32__
+  commentId: M:UNKO.Utils.RandomExtension.Random``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32})
+  name.vb: Random(Of T)(IEnumerable(Of T), Func(Of T, Int32))
+  fullName: UNKO.Utils.RandomExtension.Random<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, System.Int32>)
+  fullName.vb: UNKO.Utils.RandomExtension.Random(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, System.Int32))
+  nameWithType: RandomExtension.Random<T>(IEnumerable<T>, Func<T, Int32>)
+  nameWithType.vb: RandomExtension.Random(Of T)(IEnumerable(Of T), Func(Of T, Int32))
+- uid: UNKO.Utils.RandomExtension.Shuffle*
+  name: Shuffle
+  href: api/UNKO.Utils.RandomExtension.html#UNKO_Utils_RandomExtension_Shuffle_
+  commentId: Overload:UNKO.Utils.RandomExtension.Shuffle
+  isSpec: "True"
+  fullName: UNKO.Utils.RandomExtension.Shuffle
+  nameWithType: RandomExtension.Shuffle
+- uid: UNKO.Utils.RandomExtension.Shuffle``1(System.Collections.Generic.List{``0})
+  name: Shuffle<T>(List<T>)
+  href: api/UNKO.Utils.RandomExtension.html#UNKO_Utils_RandomExtension_Shuffle__1_System_Collections_Generic_List___0__
+  commentId: M:UNKO.Utils.RandomExtension.Shuffle``1(System.Collections.Generic.List{``0})
+  name.vb: Shuffle(Of T)(List(Of T))
+  fullName: UNKO.Utils.RandomExtension.Shuffle<T>(System.Collections.Generic.List<T>)
+  fullName.vb: UNKO.Utils.RandomExtension.Shuffle(Of T)(System.Collections.Generic.List(Of T))
+  nameWithType: RandomExtension.Shuffle<T>(List<T>)
+  nameWithType.vb: RandomExtension.Shuffle(Of T)(List(Of T))
+- uid: UNKO.Utils.SimplePool`1
+  name: SimplePool<T>
+  href: api/UNKO.Utils.SimplePool-1.html
+  commentId: T:UNKO.Utils.SimplePool`1
+  name.vb: SimplePool(Of T)
+  fullName: UNKO.Utils.SimplePool<T>
+  fullName.vb: UNKO.Utils.SimplePool(Of T)
+  nameWithType: SimplePool<T>
+  nameWithType.vb: SimplePool(Of T)
+- uid: UNKO.Utils.SimplePool`1.#ctor(`0)
+  name: SimplePool(T)
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1__ctor__0_
+  commentId: M:UNKO.Utils.SimplePool`1.#ctor(`0)
+  fullName: UNKO.Utils.SimplePool<T>.SimplePool(T)
+  fullName.vb: UNKO.Utils.SimplePool(Of T).SimplePool(T)
+  nameWithType: SimplePool<T>.SimplePool(T)
+  nameWithType.vb: SimplePool(Of T).SimplePool(T)
+- uid: UNKO.Utils.SimplePool`1.#ctor(`0,System.Int32)
+  name: SimplePool(T, Int32)
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1__ctor__0_System_Int32_
+  commentId: M:UNKO.Utils.SimplePool`1.#ctor(`0,System.Int32)
+  fullName: UNKO.Utils.SimplePool<T>.SimplePool(T, System.Int32)
+  fullName.vb: UNKO.Utils.SimplePool(Of T).SimplePool(T, System.Int32)
+  nameWithType: SimplePool<T>.SimplePool(T, Int32)
+  nameWithType.vb: SimplePool(Of T).SimplePool(T, Int32)
+- uid: UNKO.Utils.SimplePool`1.#ctor(System.Func{`0})
+  name: SimplePool(Func<T>)
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1__ctor_System_Func__0__
+  commentId: M:UNKO.Utils.SimplePool`1.#ctor(System.Func{`0})
+  name.vb: SimplePool(Func(Of T))
+  fullName: UNKO.Utils.SimplePool<T>.SimplePool(System.Func<T>)
+  fullName.vb: UNKO.Utils.SimplePool(Of T).SimplePool(System.Func(Of T))
+  nameWithType: SimplePool<T>.SimplePool(Func<T>)
+  nameWithType.vb: SimplePool(Of T).SimplePool(Func(Of T))
+- uid: UNKO.Utils.SimplePool`1.#ctor(System.Func{`0},System.Int32)
+  name: SimplePool(Func<T>, Int32)
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1__ctor_System_Func__0__System_Int32_
+  commentId: M:UNKO.Utils.SimplePool`1.#ctor(System.Func{`0},System.Int32)
+  name.vb: SimplePool(Func(Of T), Int32)
+  fullName: UNKO.Utils.SimplePool<T>.SimplePool(System.Func<T>, System.Int32)
+  fullName.vb: UNKO.Utils.SimplePool(Of T).SimplePool(System.Func(Of T), System.Int32)
+  nameWithType: SimplePool<T>.SimplePool(Func<T>, Int32)
+  nameWithType.vb: SimplePool(Of T).SimplePool(Func(Of T), Int32)
+- uid: UNKO.Utils.SimplePool`1.#ctor*
+  name: SimplePool
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1__ctor_
+  commentId: Overload:UNKO.Utils.SimplePool`1.#ctor
+  isSpec: "True"
+  fullName: UNKO.Utils.SimplePool<T>.SimplePool
+  fullName.vb: UNKO.Utils.SimplePool(Of T).SimplePool
+  nameWithType: SimplePool<T>.SimplePool
+  nameWithType.vb: SimplePool(Of T).SimplePool
+- uid: UNKO.Utils.SimplePool`1._allInstance
+  name: _allInstance
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1__allInstance
+  commentId: F:UNKO.Utils.SimplePool`1._allInstance
+  fullName: UNKO.Utils.SimplePool<T>._allInstance
+  fullName.vb: UNKO.Utils.SimplePool(Of T)._allInstance
+  nameWithType: SimplePool<T>._allInstance
+  nameWithType.vb: SimplePool(Of T)._allInstance
+- uid: UNKO.Utils.SimplePool`1._notUse
+  name: _notUse
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1__notUse
+  commentId: F:UNKO.Utils.SimplePool`1._notUse
+  fullName: UNKO.Utils.SimplePool<T>._notUse
+  fullName.vb: UNKO.Utils.SimplePool(Of T)._notUse
+  nameWithType: SimplePool<T>._notUse
+  nameWithType.vb: SimplePool(Of T)._notUse
+- uid: UNKO.Utils.SimplePool`1._OnCreateInstance
+  name: _OnCreateInstance
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1__OnCreateInstance
+  commentId: F:UNKO.Utils.SimplePool`1._OnCreateInstance
+  fullName: UNKO.Utils.SimplePool<T>._OnCreateInstance
+  fullName.vb: UNKO.Utils.SimplePool(Of T)._OnCreateInstance
+  nameWithType: SimplePool<T>._OnCreateInstance
+  nameWithType.vb: SimplePool(Of T)._OnCreateInstance
+- uid: UNKO.Utils.SimplePool`1._originItem
+  name: _originItem
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1__originItem
+  commentId: P:UNKO.Utils.SimplePool`1._originItem
+  fullName: UNKO.Utils.SimplePool<T>._originItem
+  fullName.vb: UNKO.Utils.SimplePool(Of T)._originItem
+  nameWithType: SimplePool<T>._originItem
+  nameWithType.vb: SimplePool(Of T)._originItem
+- uid: UNKO.Utils.SimplePool`1._originItem*
+  name: _originItem
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1__originItem_
+  commentId: Overload:UNKO.Utils.SimplePool`1._originItem
+  isSpec: "True"
+  fullName: UNKO.Utils.SimplePool<T>._originItem
+  fullName.vb: UNKO.Utils.SimplePool(Of T)._originItem
+  nameWithType: SimplePool<T>._originItem
+  nameWithType.vb: SimplePool(Of T)._originItem
+- uid: UNKO.Utils.SimplePool`1._use
+  name: _use
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1__use
+  commentId: F:UNKO.Utils.SimplePool`1._use
+  fullName: UNKO.Utils.SimplePool<T>._use
+  fullName.vb: UNKO.Utils.SimplePool(Of T)._use
+  nameWithType: SimplePool<T>._use
+  nameWithType.vb: SimplePool(Of T)._use
+- uid: UNKO.Utils.SimplePool`1.allInstance
+  name: allInstance
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_allInstance
+  commentId: P:UNKO.Utils.SimplePool`1.allInstance
+  fullName: UNKO.Utils.SimplePool<T>.allInstance
+  fullName.vb: UNKO.Utils.SimplePool(Of T).allInstance
+  nameWithType: SimplePool<T>.allInstance
+  nameWithType.vb: SimplePool(Of T).allInstance
+- uid: UNKO.Utils.SimplePool`1.allInstance*
+  name: allInstance
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_allInstance_
+  commentId: Overload:UNKO.Utils.SimplePool`1.allInstance
+  isSpec: "True"
+  fullName: UNKO.Utils.SimplePool<T>.allInstance
+  fullName.vb: UNKO.Utils.SimplePool(Of T).allInstance
+  nameWithType: SimplePool<T>.allInstance
+  nameWithType.vb: SimplePool(Of T).allInstance
+- uid: UNKO.Utils.SimplePool`1.DeSpawn(`0)
+  name: DeSpawn(T)
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_DeSpawn__0_
+  commentId: M:UNKO.Utils.SimplePool`1.DeSpawn(`0)
+  fullName: UNKO.Utils.SimplePool<T>.DeSpawn(T)
+  fullName.vb: UNKO.Utils.SimplePool(Of T).DeSpawn(T)
+  nameWithType: SimplePool<T>.DeSpawn(T)
+  nameWithType.vb: SimplePool(Of T).DeSpawn(T)
+- uid: UNKO.Utils.SimplePool`1.DeSpawn*
+  name: DeSpawn
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_DeSpawn_
+  commentId: Overload:UNKO.Utils.SimplePool`1.DeSpawn
+  isSpec: "True"
+  fullName: UNKO.Utils.SimplePool<T>.DeSpawn
+  fullName.vb: UNKO.Utils.SimplePool(Of T).DeSpawn
+  nameWithType: SimplePool<T>.DeSpawn
+  nameWithType.vb: SimplePool(Of T).DeSpawn
+- uid: UNKO.Utils.SimplePool`1.DeSpawnAll
+  name: DeSpawnAll()
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_DeSpawnAll
+  commentId: M:UNKO.Utils.SimplePool`1.DeSpawnAll
+  fullName: UNKO.Utils.SimplePool<T>.DeSpawnAll()
+  fullName.vb: UNKO.Utils.SimplePool(Of T).DeSpawnAll()
+  nameWithType: SimplePool<T>.DeSpawnAll()
+  nameWithType.vb: SimplePool(Of T).DeSpawnAll()
+- uid: UNKO.Utils.SimplePool`1.DeSpawnAll*
+  name: DeSpawnAll
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_DeSpawnAll_
+  commentId: Overload:UNKO.Utils.SimplePool`1.DeSpawnAll
+  isSpec: "True"
+  fullName: UNKO.Utils.SimplePool<T>.DeSpawnAll
+  fullName.vb: UNKO.Utils.SimplePool(Of T).DeSpawnAll
+  nameWithType: SimplePool<T>.DeSpawnAll
+  nameWithType.vb: SimplePool(Of T).DeSpawnAll
+- uid: UNKO.Utils.SimplePool`1.Init(`0,System.Int32)
+  name: Init(T, Int32)
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_Init__0_System_Int32_
+  commentId: M:UNKO.Utils.SimplePool`1.Init(`0,System.Int32)
+  fullName: UNKO.Utils.SimplePool<T>.Init(T, System.Int32)
+  fullName.vb: UNKO.Utils.SimplePool(Of T).Init(T, System.Int32)
+  nameWithType: SimplePool<T>.Init(T, Int32)
+  nameWithType.vb: SimplePool(Of T).Init(T, Int32)
+- uid: UNKO.Utils.SimplePool`1.Init*
+  name: Init
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_Init_
+  commentId: Overload:UNKO.Utils.SimplePool`1.Init
+  isSpec: "True"
+  fullName: UNKO.Utils.SimplePool<T>.Init
+  fullName.vb: UNKO.Utils.SimplePool(Of T).Init
+  nameWithType: SimplePool<T>.Init
+  nameWithType.vb: SimplePool(Of T).Init
+- uid: UNKO.Utils.SimplePool`1.notUse
+  name: notUse
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_notUse
+  commentId: P:UNKO.Utils.SimplePool`1.notUse
+  fullName: UNKO.Utils.SimplePool<T>.notUse
+  fullName.vb: UNKO.Utils.SimplePool(Of T).notUse
+  nameWithType: SimplePool<T>.notUse
+  nameWithType.vb: SimplePool(Of T).notUse
+- uid: UNKO.Utils.SimplePool`1.notUse*
+  name: notUse
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_notUse_
+  commentId: Overload:UNKO.Utils.SimplePool`1.notUse
+  isSpec: "True"
+  fullName: UNKO.Utils.SimplePool<T>.notUse
+  fullName.vb: UNKO.Utils.SimplePool(Of T).notUse
+  nameWithType: SimplePool<T>.notUse
+  nameWithType.vb: SimplePool(Of T).notUse
+- uid: UNKO.Utils.SimplePool`1.OnDespawn(`0)
+  name: OnDespawn(T)
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_OnDespawn__0_
+  commentId: M:UNKO.Utils.SimplePool`1.OnDespawn(`0)
+  fullName: UNKO.Utils.SimplePool<T>.OnDespawn(T)
+  fullName.vb: UNKO.Utils.SimplePool(Of T).OnDespawn(T)
+  nameWithType: SimplePool<T>.OnDespawn(T)
+  nameWithType.vb: SimplePool(Of T).OnDespawn(T)
+- uid: UNKO.Utils.SimplePool`1.OnDespawn*
+  name: OnDespawn
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_OnDespawn_
+  commentId: Overload:UNKO.Utils.SimplePool`1.OnDespawn
+  isSpec: "True"
+  fullName: UNKO.Utils.SimplePool<T>.OnDespawn
+  fullName.vb: UNKO.Utils.SimplePool(Of T).OnDespawn
+  nameWithType: SimplePool<T>.OnDespawn
+  nameWithType.vb: SimplePool(Of T).OnDespawn
+- uid: UNKO.Utils.SimplePool`1.OnRequireNewInstance(`0)
+  name: OnRequireNewInstance(T)
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_OnRequireNewInstance__0_
+  commentId: M:UNKO.Utils.SimplePool`1.OnRequireNewInstance(`0)
+  fullName: UNKO.Utils.SimplePool<T>.OnRequireNewInstance(T)
+  fullName.vb: UNKO.Utils.SimplePool(Of T).OnRequireNewInstance(T)
+  nameWithType: SimplePool<T>.OnRequireNewInstance(T)
+  nameWithType.vb: SimplePool(Of T).OnRequireNewInstance(T)
+- uid: UNKO.Utils.SimplePool`1.OnRequireNewInstance*
+  name: OnRequireNewInstance
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_OnRequireNewInstance_
+  commentId: Overload:UNKO.Utils.SimplePool`1.OnRequireNewInstance
+  isSpec: "True"
+  fullName: UNKO.Utils.SimplePool<T>.OnRequireNewInstance
+  fullName.vb: UNKO.Utils.SimplePool(Of T).OnRequireNewInstance
+  nameWithType: SimplePool<T>.OnRequireNewInstance
+  nameWithType.vb: SimplePool(Of T).OnRequireNewInstance
+- uid: UNKO.Utils.SimplePool`1.OnSpawn(`0)
+  name: OnSpawn(T)
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_OnSpawn__0_
+  commentId: M:UNKO.Utils.SimplePool`1.OnSpawn(`0)
+  fullName: UNKO.Utils.SimplePool<T>.OnSpawn(T)
+  fullName.vb: UNKO.Utils.SimplePool(Of T).OnSpawn(T)
+  nameWithType: SimplePool<T>.OnSpawn(T)
+  nameWithType.vb: SimplePool(Of T).OnSpawn(T)
+- uid: UNKO.Utils.SimplePool`1.OnSpawn*
+  name: OnSpawn
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_OnSpawn_
+  commentId: Overload:UNKO.Utils.SimplePool`1.OnSpawn
+  isSpec: "True"
+  fullName: UNKO.Utils.SimplePool<T>.OnSpawn
+  fullName.vb: UNKO.Utils.SimplePool(Of T).OnSpawn
+  nameWithType: SimplePool<T>.OnSpawn
+  nameWithType.vb: SimplePool(Of T).OnSpawn
+- uid: UNKO.Utils.SimplePool`1.Spawn
+  name: Spawn()
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_Spawn
+  commentId: M:UNKO.Utils.SimplePool`1.Spawn
+  fullName: UNKO.Utils.SimplePool<T>.Spawn()
+  fullName.vb: UNKO.Utils.SimplePool(Of T).Spawn()
+  nameWithType: SimplePool<T>.Spawn()
+  nameWithType.vb: SimplePool(Of T).Spawn()
+- uid: UNKO.Utils.SimplePool`1.Spawn*
+  name: Spawn
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_Spawn_
+  commentId: Overload:UNKO.Utils.SimplePool`1.Spawn
+  isSpec: "True"
+  fullName: UNKO.Utils.SimplePool<T>.Spawn
+  fullName.vb: UNKO.Utils.SimplePool(Of T).Spawn
+  nameWithType: SimplePool<T>.Spawn
+  nameWithType.vb: SimplePool(Of T).Spawn
+- uid: UNKO.Utils.SimplePool`1.use
+  name: use
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_use
+  commentId: P:UNKO.Utils.SimplePool`1.use
+  fullName: UNKO.Utils.SimplePool<T>.use
+  fullName.vb: UNKO.Utils.SimplePool(Of T).use
+  nameWithType: SimplePool<T>.use
+  nameWithType.vb: SimplePool(Of T).use
+- uid: UNKO.Utils.SimplePool`1.use*
+  name: use
+  href: api/UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_use_
+  commentId: Overload:UNKO.Utils.SimplePool`1.use
+  isSpec: "True"
+  fullName: UNKO.Utils.SimplePool<T>.use
+  fullName.vb: UNKO.Utils.SimplePool(Of T).use
+  nameWithType: SimplePool<T>.use
+  nameWithType.vb: SimplePool(Of T).use
+- uid: UNKO.Utils.SingletonComponentBase`1
+  name: SingletonComponentBase<T>
+  href: api/UNKO.Utils.SingletonComponentBase-1.html
+  commentId: T:UNKO.Utils.SingletonComponentBase`1
+  name.vb: SingletonComponentBase(Of T)
+  fullName: UNKO.Utils.SingletonComponentBase<T>
+  fullName.vb: UNKO.Utils.SingletonComponentBase(Of T)
+  nameWithType: SingletonComponentBase<T>
+  nameWithType.vb: SingletonComponentBase(Of T)
+- uid: UNKO.Utils.SingletonComponentBase`1.Awake
+  name: Awake()
+  href: api/UNKO.Utils.SingletonComponentBase-1.html#UNKO_Utils_SingletonComponentBase_1_Awake
+  commentId: M:UNKO.Utils.SingletonComponentBase`1.Awake
+  fullName: UNKO.Utils.SingletonComponentBase<T>.Awake()
+  fullName.vb: UNKO.Utils.SingletonComponentBase(Of T).Awake()
+  nameWithType: SingletonComponentBase<T>.Awake()
+  nameWithType.vb: SingletonComponentBase(Of T).Awake()
+- uid: UNKO.Utils.SingletonComponentBase`1.Awake*
+  name: Awake
+  href: api/UNKO.Utils.SingletonComponentBase-1.html#UNKO_Utils_SingletonComponentBase_1_Awake_
+  commentId: Overload:UNKO.Utils.SingletonComponentBase`1.Awake
+  isSpec: "True"
+  fullName: UNKO.Utils.SingletonComponentBase<T>.Awake
+  fullName.vb: UNKO.Utils.SingletonComponentBase(Of T).Awake
+  nameWithType: SingletonComponentBase<T>.Awake
+  nameWithType.vb: SingletonComponentBase(Of T).Awake
+- uid: UNKO.Utils.SingletonComponentBase`1.InitSingleton
+  name: InitSingleton()
+  href: api/UNKO.Utils.SingletonComponentBase-1.html#UNKO_Utils_SingletonComponentBase_1_InitSingleton
+  commentId: M:UNKO.Utils.SingletonComponentBase`1.InitSingleton
+  fullName: UNKO.Utils.SingletonComponentBase<T>.InitSingleton()
+  fullName.vb: UNKO.Utils.SingletonComponentBase(Of T).InitSingleton()
+  nameWithType: SingletonComponentBase<T>.InitSingleton()
+  nameWithType.vb: SingletonComponentBase(Of T).InitSingleton()
+- uid: UNKO.Utils.SingletonComponentBase`1.InitSingleton*
+  name: InitSingleton
+  href: api/UNKO.Utils.SingletonComponentBase-1.html#UNKO_Utils_SingletonComponentBase_1_InitSingleton_
+  commentId: Overload:UNKO.Utils.SingletonComponentBase`1.InitSingleton
+  isSpec: "True"
+  fullName: UNKO.Utils.SingletonComponentBase<T>.InitSingleton
+  fullName.vb: UNKO.Utils.SingletonComponentBase(Of T).InitSingleton
+  nameWithType: SingletonComponentBase<T>.InitSingleton
+  nameWithType.vb: SingletonComponentBase(Of T).InitSingleton
+- uid: UNKO.Utils.SingletonComponentBase`1.instance
+  name: instance
+  href: api/UNKO.Utils.SingletonComponentBase-1.html#UNKO_Utils_SingletonComponentBase_1_instance
+  commentId: P:UNKO.Utils.SingletonComponentBase`1.instance
+  fullName: UNKO.Utils.SingletonComponentBase<T>.instance
+  fullName.vb: UNKO.Utils.SingletonComponentBase(Of T).instance
+  nameWithType: SingletonComponentBase<T>.instance
+  nameWithType.vb: SingletonComponentBase(Of T).instance
+- uid: UNKO.Utils.SingletonComponentBase`1.instance*
+  name: instance
+  href: api/UNKO.Utils.SingletonComponentBase-1.html#UNKO_Utils_SingletonComponentBase_1_instance_
+  commentId: Overload:UNKO.Utils.SingletonComponentBase`1.instance
+  isSpec: "True"
+  fullName: UNKO.Utils.SingletonComponentBase<T>.instance
+  fullName.vb: UNKO.Utils.SingletonComponentBase(Of T).instance
+  nameWithType: SingletonComponentBase<T>.instance
+  nameWithType.vb: SingletonComponentBase(Of T).instance
+- uid: UNKO.Utils.StateMachineGeneric`2
+  name: StateMachineGeneric<STATE_ID, TSTATE>
+  href: api/UNKO.Utils.StateMachineGeneric-2.html
+  commentId: T:UNKO.Utils.StateMachineGeneric`2
+  name.vb: StateMachineGeneric(Of STATE_ID, TSTATE)
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE)
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE)
+- uid: UNKO.Utils.StateMachineGeneric`2.#ctor(System.Collections.Generic.Dictionary{`0,`1})
+  name: StateMachineGeneric(Dictionary<STATE_ID, TSTATE>)
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2__ctor_System_Collections_Generic_Dictionary__0__1__
+  commentId: M:UNKO.Utils.StateMachineGeneric`2.#ctor(System.Collections.Generic.Dictionary{`0,`1})
+  name.vb: StateMachineGeneric(Dictionary(Of STATE_ID, TSTATE))
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.StateMachineGeneric(System.Collections.Generic.Dictionary<STATE_ID, TSTATE>)
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).StateMachineGeneric(System.Collections.Generic.Dictionary(Of STATE_ID, TSTATE))
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.StateMachineGeneric(Dictionary<STATE_ID, TSTATE>)
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).StateMachineGeneric(Dictionary(Of STATE_ID, TSTATE))
+- uid: UNKO.Utils.StateMachineGeneric`2.#ctor*
+  name: StateMachineGeneric
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2__ctor_
+  commentId: Overload:UNKO.Utils.StateMachineGeneric`2.#ctor
+  isSpec: "True"
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.StateMachineGeneric
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).StateMachineGeneric
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.StateMachineGeneric
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).StateMachineGeneric
+- uid: UNKO.Utils.StateMachineGeneric`2._owner
+  name: _owner
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2__owner
+  commentId: F:UNKO.Utils.StateMachineGeneric`2._owner
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>._owner
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE)._owner
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>._owner
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE)._owner
+- uid: UNKO.Utils.StateMachineGeneric`2._stateInstance
+  name: _stateInstance
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2__stateInstance
+  commentId: F:UNKO.Utils.StateMachineGeneric`2._stateInstance
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>._stateInstance
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE)._stateInstance
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>._stateInstance
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE)._stateInstance
+- uid: UNKO.Utils.StateMachineGeneric`2.ChangeState(`0)
+  name: ChangeState(STATE_ID)
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2_ChangeState__0_
+  commentId: M:UNKO.Utils.StateMachineGeneric`2.ChangeState(`0)
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.ChangeState(STATE_ID)
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).ChangeState(STATE_ID)
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.ChangeState(STATE_ID)
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).ChangeState(STATE_ID)
+- uid: UNKO.Utils.StateMachineGeneric`2.ChangeState*
+  name: ChangeState
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2_ChangeState_
+  commentId: Overload:UNKO.Utils.StateMachineGeneric`2.ChangeState
+  isSpec: "True"
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.ChangeState
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).ChangeState
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.ChangeState
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).ChangeState
+- uid: UNKO.Utils.StateMachineGeneric`2.Clear
+  name: Clear()
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2_Clear
+  commentId: M:UNKO.Utils.StateMachineGeneric`2.Clear
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.Clear()
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).Clear()
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.Clear()
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).Clear()
+- uid: UNKO.Utils.StateMachineGeneric`2.Clear*
+  name: Clear
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2_Clear_
+  commentId: Overload:UNKO.Utils.StateMachineGeneric`2.Clear
+  isSpec: "True"
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.Clear
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).Clear
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.Clear
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).Clear
+- uid: UNKO.Utils.StateMachineGeneric`2.ClearQueue
+  name: ClearQueue()
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2_ClearQueue
+  commentId: M:UNKO.Utils.StateMachineGeneric`2.ClearQueue
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.ClearQueue()
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).ClearQueue()
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.ClearQueue()
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).ClearQueue()
+- uid: UNKO.Utils.StateMachineGeneric`2.ClearQueue*
+  name: ClearQueue
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2_ClearQueue_
+  commentId: Overload:UNKO.Utils.StateMachineGeneric`2.ClearQueue
+  isSpec: "True"
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.ClearQueue
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).ClearQueue
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.ClearQueue
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).ClearQueue
+- uid: UNKO.Utils.StateMachineGeneric`2.Command
+  name: StateMachineGeneric<STATE_ID, TSTATE>.Command
+  href: api/UNKO.Utils.StateMachineGeneric-2.Command.html
+  commentId: T:UNKO.Utils.StateMachineGeneric`2.Command
+  name.vb: StateMachineGeneric(Of STATE_ID, TSTATE).Command
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.Command
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).Command
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.Command
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).Command
+- uid: UNKO.Utils.StateMachineGeneric`2.Command.#ctor(UNKO.Utils.StateMachineGeneric{`0,`1}.CommandType)
+  name: Command(StateMachineGeneric<STATE_ID, TSTATE>.CommandType)
+  href: api/UNKO.Utils.StateMachineGeneric-2.Command.html#UNKO_Utils_StateMachineGeneric_2_Command__ctor_UNKO_Utils_StateMachineGeneric__0__1__CommandType_
+  commentId: M:UNKO.Utils.StateMachineGeneric`2.Command.#ctor(UNKO.Utils.StateMachineGeneric{`0,`1}.CommandType)
+  name.vb: Command(StateMachineGeneric(Of STATE_ID, TSTATE).CommandType)
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.Command.Command(UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.CommandType)
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).Command.Command(UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).CommandType)
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.Command.Command(StateMachineGeneric<STATE_ID, TSTATE>.CommandType)
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).Command.Command(StateMachineGeneric(Of STATE_ID, TSTATE).CommandType)
+- uid: UNKO.Utils.StateMachineGeneric`2.Command.#ctor(UNKO.Utils.StateMachineGeneric{`0,`1}.CommandType,`0)
+  name: Command(StateMachineGeneric<STATE_ID, TSTATE>.CommandType, STATE_ID)
+  href: api/UNKO.Utils.StateMachineGeneric-2.Command.html#UNKO_Utils_StateMachineGeneric_2_Command__ctor_UNKO_Utils_StateMachineGeneric__0__1__CommandType__0_
+  commentId: M:UNKO.Utils.StateMachineGeneric`2.Command.#ctor(UNKO.Utils.StateMachineGeneric{`0,`1}.CommandType,`0)
+  name.vb: Command(StateMachineGeneric(Of STATE_ID, TSTATE).CommandType, STATE_ID)
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.Command.Command(UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.CommandType, STATE_ID)
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).Command.Command(UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).CommandType, STATE_ID)
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.Command.Command(StateMachineGeneric<STATE_ID, TSTATE>.CommandType, STATE_ID)
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).Command.Command(StateMachineGeneric(Of STATE_ID, TSTATE).CommandType, STATE_ID)
+- uid: UNKO.Utils.StateMachineGeneric`2.Command.#ctor*
+  name: Command
+  href: api/UNKO.Utils.StateMachineGeneric-2.Command.html#UNKO_Utils_StateMachineGeneric_2_Command__ctor_
+  commentId: Overload:UNKO.Utils.StateMachineGeneric`2.Command.#ctor
+  isSpec: "True"
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.Command.Command
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).Command.Command
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.Command.Command
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).Command.Command
+- uid: UNKO.Utils.StateMachineGeneric`2.Command.commandType
+  name: commandType
+  href: api/UNKO.Utils.StateMachineGeneric-2.Command.html#UNKO_Utils_StateMachineGeneric_2_Command_commandType
+  commentId: P:UNKO.Utils.StateMachineGeneric`2.Command.commandType
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.Command.commandType
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).Command.commandType
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.Command.commandType
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).Command.commandType
+- uid: UNKO.Utils.StateMachineGeneric`2.Command.commandType*
+  name: commandType
+  href: api/UNKO.Utils.StateMachineGeneric-2.Command.html#UNKO_Utils_StateMachineGeneric_2_Command_commandType_
+  commentId: Overload:UNKO.Utils.StateMachineGeneric`2.Command.commandType
+  isSpec: "True"
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.Command.commandType
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).Command.commandType
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.Command.commandType
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).Command.commandType
+- uid: UNKO.Utils.StateMachineGeneric`2.Command.Equals(UNKO.Utils.StateMachineGeneric{`0,`1}.Command)
+  name: Equals(StateMachineGeneric<STATE_ID, TSTATE>.Command)
+  href: api/UNKO.Utils.StateMachineGeneric-2.Command.html#UNKO_Utils_StateMachineGeneric_2_Command_Equals_UNKO_Utils_StateMachineGeneric__0__1__Command_
+  commentId: M:UNKO.Utils.StateMachineGeneric`2.Command.Equals(UNKO.Utils.StateMachineGeneric{`0,`1}.Command)
+  name.vb: Equals(StateMachineGeneric(Of STATE_ID, TSTATE).Command)
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.Command.Equals(UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.Command)
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).Command.Equals(UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).Command)
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.Command.Equals(StateMachineGeneric<STATE_ID, TSTATE>.Command)
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).Command.Equals(StateMachineGeneric(Of STATE_ID, TSTATE).Command)
+- uid: UNKO.Utils.StateMachineGeneric`2.Command.Equals*
+  name: Equals
+  href: api/UNKO.Utils.StateMachineGeneric-2.Command.html#UNKO_Utils_StateMachineGeneric_2_Command_Equals_
+  commentId: Overload:UNKO.Utils.StateMachineGeneric`2.Command.Equals
+  isSpec: "True"
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.Command.Equals
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).Command.Equals
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.Command.Equals
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).Command.Equals
+- uid: UNKO.Utils.StateMachineGeneric`2.Command.stateID
+  name: stateID
+  href: api/UNKO.Utils.StateMachineGeneric-2.Command.html#UNKO_Utils_StateMachineGeneric_2_Command_stateID
+  commentId: P:UNKO.Utils.StateMachineGeneric`2.Command.stateID
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.Command.stateID
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).Command.stateID
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.Command.stateID
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).Command.stateID
+- uid: UNKO.Utils.StateMachineGeneric`2.Command.stateID*
+  name: stateID
+  href: api/UNKO.Utils.StateMachineGeneric-2.Command.html#UNKO_Utils_StateMachineGeneric_2_Command_stateID_
+  commentId: Overload:UNKO.Utils.StateMachineGeneric`2.Command.stateID
+  isSpec: "True"
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.Command.stateID
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).Command.stateID
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.Command.stateID
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).Command.stateID
+- uid: UNKO.Utils.StateMachineGeneric`2.CommandType
+  name: StateMachineGeneric<STATE_ID, TSTATE>.CommandType
+  href: api/UNKO.Utils.StateMachineGeneric-2.CommandType.html
+  commentId: T:UNKO.Utils.StateMachineGeneric`2.CommandType
+  name.vb: StateMachineGeneric(Of STATE_ID, TSTATE).CommandType
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.CommandType
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).CommandType
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.CommandType
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).CommandType
+- uid: UNKO.Utils.StateMachineGeneric`2.CommandType.Change
+  name: Change
+  href: api/UNKO.Utils.StateMachineGeneric-2.CommandType.html#UNKO_Utils_StateMachineGeneric_2_CommandType_Change
+  commentId: F:UNKO.Utils.StateMachineGeneric`2.CommandType.Change
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.CommandType.Change
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).CommandType.Change
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.CommandType.Change
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).CommandType.Change
+- uid: UNKO.Utils.StateMachineGeneric`2.CommandType.Finish
+  name: Finish
+  href: api/UNKO.Utils.StateMachineGeneric-2.CommandType.html#UNKO_Utils_StateMachineGeneric_2_CommandType_Finish
+  commentId: F:UNKO.Utils.StateMachineGeneric`2.CommandType.Finish
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.CommandType.Finish
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).CommandType.Finish
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.CommandType.Finish
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).CommandType.Finish
+- uid: UNKO.Utils.StateMachineGeneric`2.currentState
+  name: currentState
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2_currentState
+  commentId: P:UNKO.Utils.StateMachineGeneric`2.currentState
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.currentState
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).currentState
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.currentState
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).currentState
+- uid: UNKO.Utils.StateMachineGeneric`2.currentState*
+  name: currentState
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2_currentState_
+  commentId: Overload:UNKO.Utils.StateMachineGeneric`2.currentState
+  isSpec: "True"
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.currentState
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).currentState
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.currentState
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).currentState
+- uid: UNKO.Utils.StateMachineGeneric`2.currentStateID
+  name: currentStateID
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2_currentStateID
+  commentId: P:UNKO.Utils.StateMachineGeneric`2.currentStateID
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.currentStateID
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).currentStateID
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.currentStateID
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).currentStateID
+- uid: UNKO.Utils.StateMachineGeneric`2.currentStateID*
+  name: currentStateID
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2_currentStateID_
+  commentId: Overload:UNKO.Utils.StateMachineGeneric`2.currentStateID
+  isSpec: "True"
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.currentStateID
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).currentStateID
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.currentStateID
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).currentStateID
+- uid: UNKO.Utils.StateMachineGeneric`2.EnqueueToWaitQueue(`0[])
+  name: EnqueueToWaitQueue(STATE_ID[])
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2_EnqueueToWaitQueue__0___
+  commentId: M:UNKO.Utils.StateMachineGeneric`2.EnqueueToWaitQueue(`0[])
+  name.vb: EnqueueToWaitQueue(STATE_ID())
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.EnqueueToWaitQueue(STATE_ID[])
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).EnqueueToWaitQueue(STATE_ID())
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.EnqueueToWaitQueue(STATE_ID[])
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).EnqueueToWaitQueue(STATE_ID())
+- uid: UNKO.Utils.StateMachineGeneric`2.EnqueueToWaitQueue*
+  name: EnqueueToWaitQueue
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2_EnqueueToWaitQueue_
+  commentId: Overload:UNKO.Utils.StateMachineGeneric`2.EnqueueToWaitQueue
+  isSpec: "True"
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.EnqueueToWaitQueue
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).EnqueueToWaitQueue
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.EnqueueToWaitQueue
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).EnqueueToWaitQueue
+- uid: UNKO.Utils.StateMachineGeneric`2.FinishState
+  name: FinishState()
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2_FinishState
+  commentId: M:UNKO.Utils.StateMachineGeneric`2.FinishState
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.FinishState()
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).FinishState()
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.FinishState()
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).FinishState()
+- uid: UNKO.Utils.StateMachineGeneric`2.FinishState*
+  name: FinishState
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2_FinishState_
+  commentId: Overload:UNKO.Utils.StateMachineGeneric`2.FinishState
+  isSpec: "True"
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.FinishState
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).FinishState
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.FinishState
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).FinishState
+- uid: UNKO.Utils.StateMachineGeneric`2.ForEachState(System.Action{`1})
+  name: ForEachState(Action<TSTATE>)
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2_ForEachState_System_Action__1__
+  commentId: M:UNKO.Utils.StateMachineGeneric`2.ForEachState(System.Action{`1})
+  name.vb: ForEachState(Action(Of TSTATE))
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.ForEachState(System.Action<TSTATE>)
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).ForEachState(System.Action(Of TSTATE))
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.ForEachState(Action<TSTATE>)
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).ForEachState(Action(Of TSTATE))
+- uid: UNKO.Utils.StateMachineGeneric`2.ForEachState*
+  name: ForEachState
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2_ForEachState_
+  commentId: Overload:UNKO.Utils.StateMachineGeneric`2.ForEachState
+  isSpec: "True"
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.ForEachState
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).ForEachState
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.ForEachState
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).ForEachState
+- uid: UNKO.Utils.StateMachineGeneric`2.OnChangeState
+  name: OnChangeState
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2_OnChangeState
+  commentId: E:UNKO.Utils.StateMachineGeneric`2.OnChangeState
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.OnChangeState
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).OnChangeState
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.OnChangeState
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).OnChangeState
+- uid: UNKO.Utils.StateMachineGeneric`2.Start(MonoBehaviour,`0,`0[])
+  name: Start(MonoBehaviour, STATE_ID, STATE_ID[])
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2_Start_MonoBehaviour__0__0___
+  commentId: M:UNKO.Utils.StateMachineGeneric`2.Start(MonoBehaviour,`0,`0[])
+  name.vb: Start(MonoBehaviour, STATE_ID, STATE_ID())
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.Start(MonoBehaviour, STATE_ID, STATE_ID[])
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).Start(MonoBehaviour, STATE_ID, STATE_ID())
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.Start(MonoBehaviour, STATE_ID, STATE_ID[])
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).Start(MonoBehaviour, STATE_ID, STATE_ID())
+- uid: UNKO.Utils.StateMachineGeneric`2.Start*
+  name: Start
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2_Start_
+  commentId: Overload:UNKO.Utils.StateMachineGeneric`2.Start
+  isSpec: "True"
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.Start
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).Start
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.Start
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).Start
+- uid: UNKO.Utils.UnitytComponentPool`1
+  name: UnitytComponentPool<T>
+  href: api/UNKO.Utils.UnitytComponentPool-1.html
+  commentId: T:UNKO.Utils.UnitytComponentPool`1
+  name.vb: UnitytComponentPool(Of T)
+  fullName: UNKO.Utils.UnitytComponentPool<T>
+  fullName.vb: UNKO.Utils.UnitytComponentPool(Of T)
+  nameWithType: UnitytComponentPool<T>
+  nameWithType.vb: UnitytComponentPool(Of T)
+- uid: UNKO.Utils.UnitytComponentPool`1.#ctor(`0)
+  name: UnitytComponentPool(T)
+  href: api/UNKO.Utils.UnitytComponentPool-1.html#UNKO_Utils_UnitytComponentPool_1__ctor__0_
+  commentId: M:UNKO.Utils.UnitytComponentPool`1.#ctor(`0)
+  fullName: UNKO.Utils.UnitytComponentPool<T>.UnitytComponentPool(T)
+  fullName.vb: UNKO.Utils.UnitytComponentPool(Of T).UnitytComponentPool(T)
+  nameWithType: UnitytComponentPool<T>.UnitytComponentPool(T)
+  nameWithType.vb: UnitytComponentPool(Of T).UnitytComponentPool(T)
+- uid: UNKO.Utils.UnitytComponentPool`1.#ctor(`0,System.Int32)
+  name: UnitytComponentPool(T, Int32)
+  href: api/UNKO.Utils.UnitytComponentPool-1.html#UNKO_Utils_UnitytComponentPool_1__ctor__0_System_Int32_
+  commentId: M:UNKO.Utils.UnitytComponentPool`1.#ctor(`0,System.Int32)
+  fullName: UNKO.Utils.UnitytComponentPool<T>.UnitytComponentPool(T, System.Int32)
+  fullName.vb: UNKO.Utils.UnitytComponentPool(Of T).UnitytComponentPool(T, System.Int32)
+  nameWithType: UnitytComponentPool<T>.UnitytComponentPool(T, Int32)
+  nameWithType.vb: UnitytComponentPool(Of T).UnitytComponentPool(T, Int32)
+- uid: UNKO.Utils.UnitytComponentPool`1.#ctor(System.Func{`0})
+  name: UnitytComponentPool(Func<T>)
+  href: api/UNKO.Utils.UnitytComponentPool-1.html#UNKO_Utils_UnitytComponentPool_1__ctor_System_Func__0__
+  commentId: M:UNKO.Utils.UnitytComponentPool`1.#ctor(System.Func{`0})
+  name.vb: UnitytComponentPool(Func(Of T))
+  fullName: UNKO.Utils.UnitytComponentPool<T>.UnitytComponentPool(System.Func<T>)
+  fullName.vb: UNKO.Utils.UnitytComponentPool(Of T).UnitytComponentPool(System.Func(Of T))
+  nameWithType: UnitytComponentPool<T>.UnitytComponentPool(Func<T>)
+  nameWithType.vb: UnitytComponentPool(Of T).UnitytComponentPool(Func(Of T))
+- uid: UNKO.Utils.UnitytComponentPool`1.#ctor(System.Func{`0},System.Int32)
+  name: UnitytComponentPool(Func<T>, Int32)
+  href: api/UNKO.Utils.UnitytComponentPool-1.html#UNKO_Utils_UnitytComponentPool_1__ctor_System_Func__0__System_Int32_
+  commentId: M:UNKO.Utils.UnitytComponentPool`1.#ctor(System.Func{`0},System.Int32)
+  name.vb: UnitytComponentPool(Func(Of T), Int32)
+  fullName: UNKO.Utils.UnitytComponentPool<T>.UnitytComponentPool(System.Func<T>, System.Int32)
+  fullName.vb: UNKO.Utils.UnitytComponentPool(Of T).UnitytComponentPool(System.Func(Of T), System.Int32)
+  nameWithType: UnitytComponentPool<T>.UnitytComponentPool(Func<T>, Int32)
+  nameWithType.vb: UnitytComponentPool(Of T).UnitytComponentPool(Func(Of T), Int32)
+- uid: UNKO.Utils.UnitytComponentPool`1.#ctor*
+  name: UnitytComponentPool
+  href: api/UNKO.Utils.UnitytComponentPool-1.html#UNKO_Utils_UnitytComponentPool_1__ctor_
+  commentId: Overload:UNKO.Utils.UnitytComponentPool`1.#ctor
+  isSpec: "True"
+  fullName: UNKO.Utils.UnitytComponentPool<T>.UnitytComponentPool
+  fullName.vb: UNKO.Utils.UnitytComponentPool(Of T).UnitytComponentPool
+  nameWithType: UnitytComponentPool<T>.UnitytComponentPool
+  nameWithType.vb: UnitytComponentPool(Of T).UnitytComponentPool
+- uid: UNKO.Utils.UnitytComponentPool`1.OnRequireNewInstance(`0)
+  name: OnRequireNewInstance(T)
+  href: api/UNKO.Utils.UnitytComponentPool-1.html#UNKO_Utils_UnitytComponentPool_1_OnRequireNewInstance__0_
+  commentId: M:UNKO.Utils.UnitytComponentPool`1.OnRequireNewInstance(`0)
+  fullName: UNKO.Utils.UnitytComponentPool<T>.OnRequireNewInstance(T)
+  fullName.vb: UNKO.Utils.UnitytComponentPool(Of T).OnRequireNewInstance(T)
+  nameWithType: UnitytComponentPool<T>.OnRequireNewInstance(T)
+  nameWithType.vb: UnitytComponentPool(Of T).OnRequireNewInstance(T)
+- uid: UNKO.Utils.UnitytComponentPool`1.OnRequireNewInstance*
+  name: OnRequireNewInstance
+  href: api/UNKO.Utils.UnitytComponentPool-1.html#UNKO_Utils_UnitytComponentPool_1_OnRequireNewInstance_
+  commentId: Overload:UNKO.Utils.UnitytComponentPool`1.OnRequireNewInstance
+  isSpec: "True"
+  fullName: UNKO.Utils.UnitytComponentPool<T>.OnRequireNewInstance
+  fullName.vb: UNKO.Utils.UnitytComponentPool(Of T).OnRequireNewInstance
+  nameWithType: UnitytComponentPool<T>.OnRequireNewInstance
+  nameWithType.vb: UnitytComponentPool(Of T).OnRequireNewInstance
+- uid: UNKO.Utils.UnitytComponentPool`1.OnSpawn(`0)
+  name: OnSpawn(T)
+  href: api/UNKO.Utils.UnitytComponentPool-1.html#UNKO_Utils_UnitytComponentPool_1_OnSpawn__0_
+  commentId: M:UNKO.Utils.UnitytComponentPool`1.OnSpawn(`0)
+  fullName: UNKO.Utils.UnitytComponentPool<T>.OnSpawn(T)
+  fullName.vb: UNKO.Utils.UnitytComponentPool(Of T).OnSpawn(T)
+  nameWithType: UnitytComponentPool<T>.OnSpawn(T)
+  nameWithType.vb: UnitytComponentPool(Of T).OnSpawn(T)
+- uid: UNKO.Utils.UnitytComponentPool`1.OnSpawn*
+  name: OnSpawn
+  href: api/UNKO.Utils.UnitytComponentPool-1.html#UNKO_Utils_UnitytComponentPool_1_OnSpawn_
+  commentId: Overload:UNKO.Utils.UnitytComponentPool`1.OnSpawn
+  isSpec: "True"
+  fullName: UNKO.Utils.UnitytComponentPool<T>.OnSpawn
+  fullName.vb: UNKO.Utils.UnitytComponentPool(Of T).OnSpawn
+  nameWithType: UnitytComponentPool<T>.OnSpawn
+  nameWithType.vb: UnitytComponentPool(Of T).OnSpawn
+- uid: UNKO.Utils.UnitytComponentPool`1.SetParents(Transform)
+  name: SetParents(Transform)
+  href: api/UNKO.Utils.UnitytComponentPool-1.html#UNKO_Utils_UnitytComponentPool_1_SetParents_Transform_
+  commentId: M:UNKO.Utils.UnitytComponentPool`1.SetParents(Transform)
+  fullName: UNKO.Utils.UnitytComponentPool<T>.SetParents(Transform)
+  fullName.vb: UNKO.Utils.UnitytComponentPool(Of T).SetParents(Transform)
+  nameWithType: UnitytComponentPool<T>.SetParents(Transform)
+  nameWithType.vb: UnitytComponentPool(Of T).SetParents(Transform)
+- uid: UNKO.Utils.UnitytComponentPool`1.SetParents*
+  name: SetParents
+  href: api/UNKO.Utils.UnitytComponentPool-1.html#UNKO_Utils_UnitytComponentPool_1_SetParents_
+  commentId: Overload:UNKO.Utils.UnitytComponentPool`1.SetParents
+  isSpec: "True"
+  fullName: UNKO.Utils.UnitytComponentPool<T>.SetParents
+  fullName.vb: UNKO.Utils.UnitytComponentPool(Of T).SetParents
+  nameWithType: UnitytComponentPool<T>.SetParents
+  nameWithType.vb: UnitytComponentPool(Of T).SetParents
+- uid: UNKO.Utils.Unsubscriber`1
+  name: Unsubscriber<T>
+  href: api/UNKO.Utils.Unsubscriber-1.html
+  commentId: T:UNKO.Utils.Unsubscriber`1
+  name.vb: Unsubscriber(Of T)
+  fullName: UNKO.Utils.Unsubscriber<T>
+  fullName.vb: UNKO.Utils.Unsubscriber(Of T)
+  nameWithType: Unsubscriber<T>
+  nameWithType.vb: Unsubscriber(Of T)
+- uid: UNKO.Utils.Unsubscriber`1.Dispose
+  name: Dispose()
+  href: api/UNKO.Utils.Unsubscriber-1.html#UNKO_Utils_Unsubscriber_1_Dispose
+  commentId: M:UNKO.Utils.Unsubscriber`1.Dispose
+  fullName: UNKO.Utils.Unsubscriber<T>.Dispose()
+  fullName.vb: UNKO.Utils.Unsubscriber(Of T).Dispose()
+  nameWithType: Unsubscriber<T>.Dispose()
+  nameWithType.vb: Unsubscriber(Of T).Dispose()
+- uid: UNKO.Utils.Unsubscriber`1.Dispose*
+  name: Dispose
+  href: api/UNKO.Utils.Unsubscriber-1.html#UNKO_Utils_Unsubscriber_1_Dispose_
+  commentId: Overload:UNKO.Utils.Unsubscriber`1.Dispose
+  isSpec: "True"
+  fullName: UNKO.Utils.Unsubscriber<T>.Dispose
+  fullName.vb: UNKO.Utils.Unsubscriber(Of T).Dispose
+  nameWithType: Unsubscriber<T>.Dispose
+  nameWithType.vb: Unsubscriber(Of T).Dispose
+- uid: UNKO.Utils.Unsubscriber`1.Reset(HashSet{System.IObserver{`0}},System.IObserver{`0})
+  name: Reset(HashSet<IObserver<T>>, IObserver<T>)
+  href: api/UNKO.Utils.Unsubscriber-1.html#UNKO_Utils_Unsubscriber_1_Reset_HashSet_System_IObserver__0___System_IObserver__0__
+  commentId: M:UNKO.Utils.Unsubscriber`1.Reset(HashSet{System.IObserver{`0}},System.IObserver{`0})
+  name.vb: Reset(HashSet(Of IObserver(Of T)), IObserver(Of T))
+  fullName: UNKO.Utils.Unsubscriber<T>.Reset(HashSet<System.IObserver<T>>, System.IObserver<T>)
+  fullName.vb: UNKO.Utils.Unsubscriber(Of T).Reset(HashSet(Of System.IObserver(Of T)), System.IObserver(Of T))
+  nameWithType: Unsubscriber<T>.Reset(HashSet<IObserver<T>>, IObserver<T>)
+  nameWithType.vb: Unsubscriber(Of T).Reset(HashSet(Of IObserver(Of T)), IObserver(Of T))
+- uid: UNKO.Utils.Unsubscriber`1.Reset(HashSet{System.IObserver{`0}},System.IObserver{`0},System.Action{UNKO.Utils.Unsubscriber{`0}})
+  name: Reset(HashSet<IObserver<T>>, IObserver<T>, Action<Unsubscriber<T>>)
+  href: api/UNKO.Utils.Unsubscriber-1.html#UNKO_Utils_Unsubscriber_1_Reset_HashSet_System_IObserver__0___System_IObserver__0__System_Action_UNKO_Utils_Unsubscriber__0___
+  commentId: M:UNKO.Utils.Unsubscriber`1.Reset(HashSet{System.IObserver{`0}},System.IObserver{`0},System.Action{UNKO.Utils.Unsubscriber{`0}})
+  name.vb: Reset(HashSet(Of IObserver(Of T)), IObserver(Of T), Action(Of Unsubscriber(Of T)))
+  fullName: UNKO.Utils.Unsubscriber<T>.Reset(HashSet<System.IObserver<T>>, System.IObserver<T>, System.Action<UNKO.Utils.Unsubscriber<T>>)
+  fullName.vb: UNKO.Utils.Unsubscriber(Of T).Reset(HashSet(Of System.IObserver(Of T)), System.IObserver(Of T), System.Action(Of UNKO.Utils.Unsubscriber(Of T)))
+  nameWithType: Unsubscriber<T>.Reset(HashSet<IObserver<T>>, IObserver<T>, Action<Unsubscriber<T>>)
+  nameWithType.vb: Unsubscriber(Of T).Reset(HashSet(Of IObserver(Of T)), IObserver(Of T), Action(Of Unsubscriber(Of T)))
+- uid: UNKO.Utils.Unsubscriber`1.Reset*
+  name: Reset
+  href: api/UNKO.Utils.Unsubscriber-1.html#UNKO_Utils_Unsubscriber_1_Reset_
+  commentId: Overload:UNKO.Utils.Unsubscriber`1.Reset
+  isSpec: "True"
+  fullName: UNKO.Utils.Unsubscriber<T>.Reset
+  fullName.vb: UNKO.Utils.Unsubscriber(Of T).Reset
+  nameWithType: Unsubscriber<T>.Reset
+  nameWithType.vb: Unsubscriber(Of T).Reset
