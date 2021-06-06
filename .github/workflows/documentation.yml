@@ -22,6 +22,10 @@ jobs:
         run: |
           cp Packages/${{ github.event.repository.name }}/README.md Documentation/index.md
 
+      # csproj 생성
+      - name: Generate Solution
+        run: unity-editor -nographics -logFile /dev/stdout -customBuildName $PROJECT_NAME -projectPath . -executeMethod  UnityEditor.SyncVS.SyncSolution -quit
+
       - name: Build
         run: docfx Documentation/docfx.json
 

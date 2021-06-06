@@ -1,19 +1,10 @@
 ﻿{
-  "sitemap": {
-    "baseUrl": "https://unity-korea-community.github.io/unity-utils",
-    "changefreq": "weekly",
-    "fileOptions": {
-      "api/*": {
-        "changefreq": "daily"
-      }
-    }
-  },
   "metadata": [
     {
       "src": [
         {
           "src": "..",
-          "files": ["Packages/unity-utils/**/*.cs"]
+          "files": ["*.csproj"]
         }
       ],
       "globalNamespaceId": "Global",
