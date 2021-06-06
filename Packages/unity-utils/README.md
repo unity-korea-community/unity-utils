@@ -1,7 +1,13 @@
 # unity-utils
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![CodeFactor](https://www.codefactor.io/repository/github/unity-korea-community/unity-utils/badge)](https://www.codefactor.io/repository/github/unity-korea-community/unity-utils)
+[![CodacyBadge](https://api.codacy.com/project/badge/Grade/7edcab32b58346089dc9fd84caff2bd8)](https://app.codacy.com/gh/unity-korea-community/unity-utils?utm_source=github.com&utm_medium=referral&utm_content=unity-korea-community/unity-utils&utm_campaign=Badge_Grade_Settings)
 ![release](https://img.shields.io/github/v/release/unity-korea-community/unity-utils)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7edcab32b58346089dc9fd84caff2bd8)](https://app.codacy.com/gh/unity-korea-community/unity-utils?utm_source=github.com&utm_medium=referral&utm_content=unity-korea-community/unity-utils&utm_campaign=Badge_Grade_Settings)
+[![Discord](https://img.shields.io/discord/591914197219016707.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/FKXA2yzR)
+
+### CI Status
+
 [![CI_SONAR_CLOUD](https://github.com/unity-korea-community/unity-utils/actions/workflows/sonarcloud-analysis.yml/badge.svg?branch=workspace)](https://github.com/unity-korea-community/unity-utils/actions/workflows/sonarcloud-analysis.yml)
 
 ## 소개
