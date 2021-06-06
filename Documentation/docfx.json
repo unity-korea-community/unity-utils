@@ -8,12 +8,6 @@
       }
     }
   },
-  "overwrite": [
-    {
-      "src": "..",
-      "files": ["Packages/unity-utils/**/*.md"]
-    }
-  ],
   "metadata": [
     {
       "src": [
