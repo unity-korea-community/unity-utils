@@ -84,7 +84,9 @@ jobs:
           node-version: '14'
 
       - name: Generate Solution
-        run: unity-editor -nographics -logFile /dev/stdout -customBuildName $PROJECT_NAME -projectPath . -executeMethod  UnityEditor.SyncVS.SyncSolution -quit
+        run: |
+          find . -name '*.csproj' #-delete
+          unity-editor -nographics -logFile /dev/stdout -customBuildName $PROJECT_NAME -projectPath . -executeMethod  UnityEditor.SyncVS.SyncSolution -quit
 
       - name: SonarQube analysis
         env:
