@@ -1304,6 +1304,23 @@ references:
   fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).ChangeState
   nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.ChangeState
   nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).ChangeState
+- uid: UNKO.Utils.StateMachineGeneric`2.ChangeStateImmediately(`0)
+  name: ChangeStateImmediately(STATE_ID)
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2_ChangeStateImmediately__0_
+  commentId: M:UNKO.Utils.StateMachineGeneric`2.ChangeStateImmediately(`0)
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.ChangeStateImmediately(STATE_ID)
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).ChangeStateImmediately(STATE_ID)
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.ChangeStateImmediately(STATE_ID)
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).ChangeStateImmediately(STATE_ID)
+- uid: UNKO.Utils.StateMachineGeneric`2.ChangeStateImmediately*
+  name: ChangeStateImmediately
+  href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2_ChangeStateImmediately_
+  commentId: Overload:UNKO.Utils.StateMachineGeneric`2.ChangeStateImmediately
+  isSpec: "True"
+  fullName: UNKO.Utils.StateMachineGeneric<STATE_ID, TSTATE>.ChangeStateImmediately
+  fullName.vb: UNKO.Utils.StateMachineGeneric(Of STATE_ID, TSTATE).ChangeStateImmediately
+  nameWithType: StateMachineGeneric<STATE_ID, TSTATE>.ChangeStateImmediately
+  nameWithType.vb: StateMachineGeneric(Of STATE_ID, TSTATE).ChangeStateImmediately
 - uid: UNKO.Utils.StateMachineGeneric`2.Clear
   name: Clear()
   href: api/UNKO.Utils.StateMachineGeneric-2.html#UNKO_Utils_StateMachineGeneric_2_Clear
