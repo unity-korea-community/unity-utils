@@ -97,7 +97,6 @@ namespace UNKO.Utils
             _owner.StartCoroutine(UpdateCoroutine());
         }
 
-
         /// <summary>
         /// 스테이트를 다음 스테이트로 변경합니다.
         /// </summary>
@@ -106,10 +105,25 @@ namespace UNKO.Utils
         {
             if (_debug)
             {
-                Debug.Log($"{_owner.name}.FSM.ChangeState changeState:{state}, wait:{_waitQueue.ToStringCollection()}", _owner);
+                Debug.Log($"{_owner.name}.FSM.{nameof(ChangeState)} changeState:{state}, wait:{_waitQueue.ToStringCollection()}", _owner);
             }
 
             _commandQueue.Add(new Command(CommandType.Change, state));
+        }
+
+        /// <summary>
+        /// 스테이트를 다음 스테이트로 즉시 변경합니다.
+        /// </summary>
+        /// <param name="state">변경할 스테이트</param>
+        public void ChangeStateImmediately(STATE_ID state)
+        {
+            if (_debug)
+            {
+                Debug.Log($"{_owner.name}.FSM.{nameof(ChangeStateImmediately)} changeState:{state}, wait:{_waitQueue.ToStringCollection()}", _owner);
+            }
+
+            OnFinishState();
+            OnStartState(state);
         }
 
         /// <summary>
