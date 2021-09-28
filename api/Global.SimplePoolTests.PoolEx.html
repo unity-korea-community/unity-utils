@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class SimplePoolTests.PoolEx
    | Example Unity documentation ">
-    <meta name="generator" content="docfx 2.57.2.0">
+    <meta name="generator" content="docfx 2.58.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -91,31 +91,41 @@
     <div class="level1"><a class="xref" href="UNKO.Utils.SimplePool-1.html">SimplePool</a>&lt;<a class="xref" href="Global.SimplePoolTests.SimplePoolTarget.html">SimplePoolTests.SimplePoolTarget</a>&gt;</div>
     <div class="level2"><span class="xref">SimplePoolTests.PoolEx</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
       <a class="xref" href="UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1__allInstance">SimplePool&lt;SimplePoolTests.SimplePoolTarget&gt;._allInstance</a>
     </div>
     <div>
-      <a class="xref" href="UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_allInstance">SimplePool&lt;SimplePoolTests.SimplePoolTarget&gt;.allInstance</a>
+      <a class="xref" href="UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_AllInstance">SimplePool&lt;SimplePoolTests.SimplePoolTarget&gt;.AllInstance</a>
     </div>
     <div>
       <a class="xref" href="UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1__use">SimplePool&lt;SimplePoolTests.SimplePoolTarget&gt;._use</a>
     </div>
     <div>
-      <a class="xref" href="UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_use">SimplePool&lt;SimplePoolTests.SimplePoolTarget&gt;.use</a>
+      <a class="xref" href="UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_Use">SimplePool&lt;SimplePoolTests.SimplePoolTarget&gt;.Use</a>
     </div>
     <div>
       <a class="xref" href="UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1__notUse">SimplePool&lt;SimplePoolTests.SimplePoolTarget&gt;._notUse</a>
     </div>
     <div>
-      <a class="xref" href="UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_notUse">SimplePool&lt;SimplePoolTests.SimplePoolTarget&gt;.notUse</a>
+      <a class="xref" href="UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_NotUse">SimplePool&lt;SimplePoolTests.SimplePoolTarget&gt;.NotUse</a>
     </div>
     <div>
-      <a class="xref" href="UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1__originItem">SimplePool&lt;SimplePoolTests.SimplePoolTarget&gt;._originItem</a>
+      <a class="xref" href="UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_OriginItem">SimplePool&lt;SimplePoolTests.SimplePoolTarget&gt;.OriginItem</a>
     </div>
     <div>
       <a class="xref" href="UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1__OnCreateInstance">SimplePool&lt;SimplePoolTests.SimplePoolTarget&gt;._OnCreateInstance</a>
+    </div>
+    <div>
+      <a class="xref" href="UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_PrePooling_System_Int32_">SimplePool&lt;SimplePoolTests.SimplePoolTarget&gt;.PrePooling(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_IsEmptyPool">SimplePool&lt;SimplePoolTests.SimplePoolTarget&gt;.IsEmptyPool()</a>
     </div>
     <div>
       <a class="xref" href="UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_Spawn">SimplePool&lt;SimplePoolTests.SimplePoolTarget&gt;.Spawn()</a>
@@ -127,6 +137,9 @@
       <a class="xref" href="UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_DeSpawnAll">SimplePool&lt;SimplePoolTests.SimplePoolTarget&gt;.DeSpawnAll()</a>
     </div>
     <div>
+      <a class="xref" href="UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_OnDisposeItem__0_">SimplePool&lt;SimplePoolTests.SimplePoolTarget&gt;.OnDisposeItem(SimplePoolTests.SimplePoolTarget)</a>
+    </div>
+    <div>
       <a class="xref" href="UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_OnSpawn__0_">SimplePool&lt;SimplePoolTests.SimplePoolTarget&gt;.OnSpawn(SimplePoolTests.SimplePoolTarget)</a>
     </div>
     <div>
@@ -134,6 +147,9 @@
     </div>
     <div>
       <a class="xref" href="UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_Init__0_System_Int32_">SimplePool&lt;SimplePoolTests.SimplePoolTarget&gt;.Init(SimplePoolTests.SimplePoolTarget, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UNKO.Utils.SimplePool-1.html#UNKO_Utils_SimplePool_1_Dispose">SimplePool&lt;SimplePoolTests.SimplePoolTarget&gt;.Dispose()</a>
     </div>
     <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
@@ -161,7 +177,7 @@
   <h6><strong>Assembly</strong>: unko.unity-utils.runtime.tests.dll</h6>
   <h5 id="Global_SimplePoolTests_PoolEx_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PoolEx : SimplePool&lt;SimplePoolTests.SimplePoolTarget&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class PoolEx : SimplePool&lt;SimplePoolTests.SimplePoolTarget&gt;, IDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -248,6 +264,10 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">UNKO.Utils.SimplePool&lt;SimplePoolTests.SimplePoolTarget&gt;.OnRequireNewInstance(SimplePoolTests.SimplePoolTarget)</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
+  </div>
 <div id="disqus_thread"></div>
                 <script>
                 (function() { // DON'T EDIT BELOW THIS LINE

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class SimplePool&lt;T&gt;
    | Example Unity documentation ">
-    <meta name="generator" content="docfx 2.57.2.0">
+    <meta name="generator" content="docfx 2.58.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -90,7 +90,10 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">SimplePool&lt;T&gt;</span></div>
       <div class="level2"><a class="xref" href="Global.SimplePoolTests.PoolEx.html">SimplePoolTests.PoolEx</a></div>
-      <div class="level2"><a class="xref" href="UNKO.Utils.UnitytComponentPool-1.html">UnitytComponentPool&lt;T&gt;</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -120,8 +123,7 @@
   <h6><strong>Assembly</strong>: unko.unity-utils.runtime.dll</h6>
   <h5 id="UNKO_Utils_SimplePool_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SimplePool&lt;T&gt;
-    where T : class</code></pre>
+    <pre><code class="lang-csharp hljs">public class SimplePool&lt;T&gt; : IDisposable where T : class</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -145,7 +147,7 @@
     <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1__ctor__0_.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601.%23ctor(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L17">View Source</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L22">View Source</a>
   </span>
   <a id="UNKO_Utils_SimplePool_1__ctor_" data-uid="UNKO.Utils.SimplePool`1.#ctor*"></a>
   <h4 id="UNKO_Utils_SimplePool_1__ctor__0_" data-uid="UNKO.Utils.SimplePool`1.#ctor(`0)">SimplePool(T)</h4>
@@ -177,7 +179,7 @@
     <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1__ctor__0_System_Int32_.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601.%23ctor(%600%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L23">View Source</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L28">View Source</a>
   </span>
   <a id="UNKO_Utils_SimplePool_1__ctor_" data-uid="UNKO.Utils.SimplePool`1.#ctor*"></a>
   <h4 id="UNKO_Utils_SimplePool_1__ctor__0_System_Int32_" data-uid="UNKO.Utils.SimplePool`1.#ctor(`0,System.Int32)">SimplePool(T, Int32)</h4>
@@ -214,7 +216,7 @@
     <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1__ctor_System_Func__0__.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601.%23ctor(System.Func%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L29">View Source</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L34">View Source</a>
   </span>
   <a id="UNKO_Utils_SimplePool_1__ctor_" data-uid="UNKO.Utils.SimplePool`1.#ctor*"></a>
   <h4 id="UNKO_Utils_SimplePool_1__ctor_System_Func__0__" data-uid="UNKO.Utils.SimplePool`1.#ctor(System.Func{`0})">SimplePool(Func&lt;T&gt;)</h4>
@@ -246,7 +248,7 @@
     <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1__ctor_System_Func__0__System_Int32_.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601.%23ctor(System.Func%7B%600%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L35">View Source</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L40">View Source</a>
   </span>
   <a id="UNKO_Utils_SimplePool_1__ctor_" data-uid="UNKO.Utils.SimplePool`1.#ctor*"></a>
   <h4 id="UNKO_Utils_SimplePool_1__ctor_System_Func__0__System_Int32_" data-uid="UNKO.Utils.SimplePool`1.#ctor(System.Func{`0},System.Int32)">SimplePool(Func&lt;T&gt;, Int32)</h4>
@@ -285,7 +287,7 @@
     <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1__allInstance.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601._allInstance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L10">View Source</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L12">View Source</a>
   </span>
   <h4 id="UNKO_Utils_SimplePool_1__allInstance" data-uid="UNKO.Utils.SimplePool`1._allInstance">_allInstance</h4>
   <div class="markdown level1 summary"></div>
@@ -314,7 +316,7 @@
     <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1__notUse.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601._notUse%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L12">View Source</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L16">View Source</a>
   </span>
   <h4 id="UNKO_Utils_SimplePool_1__notUse" data-uid="UNKO.Utils.SimplePool`1._notUse">_notUse</h4>
   <div class="markdown level1 summary"></div>
@@ -343,7 +345,7 @@
     <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1__OnCreateInstance.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601._OnCreateInstance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L15">View Source</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L20">View Source</a>
   </span>
   <h4 id="UNKO_Utils_SimplePool_1__OnCreateInstance" data-uid="UNKO.Utils.SimplePool`1._OnCreateInstance">_OnCreateInstance</h4>
   <div class="markdown level1 summary"></div>
@@ -372,7 +374,7 @@
     <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1__use.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601._use%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L11">View Source</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L14">View Source</a>
   </span>
   <h4 id="UNKO_Utils_SimplePool_1__use" data-uid="UNKO.Utils.SimplePool`1._use">_use</h4>
   <div class="markdown level1 summary"></div>
@@ -400,18 +402,78 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1__originItem.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601._originItem%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1_AllInstance.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601.AllInstance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L14">View Source</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L12">View Source</a>
   </span>
-  <a id="UNKO_Utils_SimplePool_1__originItem_" data-uid="UNKO.Utils.SimplePool`1._originItem*"></a>
-  <h4 id="UNKO_Utils_SimplePool_1__originItem" data-uid="UNKO.Utils.SimplePool`1._originItem">_originItem</h4>
+  <a id="UNKO_Utils_SimplePool_1_AllInstance_" data-uid="UNKO.Utils.SimplePool`1.AllInstance*"></a>
+  <h4 id="UNKO_Utils_SimplePool_1_AllInstance" data-uid="UNKO.Utils.SimplePool`1.AllInstance">AllInstance</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected T _originItem { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;T&gt; AllInstance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1_NotUse.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601.NotUse%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L16">View Source</a>
+  </span>
+  <a id="UNKO_Utils_SimplePool_1_NotUse_" data-uid="UNKO.Utils.SimplePool`1.NotUse*"></a>
+  <h4 id="UNKO_Utils_SimplePool_1_NotUse" data-uid="UNKO.Utils.SimplePool`1.NotUse">NotUse</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;T&gt; NotUse { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1_OriginItem.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601.OriginItem%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L19">View Source</a>
+  </span>
+  <a id="UNKO_Utils_SimplePool_1_OriginItem_" data-uid="UNKO.Utils.SimplePool`1.OriginItem*"></a>
+  <h4 id="UNKO_Utils_SimplePool_1_OriginItem" data-uid="UNKO.Utils.SimplePool`1.OriginItem">OriginItem</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T OriginItem { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -430,78 +492,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1_allInstance.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601.allInstance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1_Use.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601.Use%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L10">View Source</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L14">View Source</a>
   </span>
-  <a id="UNKO_Utils_SimplePool_1_allInstance_" data-uid="UNKO.Utils.SimplePool`1.allInstance*"></a>
-  <h4 id="UNKO_Utils_SimplePool_1_allInstance" data-uid="UNKO.Utils.SimplePool`1.allInstance">allInstance</h4>
+  <a id="UNKO_Utils_SimplePool_1_Use_" data-uid="UNKO.Utils.SimplePool`1.Use*"></a>
+  <h4 id="UNKO_Utils_SimplePool_1_Use" data-uid="UNKO.Utils.SimplePool`1.Use">Use</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;T&gt; allInstance { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;T&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1_notUse.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601.notUse%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L12">View Source</a>
-  </span>
-  <a id="UNKO_Utils_SimplePool_1_notUse_" data-uid="UNKO.Utils.SimplePool`1.notUse*"></a>
-  <h4 id="UNKO_Utils_SimplePool_1_notUse" data-uid="UNKO.Utils.SimplePool`1.notUse">notUse</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;T&gt; notUse { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;T&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1_use.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601.use%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L11">View Source</a>
-  </span>
-  <a id="UNKO_Utils_SimplePool_1_use_" data-uid="UNKO.Utils.SimplePool`1.use*"></a>
-  <h4 id="UNKO_Utils_SimplePool_1_use" data-uid="UNKO.Utils.SimplePool`1.use">use</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;T&gt; use { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;T&gt; Use { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -525,7 +527,7 @@
     <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1_DeSpawn__0_.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601.DeSpawn(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L61">View Source</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L79">View Source</a>
   </span>
   <a id="UNKO_Utils_SimplePool_1_DeSpawn_" data-uid="UNKO.Utils.SimplePool`1.DeSpawn*"></a>
   <h4 id="UNKO_Utils_SimplePool_1_DeSpawn__0_" data-uid="UNKO.Utils.SimplePool`1.DeSpawn(`0)">DeSpawn(T)</h4>
@@ -557,7 +559,7 @@
     <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1_DeSpawnAll.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601.DeSpawnAll%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L73">View Source</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L97">View Source</a>
   </span>
   <a id="UNKO_Utils_SimplePool_1_DeSpawnAll_" data-uid="UNKO.Utils.SimplePool`1.DeSpawnAll*"></a>
   <h4 id="UNKO_Utils_SimplePool_1_DeSpawnAll" data-uid="UNKO.Utils.SimplePool`1.DeSpawnAll">DeSpawnAll()</h4>
@@ -569,10 +571,25 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1_Dispose.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L117">View Source</a>
+  </span>
+  <a id="UNKO_Utils_SimplePool_1_Dispose_" data-uid="UNKO.Utils.SimplePool`1.Dispose*"></a>
+  <h4 id="UNKO_Utils_SimplePool_1_Dispose" data-uid="UNKO.Utils.SimplePool`1.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Dispose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1_Init__0_System_Int32_.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601.Init(%600%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L85">View Source</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L111">View Source</a>
   </span>
   <a id="UNKO_Utils_SimplePool_1_Init_" data-uid="UNKO.Utils.SimplePool`1.Init*"></a>
   <h4 id="UNKO_Utils_SimplePool_1_Init__0_System_Int32_" data-uid="UNKO.Utils.SimplePool`1.Init(`0,System.Int32)">Init(T, Int32)</h4>
@@ -606,10 +623,40 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1_IsEmptyPool.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601.IsEmptyPool%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L56">View Source</a>
+  </span>
+  <a id="UNKO_Utils_SimplePool_1_IsEmptyPool_" data-uid="UNKO.Utils.SimplePool`1.IsEmptyPool*"></a>
+  <h4 id="UNKO_Utils_SimplePool_1_IsEmptyPool" data-uid="UNKO.Utils.SimplePool`1.IsEmptyPool">IsEmptyPool()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEmptyPool()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1_OnDespawn__0_.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601.OnDespawn(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L83">View Source</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L109">View Source</a>
   </span>
   <a id="UNKO_Utils_SimplePool_1_OnDespawn_" data-uid="UNKO.Utils.SimplePool`1.OnDespawn*"></a>
   <h4 id="UNKO_Utils_SimplePool_1_OnDespawn__0_" data-uid="UNKO.Utils.SimplePool`1.OnDespawn(`0)">OnDespawn(T)</h4>
@@ -638,10 +685,42 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1_OnDisposeItem__0_.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601.OnDisposeItem(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L105">View Source</a>
+  </span>
+  <a id="UNKO_Utils_SimplePool_1_OnDisposeItem_" data-uid="UNKO.Utils.SimplePool`1.OnDisposeItem*"></a>
+  <h4 id="UNKO_Utils_SimplePool_1_OnDisposeItem__0_" data-uid="UNKO.Utils.SimplePool`1.OnDisposeItem(`0)">OnDisposeItem(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnDisposeItem(T item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1_OnRequireNewInstance__0_.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601.OnRequireNewInstance(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L81">View Source</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L107">View Source</a>
   </span>
   <a id="UNKO_Utils_SimplePool_1_OnRequireNewInstance_" data-uid="UNKO.Utils.SimplePool`1.OnRequireNewInstance*"></a>
   <h4 id="UNKO_Utils_SimplePool_1_OnRequireNewInstance__0_" data-uid="UNKO.Utils.SimplePool`1.OnRequireNewInstance(`0)">OnRequireNewInstance(T)</h4>
@@ -688,7 +767,7 @@
     <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1_OnSpawn__0_.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601.OnSpawn(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L82">View Source</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L108">View Source</a>
   </span>
   <a id="UNKO_Utils_SimplePool_1_OnSpawn_" data-uid="UNKO.Utils.SimplePool`1.OnSpawn*"></a>
   <h4 id="UNKO_Utils_SimplePool_1_OnSpawn__0_" data-uid="UNKO.Utils.SimplePool`1.OnSpawn(`0)">OnSpawn(T)</h4>
@@ -717,10 +796,42 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1_PrePooling_System_Int32_.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601.PrePooling(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L46">View Source</a>
+  </span>
+  <a id="UNKO_Utils_SimplePool_1_PrePooling_" data-uid="UNKO.Utils.SimplePool`1.PrePooling*"></a>
+  <h4 id="UNKO_Utils_SimplePool_1_PrePooling_System_Int32_" data-uid="UNKO.Utils.SimplePool`1.PrePooling(System.Int32)">PrePooling(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PrePooling(int prePoolCount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">prePoolCount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1_Spawn.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601.Spawn%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L41">View Source</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L59">View Source</a>
   </span>
   <a id="UNKO_Utils_SimplePool_1_Spawn_" data-uid="UNKO.Utils.SimplePool`1.Spawn*"></a>
   <h4 id="UNKO_Utils_SimplePool_1_Spawn" data-uid="UNKO.Utils.SimplePool`1.Spawn">Spawn()</h4>
@@ -745,6 +856,10 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
+  </div>
 <div id="disqus_thread"></div>
                 <script>
                 (function() { // DON'T EDIT BELOW THIS LINE
@@ -766,7 +881,7 @@
                     <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_SimplePool_1.md&amp;value=---%0Auid%3A%20UNKO.Utils.SimplePool%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L7" class="contribution-link">View Source</a>
+                    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/SimplePool.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                   <li>
                     <a href="#disqus_thread" class="contribution-link">0 Comments</a>
