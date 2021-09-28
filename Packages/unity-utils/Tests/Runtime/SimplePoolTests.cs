@@ -8,26 +8,26 @@ public class SimplePoolTests
 {
     public class SimplePoolTarget
     {
-        public static int instanceCount { get; private set; }
+        public static int InstanceCount { get; private set; }
 
         public static void Reset_InstanceCount()
         {
-            instanceCount = 0;
+            InstanceCount = 0;
         }
 
         static public class Factory
         {
             static public SimplePoolTarget CreateInstance_FromFactory()
             {
-                return new SimplePoolTarget { isCreateFromFactory = true };
+                return new SimplePoolTarget { IsCreateFromFactory = true };
             }
         }
 
-        public bool isCreateFromFactory { get; private set; }
+        public bool IsCreateFromFactory { get; private set; }
 
         public SimplePoolTarget()
         {
-            instanceCount++;
+            InstanceCount++;
         }
     }
 
@@ -40,8 +40,8 @@ public class SimplePoolTests
         int instanceCount = Random.Range(1, 10);
         SimplePool<SimplePoolTarget> pool = new SimplePool<SimplePoolTarget>(origin, instanceCount);
 
-        Assert.AreEqual(pool.allInstance.Count, instanceCount);
-        Assert.AreEqual(SimplePoolTarget.instanceCount, instanceCount);
+        Assert.AreEqual(pool.AllInstance.Count, instanceCount);
+        Assert.AreEqual(SimplePoolTarget.InstanceCount, instanceCount);
     }
 
     [Test]
@@ -66,9 +66,9 @@ public class SimplePoolTests
             }
         }
 
-        Assert.AreEqual(pool.allInstance.Count, totalInstanceCount);
-        Assert.AreEqual(pool.use.Count, 0);
-        Assert.AreEqual(pool.notUse.Count, totalInstanceCount);
+        Assert.AreEqual(pool.AllInstance.Count, totalInstanceCount);
+        Assert.AreEqual(pool.Use.Count, 0);
+        Assert.AreEqual(pool.NotUse.Count, totalInstanceCount);
     }
 
     public class PoolEx : SimplePool<SimplePoolTarget>
@@ -89,9 +89,9 @@ public class SimplePoolTests
         SimplePoolTarget.Reset_InstanceCount();
         int instanceCount = Random.Range(1, 10);
         PoolEx poolEx = new PoolEx(instanceCount);
-        Assert.AreEqual(poolEx.allInstance.Count, instanceCount);
+        Assert.AreEqual(poolEx.AllInstance.Count, instanceCount);
 
         SimplePoolTarget target = poolEx.Spawn();
-        Assert.AreEqual(target.isCreateFromFactory, true);
+        Assert.AreEqual(target.IsCreateFromFactory, true);
     }
 }

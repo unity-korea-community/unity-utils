@@ -7,24 +7,24 @@ public class DataSenderTests
 {
     public class TestData
     {
-        public string stringData { get; private set; }
-        public int numberData { get; private set; }
+        public string StringData { get; private set; }
+        public int NumberData { get; private set; }
 
         public TestData(int numberData)
         {
-            this.stringData = numberData.ToString();
-            this.numberData = numberData;
+            this.StringData = numberData.ToString();
+            this.NumberData = numberData;
         }
     }
 
     public class TestSender : MonoBehaviour
     {
-        public DataSender<TestData> sender { get; private set; } = new DataSender<TestData>();
+        public DataSender<TestData> Sender { get; private set; } = new DataSender<TestData>();
     }
 
     public class TestReceiver : MonoBehaviour, IObserver<TestData>
     {
-        public TestData data { get; private set; }
+        public TestData Data { get; private set; }
 
         public void OnCompleted()
         {
@@ -38,7 +38,7 @@ public class DataSenderTests
 
         public void OnNext(TestData value)
         {
-            this.data = value;
+            this.Data = value;
         }
     }
 
@@ -49,14 +49,14 @@ public class DataSenderTests
         TestSender senderComponent = new GameObject(nameof(TestSender)).AddComponent<TestSender>();
         TestReceiver receiverComponent = new GameObject(nameof(TestReceiver)).AddComponent<TestReceiver>();
         receiverComponent.transform.SetParent(senderComponent.transform);
-        senderComponent.sender.InitChildrenComponents(senderComponent);
+        senderComponent.Sender.InitChildrenComponents(senderComponent);
 
         // Act
         TestData testData = new TestData(UnityEngine.Random.Range(1, 100));
-        senderComponent.sender.SendData(testData);
+        senderComponent.Sender.SendData(testData);
 
         // Assert
-        Assert.AreEqual(receiverComponent.data.stringData, testData.stringData);
-        Assert.AreEqual(receiverComponent.data.numberData, testData.numberData);
+        Assert.AreEqual(receiverComponent.Data.StringData, testData.StringData);
+        Assert.AreEqual(receiverComponent.Data.NumberData, testData.NumberData);
     }
 }

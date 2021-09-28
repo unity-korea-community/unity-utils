@@ -29,29 +29,29 @@ namespace UNKO.Utils
         [System.Serializable]
         public struct Command : System.IEquatable<Command>
         {
-            public CommandType commandType { get; private set; }
-            public STATE_ID stateID { get; private set; }
+            public CommandType CommandType { get; private set; }
+            public STATE_ID StateID { get; private set; }
 
             public Command(CommandType commandType)
             {
-                this.commandType = commandType;
-                stateID = default;
+                this.CommandType = commandType;
+                StateID = default;
             }
 
             public Command(CommandType commandType, STATE_ID stateID)
             {
-                this.commandType = commandType;
-                this.stateID = stateID;
+                this.CommandType = commandType;
+                this.StateID = stateID;
             }
 
             public bool Equals(Command other)
             {
-                if (commandType.Equals(other.commandType) == false)
+                if (CommandType.Equals(other.CommandType) == false)
                 {
                     return false;
                 }
 
-                return stateID.Equals(other.stateID);
+                return StateID.Equals(other.StateID);
             }
         }
 
@@ -60,11 +60,11 @@ namespace UNKO.Utils
         [SerializeField]
         private bool _debug;
 
-        public STATE_ID currentStateID => _currentStateID;
+        public STATE_ID CurrentStateID => _currentStateID;
         [SerializeField]
         private STATE_ID _currentStateID;
 
-        public TSTATE currentState { get; private set; }
+        public TSTATE CurrentState { get; private set; }
         protected MonoBehaviour _owner;
         protected Dictionary<STATE_ID, TSTATE> _stateInstance;
 
@@ -157,7 +157,7 @@ namespace UNKO.Utils
         public StateMachineGeneric<STATE_ID, TSTATE> Clear()
         {
             ClearQueue();
-            currentState = null;
+            CurrentState = null;
             _currentStateID = default;
 
             return this;
@@ -180,7 +180,7 @@ namespace UNKO.Utils
                     ProcessCommand(_commandQueue.Dequeue());
                 }
 
-                if (currentState == null && _waitQueue.Count > 0)
+                if (CurrentState == null && _waitQueue.Count > 0)
                 {
                     OnStartState(_waitQueue.Dequeue());
                 }
@@ -191,10 +191,10 @@ namespace UNKO.Utils
 
         private void ProcessCommand(Command command)
         {
-            switch (command.commandType)
+            switch (command.CommandType)
             {
                 case CommandType.Change:
-                    OnStartState(command.stateID);
+                    OnStartState(command.StateID);
                     break;
 
                 case CommandType.Finish:
@@ -210,7 +210,7 @@ namespace UNKO.Utils
         {
             if (_debug)
             {
-                Debug.Log($"{_owner.name}.FSM.OnStartState.Entry current:{currentStateID}, new:{stateID}, wait:{_waitQueue.ToStringCollection()}", _owner);
+                Debug.Log($"{_owner.name}.FSM.OnStartState.Entry current:{CurrentStateID}, new:{stateID}, wait:{_waitQueue.ToStringCollection()}", _owner);
             }
 
             if (_stateInstance.TryGetValue(stateID, out TSTATE state) == false)
@@ -219,43 +219,43 @@ namespace UNKO.Utils
                 return;
             }
 
-            if (state.Equals(currentState))
+            if (state.Equals(CurrentState))
             {
                 return;
             }
 
             if (_debug)
             {
-                Debug.Log($"{_owner.name}.FSM.OnStartState.Execute current:{currentStateID}, new:{stateID}, wait:{_waitQueue.ToStringCollection()}", _owner);
+                Debug.Log($"{_owner.name}.FSM.OnStartState.Execute current:{CurrentStateID}, new:{stateID}, wait:{_waitQueue.ToStringCollection()}", _owner);
             }
 
-            currentState?.OnChangeState(state);
+            CurrentState?.OnChangeState(state);
             state.OnAwake();
-            currentState = state;
+            CurrentState = state;
             _currentStateID = stateID;
             _currentCoroutine = _owner.StartCoroutine(StateCoroutine());
-            OnChangeState?.Invoke(stateID, currentState);
+            OnChangeState?.Invoke(stateID, CurrentState);
         }
 
         private void OnFinishState()
         {
             if (_debug)
             {
-                Debug.Log($"{_owner.name}.FSM.OnFinishState current:{currentStateID}, wait:{_waitQueue.ToStringCollection()}");
+                Debug.Log($"{_owner.name}.FSM.OnFinishState current:{CurrentStateID}, wait:{_waitQueue.ToStringCollection()}");
             }
 
             if (_currentCoroutine != null)
             {
                 _owner.StopCoroutine(_currentCoroutine);
             }
-            currentState?.OnFinishState();
-            currentState = null;
+            CurrentState?.OnFinishState();
+            CurrentState = null;
             _currentStateID = default;
         }
 
         private IEnumerator StateCoroutine()
         {
-            yield return currentState.OnStartCoroutine();
+            yield return CurrentState.OnStartCoroutine();
             _commandQueue.Add(new Command(CommandType.Finish));
         }
     }
