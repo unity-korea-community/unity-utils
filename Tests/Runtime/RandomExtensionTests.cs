@@ -16,13 +16,13 @@ public class RandomExtensionTests
 
     public class Item
     {
-        public string name { get; private set; }
-        public int percent { get; private set; }
+        public string Name { get; private set; }
+        public int Percent { get; private set; }
 
         public Item(string name, int percent)
         {
-            this.name = name;
-            this.percent = percent;
+            this.Name = name;
+            this.Percent = percent;
         }
     }
 
@@ -45,11 +45,11 @@ public class RandomExtensionTests
         // Act
         for (int i = 0; i < gotchaCount; i++)
         {
-            Item gotcha = items.Random(item => item.percent);
+            Item gotcha = items.Random((item, index) => item.Percent);
             foreach (var hasItem in hasItemCount)
             {
                 string key = hasItem.Key;
-                if (gotcha.name.StartsWith(key))
+                if (gotcha.Name.StartsWith(key))
                 {
                     hasItemCount[key]++;
                     break;
@@ -62,9 +62,9 @@ public class RandomExtensionTests
         {
             Item item = items[i];
             float errorRate = 0.5f; // 랜덤에 걸리지 않기 위해 범위를 많이 넓힘
-            int expectCount = (int)(gotchaCount * (item.percent / 100f));
+            int expectCount = (int)(gotchaCount * (item.Percent / 100f));
             int errorRange = (int)(expectCount * errorRate);
-            KeyValuePair<string, int> itemCount = hasItemCount.First(hasItem => item.name.StartsWith(hasItem.Key));
+            KeyValuePair<string, int> itemCount = hasItemCount.First(hasItem => item.Name.StartsWith(hasItem.Key));
 
             Assert.GreaterOrEqual(itemCount.Value, expectCount - errorRange);
         }

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+#pragma warning disable IDE1006
 namespace UNKO.Utils
 {
     public abstract class SingletonComponentBase<T> : MonoBehaviour
@@ -17,7 +18,10 @@ namespace UNKO.Utils
                 if (_instance == null)
                 {
                     _instance = FindObjectOfType<T>();
-                    _instance.InitSingleton();
+                    if (_isInitSingleton == false)
+                    {
+                        _instance.InitSingleton();
+                    }
                 }
 
                 return _instance;
@@ -26,17 +30,19 @@ namespace UNKO.Utils
 
         private static T _instance { get; set; }
         private static bool _isQuitApp { get; set; }
+        private static bool _isInitSingleton { get; set; }
 
         protected virtual void Awake()
         {
-            if (_instance == null)
+            if (_isInitSingleton == false)
             {
                 InitSingleton();
             }
         }
 
-        protected virtual void InitSingleton()
+        public virtual void InitSingleton()
         {
+            _isInitSingleton = true;
         }
 
         private void OnApplicationQuit()
@@ -45,3 +51,4 @@ namespace UNKO.Utils
         }
     }
 }
+#pragma warning restore IDE1006

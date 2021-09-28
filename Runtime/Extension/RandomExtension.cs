@@ -15,26 +15,72 @@ namespace UNKO.Utils
             return target.ElementAt(randomIndex);
         }
 
-        public static T Random<T>(this IEnumerable<T> target, System.Func<T, int> getPercentage)
+        public static T Random<T>(this T[] target, System.Func<T, int, int> getPercentage)
         {
-            int totalvariable = 0;
-            target.Foreach(item => totalvariable += getPercentage(item));
-            int random = Next(0, totalvariable);
-
-            totalvariable = 0;
-            foreach (T item in target)
+            int totalVariable = 0;
+            for (int i = 0; i < target.Length; i++)
             {
-                totalvariable += getPercentage(item);
-                if (random < totalvariable)
+                totalVariable += getPercentage(target[i], i);
+            }
+            int random = Next(totalVariable);
+
+            totalVariable = 0;
+            for (int i = 0; i < target.Length; i++)
+            {
+                totalVariable += getPercentage(target[i], i);
+                if (random < totalVariable)
                 {
-                    return item;
+                    return target[i];
                 }
             }
 
             return default;
         }
 
-        public static T Random<T>(this IEnumerable<T> target, System.Func<T, bool> onFilter)
+        public static T Random<T>(this IReadOnlyList<T> target, System.Func<T, int, int> getPercentage)
+        {
+            int totalVariable = 0;
+            for (int i = 0; i < target.Count; i++)
+            {
+                totalVariable += getPercentage(target[i], i);
+            }
+            int random = Next(totalVariable);
+
+            totalVariable = 0;
+            for (int i = 0; i < target.Count; i++)
+            {
+                totalVariable += getPercentage(target[i], i);
+                if (random < totalVariable)
+                {
+                    return target[i];
+                }
+            }
+
+            return default;
+        }
+
+        public static T Random<T>(this IReadOnlyList<T> target, System.Func<T, int, float> getPercentage)
+        {
+            float totalVariable = 0;
+            for (int i = 0; i < target.Count; i++)
+            {
+                totalVariable += getPercentage(target[i], i);
+            }
+            float random = Next(totalVariable);
+
+            totalVariable = 0;
+            for (int i = 0; i < target.Count; i++)
+            {
+                totalVariable += getPercentage(target[i], i);
+                if (random < totalVariable)
+                {
+                    return target[i];
+                }
+            }
+
+            return default;
+        }
+        public static T Random<T>(this IReadOnlyList<T> target, System.Func<T, bool> onFilter)
         {
             IEnumerable<T> filteredTarget = target.Where(onFilter);
             int randomIndex = Next(0, filteredTarget.Count());
@@ -65,11 +111,7 @@ namespace UNKO.Utils
         /// </summary>
         /// <param name="max">최대값, 랜덤값은 이 값이 될 수 없음</param>
         /// <returns></returns>
-        public static int Next(int max)
-        {
-            InitRandom();
-            return _local.Next(max);
-        }
+        public static int Next(int max) => Next(0, max);
 
         /// <summary>
         /// 범위형 int 랜덤
@@ -81,6 +123,24 @@ namespace UNKO.Utils
         {
             InitRandom();
             return _local.Next(min, max);
+        }
+
+        /// <summary>
+        /// 범위형 float 랜덤
+        /// </summary>
+        /// <param name="max">최대값, 랜덤값은 이 값이 될 수 없음</param>
+        /// <returns></returns>
+        public static float Next(float max) => Next(0f, max);
+
+        /// <summary>
+        /// 범위형 float 랜덤
+        /// </summary>
+        /// <param name="max">최대값, 랜덤값은 이 값이 될 수 없음</param>
+        /// <returns></returns>
+        public static float Next(float min, float max)
+        {
+            InitRandom();
+            return (float)_local.NextDouble() * (max - min) + min;
         }
 
         private static void InitRandom()
