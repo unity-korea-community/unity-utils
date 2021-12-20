@@ -69,7 +69,7 @@ namespace UNKO.Utils
 
         public void Dispose()
         {
-            if ((this is null) == false)
+            if ((this is null) == false && (gameObject is null) == false)
             {
                 Destroy(gameObject);
             }
