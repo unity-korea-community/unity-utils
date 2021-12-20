@@ -22,7 +22,7 @@ public class CollectionExtensionTests
     public void ForeachExample()
     {
         int[] originArray = new[] { 1, 2, 3, 4, 5 };
-        originArray.Foreach(number => Debug.Log(number));
+        originArray.ForEach(number => Debug.Log(number));
     }
 
     [Test]

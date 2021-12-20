@@ -1,9 +1,10 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 #pragma warning disable IDE1006
 namespace UNKO.Utils
 {
-    public abstract class SingletonComponentBase<T> : MonoBehaviour
+    public abstract class SingletonComponentBase<T> : MonoBehaviour, IDisposable
         where T : SingletonComponentBase<T>
     {
         public static T instance
@@ -18,6 +19,12 @@ namespace UNKO.Utils
                 if (_instance == null)
                 {
                     _instance = FindObjectOfType<T>();
+                    if (_instance == null)
+                    {
+                        GameObject newObject = new GameObject(typeof(T).Name);
+                        _instance = newObject.AddComponent<T>();
+                    }
+
                     if (_isInitSingleton == false)
                     {
                         _instance.InitSingleton();
@@ -40,6 +47,16 @@ namespace UNKO.Utils
             }
         }
 
+        public static T GetOrCreateInstance()
+        {
+            return instance;
+        }
+
+        public static void DestroySingleton()
+        {
+            _instance?.Dispose();
+        }
+
         public virtual void InitSingleton()
         {
             _isInitSingleton = true;
@@ -48,6 +65,16 @@ namespace UNKO.Utils
         private void OnApplicationQuit()
         {
             _isQuitApp = true;
+        }
+
+        public void Dispose()
+        {
+            if ((this is null) == false)
+            {
+                Destroy(gameObject);
+            }
+            _instance = null;
+            _isInitSingleton = false;
         }
     }
 }

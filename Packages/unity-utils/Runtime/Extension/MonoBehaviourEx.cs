@@ -25,4 +25,17 @@ public static class MonoBehaviourEx
 
         return target.AddComponent<T>();
     }
+
+    public static void SetActive(this Component target, bool active)
+        => target.gameObject.SetActive(active);
+
+    public static bool IsNull(this GameObject target)
+    {
+        return target is null;
+    }
+
+    public static bool IsNull(this Component target)
+    {
+        return target is null;
+    }
 }

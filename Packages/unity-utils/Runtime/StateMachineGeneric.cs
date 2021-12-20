@@ -144,12 +144,12 @@ namespace UNKO.Utils
             {
                 Debug.LogWarning($"{_owner.name} _waitQueue.Count > 10, wait:{_waitQueue.ToStringCollection()}", _owner);
             }
-            nextStates.Foreach(state => _waitQueue.Add(state));
+            nextStates.ForEach(state => _waitQueue.Add(state));
         }
 
         public StateMachineGeneric<STATE_ID, TSTATE> ForEachState(System.Action<TSTATE> OnEach)
         {
-            _stateInstance.Values.Foreach(OnEach);
+            _stateInstance.Values.ForEach(OnEach);
 
             return this;
         }

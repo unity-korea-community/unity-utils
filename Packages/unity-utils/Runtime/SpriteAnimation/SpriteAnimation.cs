@@ -34,9 +34,12 @@ public class SpriteAnimation : MonoBehaviour
     bool _isPlayOnEnable = false;
     [SerializeField]
     bool _isLoop = true;
+    [SerializeField]
+    bool _isDeactivate_WhenFinish = false;
 
     // NOTE unity event는 보통 인스펙터 최하단에 있기 때문에 여기에 배치
     public UnityEvent<SpriteAnimation> OnStartAnimation = new UnityEvent<SpriteAnimation>();
+    public UnityEvent<int> OnChangeSpriteIndex = new UnityEvent<int>();
     public UnityEvent<SpriteAnimation> OnFinishAnimation = new UnityEvent<SpriteAnimation>();
 
     public bool IsPlaying { get; private set; }
@@ -117,6 +120,7 @@ public class SpriteAnimation : MonoBehaviour
     public void SetIsLoop(bool isLoop) => _isLoop = isLoop;
     public void SetPlayOnEnable(bool enable) => _isPlayOnEnable = enable;
     public void SetUpdateMode(UpdateMode updateMode) => _updateMode = updateMode;
+    public void SetDeactivate_WhenFinish(bool deactivate) => _isDeactivate_WhenFinish = deactivate;
 
     private void OnEnable()
     {
@@ -149,13 +153,19 @@ public class SpriteAnimation : MonoBehaviour
             OnStartAnimation.Invoke(this);
             while (spriteIndex < spriteCount)
             {
-                UpdateRenderer(_animatedSprites[spriteIndex++]);
+                OnChangeSpriteIndex.Invoke(spriteIndex);
+                UpdateRenderer(_animatedSprites[spriteIndex]);
                 yield return getYield(waitSecondsPerFrame);
+                spriteIndex++;
             }
             OnFinishAnimation.Invoke(this);
         } while (IsLoop);
 
         IsPlaying = false;
+        if (_isDeactivate_WhenFinish)
+        {
+            // gameObject.SetActive(false);
+        }
     }
 
     private void UpdateRenderer(Sprite sprite)

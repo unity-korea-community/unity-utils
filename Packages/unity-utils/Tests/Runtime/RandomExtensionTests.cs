@@ -90,6 +90,6 @@ public class RandomExtensionTests
     {
         List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
         numbers.Shuffle();
-        numbers.Foreach(item => Debug.Log(item));
+        CollectionExtension.ForEach(numbers, item => Debug.Log(item));
     }
 }
