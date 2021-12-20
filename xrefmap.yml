@@ -493,22 +493,38 @@ references:
   fullName.vb: UNKO.Utils.CollectionExtension.Dequeue(Of T)(System.Collections.Generic.List(Of T))
   nameWithType: CollectionExtension.Dequeue<T>(List<T>)
   nameWithType.vb: CollectionExtension.Dequeue(Of T)(List(Of T))
-- uid: UNKO.Utils.CollectionExtension.Foreach*
-  name: Foreach
-  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_Foreach_
-  commentId: Overload:UNKO.Utils.CollectionExtension.Foreach
+- uid: UNKO.Utils.CollectionExtension.ForEach*
+  name: ForEach
+  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_ForEach_
+  commentId: Overload:UNKO.Utils.CollectionExtension.ForEach
   isSpec: "True"
-  fullName: UNKO.Utils.CollectionExtension.Foreach
-  nameWithType: CollectionExtension.Foreach
-- uid: UNKO.Utils.CollectionExtension.Foreach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
-  name: Foreach<T>(IEnumerable<T>, Action<T>)
-  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_Foreach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
-  commentId: M:UNKO.Utils.CollectionExtension.Foreach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
-  name.vb: Foreach(Of T)(IEnumerable(Of T), Action(Of T))
-  fullName: UNKO.Utils.CollectionExtension.Foreach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)
-  fullName.vb: UNKO.Utils.CollectionExtension.Foreach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
-  nameWithType: CollectionExtension.Foreach<T>(IEnumerable<T>, Action<T>)
-  nameWithType.vb: CollectionExtension.Foreach(Of T)(IEnumerable(Of T), Action(Of T))
+  fullName: UNKO.Utils.CollectionExtension.ForEach
+  nameWithType: CollectionExtension.ForEach
+- uid: UNKO.Utils.CollectionExtension.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name: ForEach<T>(IEnumerable<T>, Action<T>)
+  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  commentId: M:UNKO.Utils.CollectionExtension.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+  fullName: UNKO.Utils.CollectionExtension.ForEach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)
+  fullName.vb: UNKO.Utils.CollectionExtension.ForEach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
+  nameWithType: CollectionExtension.ForEach<T>(IEnumerable<T>, Action<T>)
+  nameWithType.vb: CollectionExtension.ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+- uid: UNKO.Utils.CollectionExtension.GetValueEx*
+  name: GetValueEx
+  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_GetValueEx_
+  commentId: Overload:UNKO.Utils.CollectionExtension.GetValueEx
+  isSpec: "True"
+  fullName: UNKO.Utils.CollectionExtension.GetValueEx
+  nameWithType: CollectionExtension.GetValueEx
+- uid: UNKO.Utils.CollectionExtension.GetValueEx``2(System.Collections.Generic.IReadOnlyDictionary{``0,``1},``0)
+  name: GetValueEx<TKey, TValue>(IReadOnlyDictionary<TKey, TValue>, TKey)
+  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_GetValueEx__2_System_Collections_Generic_IReadOnlyDictionary___0___1____0_
+  commentId: M:UNKO.Utils.CollectionExtension.GetValueEx``2(System.Collections.Generic.IReadOnlyDictionary{``0,``1},``0)
+  name.vb: GetValueEx(Of TKey, TValue)(IReadOnlyDictionary(Of TKey, TValue), TKey)
+  fullName: UNKO.Utils.CollectionExtension.GetValueEx<TKey, TValue>(System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>, TKey)
+  fullName.vb: UNKO.Utils.CollectionExtension.GetValueEx(Of TKey, TValue)(System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue), TKey)
+  nameWithType: CollectionExtension.GetValueEx<TKey, TValue>(IReadOnlyDictionary<TKey, TValue>, TKey)
+  nameWithType.vb: CollectionExtension.GetValueEx(Of TKey, TValue)(IReadOnlyDictionary(Of TKey, TValue), TKey)
 - uid: UNKO.Utils.CollectionExtension.IsEmpty*
   name: IsEmpty
   href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_IsEmpty_
@@ -525,6 +541,44 @@ references:
   fullName.vb: UNKO.Utils.CollectionExtension.IsEmpty(Of T)(T())
   nameWithType: CollectionExtension.IsEmpty<T>(T[])
   nameWithType.vb: CollectionExtension.IsEmpty(Of T)(T())
+- uid: UNKO.Utils.CollectionExtension.IsNullOrZeroCount(System.Array)
+  name: IsNullOrZeroCount(Array)
+  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_IsNullOrZeroCount_System_Array_
+  commentId: M:UNKO.Utils.CollectionExtension.IsNullOrZeroCount(System.Array)
+  fullName: UNKO.Utils.CollectionExtension.IsNullOrZeroCount(System.Array)
+  nameWithType: CollectionExtension.IsNullOrZeroCount(Array)
+- uid: UNKO.Utils.CollectionExtension.IsNullOrZeroCount*
+  name: IsNullOrZeroCount
+  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_IsNullOrZeroCount_
+  commentId: Overload:UNKO.Utils.CollectionExtension.IsNullOrZeroCount
+  isSpec: "True"
+  fullName: UNKO.Utils.CollectionExtension.IsNullOrZeroCount
+  nameWithType: CollectionExtension.IsNullOrZeroCount
+- uid: UNKO.Utils.CollectionExtension.IsNullOrZeroCount``1(System.Collections.Generic.IEnumerable{``0})
+  name: IsNullOrZeroCount<T>(IEnumerable<T>)
+  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_IsNullOrZeroCount__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:UNKO.Utils.CollectionExtension.IsNullOrZeroCount``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: IsNullOrZeroCount(Of T)(IEnumerable(Of T))
+  fullName: UNKO.Utils.CollectionExtension.IsNullOrZeroCount<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: UNKO.Utils.CollectionExtension.IsNullOrZeroCount(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: CollectionExtension.IsNullOrZeroCount<T>(IEnumerable<T>)
+  nameWithType.vb: CollectionExtension.IsNullOrZeroCount(Of T)(IEnumerable(Of T))
+- uid: UNKO.Utils.CollectionExtension.Peek*
+  name: Peek
+  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_Peek_
+  commentId: Overload:UNKO.Utils.CollectionExtension.Peek
+  isSpec: "True"
+  fullName: UNKO.Utils.CollectionExtension.Peek
+  nameWithType: CollectionExtension.Peek
+- uid: UNKO.Utils.CollectionExtension.Peek``1(System.Collections.Generic.List{``0})
+  name: Peek<T>(List<T>)
+  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_Peek__1_System_Collections_Generic_List___0__
+  commentId: M:UNKO.Utils.CollectionExtension.Peek``1(System.Collections.Generic.List{``0})
+  name.vb: Peek(Of T)(List(Of T))
+  fullName: UNKO.Utils.CollectionExtension.Peek<T>(System.Collections.Generic.List<T>)
+  fullName.vb: UNKO.Utils.CollectionExtension.Peek(Of T)(System.Collections.Generic.List(Of T))
+  nameWithType: CollectionExtension.Peek<T>(List<T>)
+  nameWithType.vb: CollectionExtension.Peek(Of T)(List(Of T))
 - uid: UNKO.Utils.CollectionExtension.Pop*
   name: Pop
   href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_Pop_
@@ -541,6 +595,22 @@ references:
   fullName.vb: UNKO.Utils.CollectionExtension.Pop(Of T)(System.Collections.Generic.List(Of T))
   nameWithType: CollectionExtension.Pop<T>(List<T>)
   nameWithType.vb: CollectionExtension.Pop(Of T)(List(Of T))
+- uid: UNKO.Utils.CollectionExtension.Push*
+  name: Push
+  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_Push_
+  commentId: Overload:UNKO.Utils.CollectionExtension.Push
+  isSpec: "True"
+  fullName: UNKO.Utils.CollectionExtension.Push
+  nameWithType: CollectionExtension.Push
+- uid: UNKO.Utils.CollectionExtension.Push``1(System.Collections.Generic.List{``0},``0)
+  name: Push<T>(List<T>, T)
+  href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_Push__1_System_Collections_Generic_List___0____0_
+  commentId: M:UNKO.Utils.CollectionExtension.Push``1(System.Collections.Generic.List{``0},``0)
+  name.vb: Push(Of T)(List(Of T), T)
+  fullName: UNKO.Utils.CollectionExtension.Push<T>(System.Collections.Generic.List<T>, T)
+  fullName.vb: UNKO.Utils.CollectionExtension.Push(Of T)(System.Collections.Generic.List(Of T), T)
+  nameWithType: CollectionExtension.Push<T>(List<T>, T)
+  nameWithType.vb: CollectionExtension.Push(Of T)(List(Of T), T)
 - uid: UNKO.Utils.CollectionExtension.ToDictionaryEx*
   name: ToDictionaryEx
   href: api/UNKO.Utils.CollectionExtension.html#UNKO_Utils_CollectionExtension_ToDictionaryEx_
@@ -1374,6 +1444,57 @@ references:
   fullName.vb: UNKO.Utils.SingletonComponentBase(Of T).Awake
   nameWithType: SingletonComponentBase<T>.Awake
   nameWithType.vb: SingletonComponentBase(Of T).Awake
+- uid: UNKO.Utils.SingletonComponentBase`1.DestroySingleton
+  name: DestroySingleton()
+  href: api/UNKO.Utils.SingletonComponentBase-1.html#UNKO_Utils_SingletonComponentBase_1_DestroySingleton
+  commentId: M:UNKO.Utils.SingletonComponentBase`1.DestroySingleton
+  fullName: UNKO.Utils.SingletonComponentBase<T>.DestroySingleton()
+  fullName.vb: UNKO.Utils.SingletonComponentBase(Of T).DestroySingleton()
+  nameWithType: SingletonComponentBase<T>.DestroySingleton()
+  nameWithType.vb: SingletonComponentBase(Of T).DestroySingleton()
+- uid: UNKO.Utils.SingletonComponentBase`1.DestroySingleton*
+  name: DestroySingleton
+  href: api/UNKO.Utils.SingletonComponentBase-1.html#UNKO_Utils_SingletonComponentBase_1_DestroySingleton_
+  commentId: Overload:UNKO.Utils.SingletonComponentBase`1.DestroySingleton
+  isSpec: "True"
+  fullName: UNKO.Utils.SingletonComponentBase<T>.DestroySingleton
+  fullName.vb: UNKO.Utils.SingletonComponentBase(Of T).DestroySingleton
+  nameWithType: SingletonComponentBase<T>.DestroySingleton
+  nameWithType.vb: SingletonComponentBase(Of T).DestroySingleton
+- uid: UNKO.Utils.SingletonComponentBase`1.Dispose
+  name: Dispose()
+  href: api/UNKO.Utils.SingletonComponentBase-1.html#UNKO_Utils_SingletonComponentBase_1_Dispose
+  commentId: M:UNKO.Utils.SingletonComponentBase`1.Dispose
+  fullName: UNKO.Utils.SingletonComponentBase<T>.Dispose()
+  fullName.vb: UNKO.Utils.SingletonComponentBase(Of T).Dispose()
+  nameWithType: SingletonComponentBase<T>.Dispose()
+  nameWithType.vb: SingletonComponentBase(Of T).Dispose()
+- uid: UNKO.Utils.SingletonComponentBase`1.Dispose*
+  name: Dispose
+  href: api/UNKO.Utils.SingletonComponentBase-1.html#UNKO_Utils_SingletonComponentBase_1_Dispose_
+  commentId: Overload:UNKO.Utils.SingletonComponentBase`1.Dispose
+  isSpec: "True"
+  fullName: UNKO.Utils.SingletonComponentBase<T>.Dispose
+  fullName.vb: UNKO.Utils.SingletonComponentBase(Of T).Dispose
+  nameWithType: SingletonComponentBase<T>.Dispose
+  nameWithType.vb: SingletonComponentBase(Of T).Dispose
+- uid: UNKO.Utils.SingletonComponentBase`1.GetOrCreateInstance
+  name: GetOrCreateInstance()
+  href: api/UNKO.Utils.SingletonComponentBase-1.html#UNKO_Utils_SingletonComponentBase_1_GetOrCreateInstance
+  commentId: M:UNKO.Utils.SingletonComponentBase`1.GetOrCreateInstance
+  fullName: UNKO.Utils.SingletonComponentBase<T>.GetOrCreateInstance()
+  fullName.vb: UNKO.Utils.SingletonComponentBase(Of T).GetOrCreateInstance()
+  nameWithType: SingletonComponentBase<T>.GetOrCreateInstance()
+  nameWithType.vb: SingletonComponentBase(Of T).GetOrCreateInstance()
+- uid: UNKO.Utils.SingletonComponentBase`1.GetOrCreateInstance*
+  name: GetOrCreateInstance
+  href: api/UNKO.Utils.SingletonComponentBase-1.html#UNKO_Utils_SingletonComponentBase_1_GetOrCreateInstance_
+  commentId: Overload:UNKO.Utils.SingletonComponentBase`1.GetOrCreateInstance
+  isSpec: "True"
+  fullName: UNKO.Utils.SingletonComponentBase<T>.GetOrCreateInstance
+  fullName.vb: UNKO.Utils.SingletonComponentBase(Of T).GetOrCreateInstance
+  nameWithType: SingletonComponentBase<T>.GetOrCreateInstance
+  nameWithType.vb: SingletonComponentBase(Of T).GetOrCreateInstance
 - uid: UNKO.Utils.SingletonComponentBase`1.InitSingleton
   name: InitSingleton()
   href: api/UNKO.Utils.SingletonComponentBase-1.html#UNKO_Utils_SingletonComponentBase_1_InitSingleton

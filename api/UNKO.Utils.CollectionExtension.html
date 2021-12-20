@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class CollectionExtension
    | Example Unity documentation ">
-    <meta name="generator" content="docfx 2.58.4.0">
+    <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -186,18 +186,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_CollectionExtension_Foreach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__.md&amp;value=---%0Auid%3A%20UNKO.Utils.CollectionExtension.Foreach%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Action%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_CollectionExtension_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__.md&amp;value=---%0Auid%3A%20UNKO.Utils.CollectionExtension.ForEach%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Action%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/Extension/CollectionExtension.cs/#L35">View Source</a>
   </span>
-  <a id="UNKO_Utils_CollectionExtension_Foreach_" data-uid="UNKO.Utils.CollectionExtension.Foreach*"></a>
-  <h4 id="UNKO_Utils_CollectionExtension_Foreach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__" data-uid="UNKO.Utils.CollectionExtension.Foreach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})">Foreach&lt;T&gt;(IEnumerable&lt;T&gt;, Action&lt;T&gt;)</h4>
+  <a id="UNKO_Utils_CollectionExtension_ForEach_" data-uid="UNKO.Utils.CollectionExtension.ForEach*"></a>
+  <h4 id="UNKO_Utils_CollectionExtension_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__" data-uid="UNKO.Utils.CollectionExtension.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})">ForEach&lt;T&gt;(IEnumerable&lt;T&gt;, Action&lt;T&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; Foreach&lt;T&gt;(this IEnumerable&lt;T&gt; target, Action&lt;T&gt; OnEach)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; ForEach&lt;T&gt;(this IEnumerable&lt;T&gt; target, Action&lt;T&gt; OnEach)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -247,6 +247,77 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_CollectionExtension_GetValueEx__2_System_Collections_Generic_IReadOnlyDictionary___0___1____0_.md&amp;value=---%0Auid%3A%20UNKO.Utils.CollectionExtension.GetValueEx%60%602(System.Collections.Generic.IReadOnlyDictionary%7B%60%600%2C%60%601%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/Extension/CollectionExtension.cs/#L107">View Source</a>
+  </span>
+  <a id="UNKO_Utils_CollectionExtension_GetValueEx_" data-uid="UNKO.Utils.CollectionExtension.GetValueEx*"></a>
+  <h4 id="UNKO_Utils_CollectionExtension_GetValueEx__2_System_Collections_Generic_IReadOnlyDictionary___0___1____0_" data-uid="UNKO.Utils.CollectionExtension.GetValueEx``2(System.Collections.Generic.IReadOnlyDictionary{``0,``1},``0)">GetValueEx&lt;TKey, TValue&gt;(IReadOnlyDictionary&lt;TKey, TValue&gt;, TKey)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TValue GetValueEx&lt;TKey, TValue&gt;(this IReadOnlyDictionary&lt;TKey, TValue&gt; target, TKey key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2">IReadOnlyDictionary</a>&lt;TKey, TValue&gt;</td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -315,10 +386,181 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_CollectionExtension_IsNullOrZeroCount_System_Array_.md&amp;value=---%0Auid%3A%20UNKO.Utils.CollectionExtension.IsNullOrZeroCount(System.Array)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/Extension/CollectionExtension.cs/#L145">View Source</a>
+  </span>
+  <a id="UNKO_Utils_CollectionExtension_IsNullOrZeroCount_" data-uid="UNKO.Utils.CollectionExtension.IsNullOrZeroCount*"></a>
+  <h4 id="UNKO_Utils_CollectionExtension_IsNullOrZeroCount_System_Array_" data-uid="UNKO.Utils.CollectionExtension.IsNullOrZeroCount(System.Array)">IsNullOrZeroCount(Array)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNullOrZeroCount(this Array target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.array">Array</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_CollectionExtension_IsNullOrZeroCount__1_System_Collections_Generic_IEnumerable___0__.md&amp;value=---%0Auid%3A%20UNKO.Utils.CollectionExtension.IsNullOrZeroCount%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/Extension/CollectionExtension.cs/#L140">View Source</a>
+  </span>
+  <a id="UNKO_Utils_CollectionExtension_IsNullOrZeroCount_" data-uid="UNKO.Utils.CollectionExtension.IsNullOrZeroCount*"></a>
+  <h4 id="UNKO_Utils_CollectionExtension_IsNullOrZeroCount__1_System_Collections_Generic_IEnumerable___0__" data-uid="UNKO.Utils.CollectionExtension.IsNullOrZeroCount``1(System.Collections.Generic.IEnumerable{``0})">IsNullOrZeroCount&lt;T&gt;(IEnumerable&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNullOrZeroCount&lt;T&gt;(this IEnumerable&lt;T&gt; target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_CollectionExtension_Peek__1_System_Collections_Generic_List___0__.md&amp;value=---%0Auid%3A%20UNKO.Utils.CollectionExtension.Peek%60%601(System.Collections.Generic.List%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/Extension/CollectionExtension.cs/#L79">View Source</a>
+  </span>
+  <a id="UNKO_Utils_CollectionExtension_Peek_" data-uid="UNKO.Utils.CollectionExtension.Peek*"></a>
+  <h4 id="UNKO_Utils_CollectionExtension_Peek__1_System_Collections_Generic_List___0__" data-uid="UNKO.Utils.CollectionExtension.Peek``1(System.Collections.Generic.List{``0})">Peek&lt;T&gt;(List&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Peek&lt;T&gt;(this List&lt;T&gt; target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;T&gt;</td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_CollectionExtension_Pop__1_System_Collections_Generic_List___0__.md&amp;value=---%0Auid%3A%20UNKO.Utils.CollectionExtension.Pop%60%601(System.Collections.Generic.List%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/Extension/CollectionExtension.cs/#L65">View Source</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/Extension/CollectionExtension.cs/#L70">View Source</a>
   </span>
   <a id="UNKO_Utils_CollectionExtension_Pop_" data-uid="UNKO.Utils.CollectionExtension.Pop*"></a>
   <h4 id="UNKO_Utils_CollectionExtension_Pop__1_System_Collections_Generic_List___0__" data-uid="UNKO.Utils.CollectionExtension.Pop``1(System.Collections.Generic.List{``0})">Pop&lt;T&gt;(List&lt;T&gt;)</h4>
@@ -377,10 +619,62 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_CollectionExtension_Push__1_System_Collections_Generic_List___0____0_.md&amp;value=---%0Auid%3A%20UNKO.Utils.CollectionExtension.Push%60%601(System.Collections.Generic.List%7B%60%600%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/Extension/CollectionExtension.cs/#L65">View Source</a>
+  </span>
+  <a id="UNKO_Utils_CollectionExtension_Push_" data-uid="UNKO.Utils.CollectionExtension.Push*"></a>
+  <h4 id="UNKO_Utils_CollectionExtension_Push__1_System_Collections_Generic_List___0____0_" data-uid="UNKO.Utils.CollectionExtension.Push``1(System.Collections.Generic.List{``0},``0)">Push&lt;T&gt;(List&lt;T&gt;, T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Push&lt;T&gt;(this List&lt;T&gt; target, T addedItem)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;T&gt;</td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">addedItem</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_CollectionExtension_ToDictionaryEx__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__.md&amp;value=---%0Auid%3A%20UNKO.Utils.CollectionExtension.ToDictionaryEx%60%602(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Func%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/Extension/CollectionExtension.cs/#L74">View Source</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/Extension/CollectionExtension.cs/#L87">View Source</a>
   </span>
   <a id="UNKO_Utils_CollectionExtension_ToDictionaryEx_" data-uid="UNKO.Utils.CollectionExtension.ToDictionaryEx*"></a>
   <h4 id="UNKO_Utils_CollectionExtension_ToDictionaryEx__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__" data-uid="UNKO.Utils.CollectionExtension.ToDictionaryEx``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})">ToDictionaryEx&lt;TSource, TKey&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, TKey&gt;)</h4>
@@ -451,7 +745,7 @@
     <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_CollectionExtension_ToDictionaryEx__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Action_System_String__.md&amp;value=---%0Auid%3A%20UNKO.Utils.CollectionExtension.ToDictionaryEx%60%602(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Func%7B%60%600%2C%60%601%7D%2CSystem.Action%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/Extension/CollectionExtension.cs/#L77">View Source</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/Extension/CollectionExtension.cs/#L90">View Source</a>
   </span>
   <a id="UNKO_Utils_CollectionExtension_ToDictionaryEx_" data-uid="UNKO.Utils.CollectionExtension.ToDictionaryEx*"></a>
   <h4 id="UNKO_Utils_CollectionExtension_ToDictionaryEx__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Action_System_String__" data-uid="UNKO.Utils.CollectionExtension.ToDictionaryEx``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Action{System.String})">ToDictionaryEx&lt;TSource, TKey&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, TKey&gt;, Action&lt;String&gt;)</h4>
@@ -713,7 +1007,7 @@
     <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_CollectionExtension_TryGetValueEx__2_System_Collections_Generic_IReadOnlyDictionary___0___1____0___1__.md&amp;value=---%0Auid%3A%20UNKO.Utils.CollectionExtension.TryGetValueEx%60%602(System.Collections.Generic.IReadOnlyDictionary%7B%60%600%2C%60%601%7D%2C%60%600%2C%60%601%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/Extension/CollectionExtension.cs/#L94">View Source</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/Extension/CollectionExtension.cs/#L113">View Source</a>
   </span>
   <a id="UNKO_Utils_CollectionExtension_TryGetValueEx_" data-uid="UNKO.Utils.CollectionExtension.TryGetValueEx*"></a>
   <h4 id="UNKO_Utils_CollectionExtension_TryGetValueEx__2_System_Collections_Generic_IReadOnlyDictionary___0___1____0___1__" data-uid="UNKO.Utils.CollectionExtension.TryGetValueEx``2(System.Collections.Generic.IReadOnlyDictionary{``0,``1},``0,``1@)">TryGetValueEx&lt;TKey, TValue&gt;(IReadOnlyDictionary&lt;TKey, TValue&gt;, TKey, out TValue)</h4>
@@ -789,7 +1083,7 @@
     <a href="https://github.com/unity-korea-community/unity-utils/new/workspace/Documentation/apiSpec/new?filename=UNKO_Utils_CollectionExtension_TryGetValueEx__2_System_Collections_Generic_IReadOnlyDictionary___0___1____0___1__System_Action_System_String__.md&amp;value=---%0Auid%3A%20UNKO.Utils.CollectionExtension.TryGetValueEx%60%602(System.Collections.Generic.IReadOnlyDictionary%7B%60%600%2C%60%601%7D%2C%60%600%2C%60%601%40%2CSystem.Action%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/Extension/CollectionExtension.cs/#L97">View Source</a>
+    <a href="https://github.com/unity-korea-community/unity-utils/blob/workspace/Packages/unity-utils/Runtime/Extension/CollectionExtension.cs/#L116">View Source</a>
   </span>
   <a id="UNKO_Utils_CollectionExtension_TryGetValueEx_" data-uid="UNKO.Utils.CollectionExtension.TryGetValueEx*"></a>
   <h4 id="UNKO_Utils_CollectionExtension_TryGetValueEx__2_System_Collections_Generic_IReadOnlyDictionary___0___1____0___1__System_Action_System_String__" data-uid="UNKO.Utils.CollectionExtension.TryGetValueEx``2(System.Collections.Generic.IReadOnlyDictionary{``0,``1},``0,``1@,System.Action{System.String})">TryGetValueEx&lt;TKey, TValue&gt;(IReadOnlyDictionary&lt;TKey, TValue&gt;, TKey, out TValue, Action&lt;String&gt;)</h4>
