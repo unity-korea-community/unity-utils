@@ -116,7 +116,7 @@ namespace UNKO.Utils
 
         public virtual void Dispose()
         {
-            _allInstance.Foreach(OnDisposeItem);
+            CollectionExtension.ForEach(_allInstance, this.OnDisposeItem);
             _allInstance.Clear();
 
             _use.Clear();

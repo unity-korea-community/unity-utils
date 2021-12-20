@@ -63,6 +63,11 @@ namespace UNKO.Utils
         {
             base.OnDespawn(despawnTarget);
 
+            if (despawnTarget == null)
+            {
+                return;
+            }
+
             GameObject despawnObject = despawnTarget.gameObject;
             if (despawnObject.activeInHierarchy)
             {

@@ -32,7 +32,7 @@ namespace UNKO.Utils
             return _stringBuilder.ToString();
         }
 
-        public static IEnumerable<T> Foreach<T>(this IEnumerable<T> target, System.Action<T> OnEach)
+        public static IEnumerable<T> ForEach<T>(this IEnumerable<T> target, System.Action<T> OnEach)
         {
             foreach (var item in target)
             {
@@ -62,11 +62,24 @@ namespace UNKO.Utils
             return item;
         }
 
+        public static void Push<T>(this List<T> target, T addedItem)
+        {
+            target.Add(addedItem);
+        }
+
         public static T Pop<T>(this List<T> target)
         {
             int index = target.Count - 1;
             T item = target[index];
             target.RemoveAt(index);
+
+            return item;
+        }
+
+        public static T Peek<T>(this List<T> target)
+        {
+            int index = target.Count - 1;
+            T item = target[index];
 
             return item;
         }
@@ -89,6 +102,12 @@ namespace UNKO.Utils
             }
 
             return dictionary;
+        }
+
+        public static TValue GetValueEx<TKey, TValue>(this IReadOnlyDictionary<TKey, TValue> target, TKey key)
+        {
+            target.TryGetValueEx(key, out TValue value);
+            return value;
         }
 
         public static bool TryGetValueEx<TKey, TValue>(this IReadOnlyDictionary<TKey, TValue> target, TKey key, out TValue value)
@@ -116,6 +135,16 @@ namespace UNKO.Utils
             }
 
             return result;
+        }
+
+        public static bool IsNullOrZeroCount<T>(this IEnumerable<T> target)
+        {
+            return target == null || target.Count() == 0;
+        }
+
+        public static bool IsNullOrZeroCount(this Array target)
+        {
+            return target == null || target.Length == 0;
         }
     }
 }
